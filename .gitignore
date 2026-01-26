@@ -5,3 +5,21 @@ dist
 
 # Ignore the output video from Git but not videos you import into src/.
 out
+
+# Sensitive files - API keys and credentials
+temp/
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+!mcqs_data/**/*.json
+!output/*.json
+
+# Python credentials
+*.txt
+!requirements_youtube.txt
+
+# Google OAuth secrets
+client_secret*.json
+*-credentials.json
+shorts-*.json
