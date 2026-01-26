@@ -1,0 +1,71 @@
+name: Render and Store Videos
+
+on:
+  workflow_dispatch:
+    inputs:
+      start_index:
+        description: 'Start index (0-5791)'
+        required: true
+        default: '0'
+      end_index:
+        description: 'End index (0-5791)'
+        required: true
+        default: '99'
+
+jobs:
+  render-batch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Render videos batch
+        env:
+          START_INDEX: ${{ github.event.inputs.start_index }}
+          END_INDEX: ${{ github.event.inputs.end_index }}
+        run: node render-batch.js
+
+      - name: Upload to Google Drive (Optional - requires setup)
+        if: false  # Enable this after setting up Google Drive credentials
+        run: |
+          # Install rclone
+          curl https://rclone.org/install.sh | sudo bash
+          # Configure and upload (requires RCLONE_CONFIG secret)
+          echo "${{ secrets.RCLONE_CONFIG }}" > ~/.config/rclone/rclone.conf
+          rclone copy output/ gdrive:remotion-videos/batch-${{ github.event.inputs.start_index }}/
+
+      - name: Create release with videos
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: batch-${{ github.event.inputs.start_index }}-${{ github.event.inputs.end_index }}
+          name: Video Batch ${{ github.event.inputs.start_index }}-${{ github.event.inputs.end_index }}
+          files: |
+            output/*.mp4
+            output/*.json
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Upload as artifacts (backup)
+        uses: actions/upload-artifact@v4
+        with:
+          name: videos-${{ github.event.inputs.start_index }}-${{ github.event.inputs.end_index }}
+          path: output/
+          retention-days: 7

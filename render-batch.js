@@ -39,9 +39,6 @@ const start = async () => {
       const composition = await selectComposition({
         serveUrl: bundleLocation,
         id: "QuizComposition",
-        inputProps: {
-          quizData: mcq,
-        },
       });
 
       const outputLocation = path.join(outputDir, `${videoName}.mp4`);
