@@ -1,0 +1,60 @@
+name: Render MCQ Videos
+
+on:
+  workflow_dispatch:
+    inputs:
+      start_index:
+        description: 'Start index (0-5791)'
+        required: true
+        default: '0'
+      end_index:
+        description: 'End index (0-5791)'
+        required: true
+        default: '99'
+      batch_size:
+        description: 'Batch size per job'
+        required: true
+        default: '100'
+
+jobs:
+  render-batch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install system dependencies for video rendering
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Render videos batch
+        env:
+          START_INDEX: ${{ github.event.inputs.start_index }}
+          END_INDEX: ${{ github.event.inputs.end_index }}
+        run: node render-batch.js
+
+      - name: Upload rendered videos
+        uses: actions/upload-artifact@v4
+        with:
+          name: videos-${{ github.event.inputs.start_index }}-${{ github.event.inputs.end_index }}
+          path: output/*.mp4
+          retention-days: 7
+          
+      - name: Upload video metadata
+        uses: actions/upload-artifact@v4
+        with:
+          name: metadata-${{ github.event.inputs.start_index }}-${{ github.event.inputs.end_index }}
+          path: output/*.json
+          retention-days: 7
