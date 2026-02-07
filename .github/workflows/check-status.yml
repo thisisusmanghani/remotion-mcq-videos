@@ -29,7 +29,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: video-status-report-${{ github.run_number }}
-          path: video-status-report.json
+          path: |
+            video-status-report.json
+            status-dashboard.html
           retention-days: 30
 
       - name: Create status summary

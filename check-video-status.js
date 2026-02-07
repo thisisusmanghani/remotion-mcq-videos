@@ -287,6 +287,14 @@ async function main() {
   saveReportToFile(reportData);
   
   log('\n✅ Status check complete!\n', 'green');
+  
+  // Generate HTML dashboard
+  log('📊 Generating HTML dashboard...', 'cyan');
+  try {
+    execSync('python3 generate-dashboard.py', { stdio: 'inherit' });
+  } catch (error) {
+    log('⚠️  Failed to generate HTML dashboard', 'yellow');
+  }
 }
 
 main().catch(error => {

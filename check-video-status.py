@@ -318,6 +318,18 @@ def main():
     save_report_to_file(report_data)
     
     log('\n✅ Status check complete!\n', 'GREEN')
+    
+    # Generate HTML dashboard
+    log('📊 Generating HTML dashboard...', 'CYAN')
+    try:
+        import subprocess
+        result = subprocess.run(['python3', 'generate-dashboard.py'], 
+                              capture_output=True, text=True, check=True)
+        log(result.stdout.strip(), 'GREEN')
+    except subprocess.CalledProcessError:
+        log('⚠️  Failed to generate HTML dashboard', 'YELLOW')
+    except FileNotFoundError:
+        log('⚠️  generate-dashboard.py not found', 'YELLOW')
 
 
 if __name__ == '__main__':
