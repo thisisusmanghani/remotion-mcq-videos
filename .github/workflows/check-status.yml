@@ -6,6 +6,10 @@ on:
     # Run daily at 00:00 UTC
     - cron: '0 0 * * *'
 
+permissions:
+  contents: read
+  actions: read
+
 jobs:
   check-status:
     runs-on: ubuntu-latest
