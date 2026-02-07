@@ -4,13 +4,16 @@ on:
   workflow_dispatch:
     inputs:
       start_index:
-        description: 'Start index (0-5791)'
+        description: 'Start index (0-5571)'
         required: true
         default: '0'
       end_index:
-        description: 'End index (0-5791)'
+        description: 'End index (0-5571)'
         required: true
         default: '99'
+
+permissions:
+  contents: write
 
 jobs:
   render-batch:
