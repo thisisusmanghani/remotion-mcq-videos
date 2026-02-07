@@ -203,10 +203,9 @@ def generate_download_instructions(batches_with_artifacts: List[Dict]) -> None:
         return
     
     log('Option 1: Download all available artifacts at once:', 'CYAN')
-    log('```bash', 'BLUE')
     for batch_info in batches_with_artifacts:
         log(f"gh run download {batch_info['runId']} --dir ./downloads/batch-{batch_info['runId']}", 'BLUE')
-    log('```\n', 'BLUE')
+    log('', 'BLUE')
     
     log('Option 2: Download from GitHub web interface:', 'CYAN')
     repo_url = exec_command('gh repo view --json url -q .url')
@@ -217,12 +216,11 @@ def generate_download_instructions(batches_with_artifacts: List[Dict]) -> None:
         log('4. Click to download the .zip files\n', 'BLUE')
     
     log('Option 3: Download specific batch:', 'CYAN')
-    log('```bash', 'BLUE')
     if batches_with_artifacts:
         example = batches_with_artifacts[0]
         batch = example['batch']
         log(f"gh run download {example['runId']} --name videos-{batch['start']}-{batch['end']}", 'BLUE')
-    log('```\n', 'BLUE')
+    log('', 'BLUE')
 
 
 def save_report_to_file(data: Dict) -> None:
@@ -322,7 +320,6 @@ def main():
     # Generate HTML dashboard
     log('📊 Generating HTML dashboard...', 'CYAN')
     try:
-        import subprocess
         result = subprocess.run(['python3', 'generate-dashboard.py'], 
                               capture_output=True, text=True, check=True)
         log(result.stdout.strip(), 'GREEN')

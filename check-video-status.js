@@ -205,7 +205,7 @@ function saveReportToFile(data) {
 
 async function main() {
   log('\n🎬 Video Rendering Status Checker', 'bright');
-  log('=' .repeat(80) + '\n', 'bright');
+  log('='.repeat(80) + '\n', 'bright');
   
   // Check if gh CLI is installed
   const ghVersion = execCommand('gh --version');

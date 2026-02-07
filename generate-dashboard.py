@@ -376,8 +376,10 @@ def generate_dashboard(report_path='video-status-report.json', output_path='stat
             <code>gh run download RUN_ID --dir ./downloads</code>
             
             <p style="margin: 1.5rem 0 1rem;">Check GitHub Actions web interface:</p>
-            <a href="https://github.com/YOUR_USERNAME/remotion-mcq-videos/actions" 
-               target="_blank" class="download-btn">View on GitHub</a>
+            <code>https://github.com/USERNAME/REPO/actions</code>
+            <p style="font-size: 0.85rem; color: #666; margin-top: 0.5rem;">
+                (Replace USERNAME/REPO with your repository details)
+            </p>
         </div>
         
         <p class="timestamp">

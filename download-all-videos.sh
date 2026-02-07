@@ -89,7 +89,7 @@ echo "$RUN_IDS" | while IFS= read -r run_id; do
         DOWNLOADED=$((DOWNLOADED + 1))
         
         # Extract any zip files
-        if ls "$OUTPUT_DIR/run-$run_id"/*.zip 1> /dev/null 2>&1; then
+        if find "$OUTPUT_DIR/run-$run_id" -maxdepth 1 -name "*.zip" -print -quit | grep -q .; then
             echo -e "${BLUE}📂 Extracting archives...${NC}"
             cd "$OUTPUT_DIR/run-$run_id"
             for zip_file in *.zip; do
