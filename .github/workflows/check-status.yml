@@ -1,0 +1,87 @@
+name: Check Video Rendering Status
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Run daily at 00:00 UTC
+    - cron: '0 0 * * *'
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  check-status:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Check video rendering status
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 check-video-status.py
+
+      - name: Upload status report
+        uses: actions/upload-artifact@v4
+        with:
+          name: video-status-report-${{ github.run_number }}
+          path: |
+            video-status-report.json
+            status-dashboard.html
+          retention-days: 30
+
+      - name: Create status summary
+        run: |
+          echo "## 📊 Video Rendering Status Report" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          if [ -f video-status-report.json ]; then
+            echo "### Summary" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            
+            # Extract summary using jq
+            TOTAL_RUNS=$(jq -r '.summary.totalRuns' video-status-report.json)
+            COMPLETED=$(jq -r '.summary.completed' video-status-report.json)
+            FAILED=$(jq -r '.summary.failed' video-status-report.json)
+            IN_PROGRESS=$(jq -r '.summary.inProgress' video-status-report.json)
+            
+            echo "- **Total Videos**: 5792" >> $GITHUB_STEP_SUMMARY
+            echo "- **Total Workflow Runs**: $TOTAL_RUNS" >> $GITHUB_STEP_SUMMARY
+            echo "- ✅ **Completed**: $COMPLETED" >> $GITHUB_STEP_SUMMARY
+            echo "- ❌ **Failed**: $FAILED" >> $GITHUB_STEP_SUMMARY
+            echo "- ⏳ **In Progress**: $IN_PROGRESS" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            
+            # Count batches with artifacts
+            AVAILABLE_BATCHES=$(jq -r '.batchesWithArtifacts | length' video-status-report.json)
+            echo "### 📦 Available Artifacts" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "- **Batches with available artifacts**: $AVAILABLE_BATCHES" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            
+            # List available batches
+            if [ "$AVAILABLE_BATCHES" -gt 0 ]; then
+              echo "### 📥 Download Instructions" >> $GITHUB_STEP_SUMMARY
+              echo "" >> $GITHUB_STEP_SUMMARY
+              echo "Run locally:" >> $GITHUB_STEP_SUMMARY
+              echo '```bash' >> $GITHUB_STEP_SUMMARY
+              echo "gh run list --workflow=render-videos.yml --status completed --limit 10" >> $GITHUB_STEP_SUMMARY
+              echo "gh run download RUN_ID --dir ./downloads" >> $GITHUB_STEP_SUMMARY
+              echo '```' >> $GITHUB_STEP_SUMMARY
+            else
+              echo "⚠️ No artifacts available. They may have expired (>7 days)." >> $GITHUB_STEP_SUMMARY
+            fi
+          else
+            echo "⚠️ Status report not generated" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "📄 Download the full status report from the artifacts below." >> $GITHUB_STEP_SUMMARY

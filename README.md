@@ -41,6 +41,29 @@ npx remotion upgrade
 
 Get started with Remotion by reading the [fundamentals page](https://www.remotion.dev/docs/the-fundamentals).
 
+## 📹 Video Rendering Status
+
+Check the status of your rendered videos and download them:
+
+```bash
+# Check video rendering status (Node.js)
+node check-video-status.js
+
+# Or use Python version
+python3 check-video-status.py
+
+# This generates:
+# - video-status-report.json (detailed JSON report)
+# - status-dashboard.html (visual dashboard - open in browser)
+
+# Bulk download all available videos
+./download-all-videos.sh
+```
+
+For detailed instructions, see [VIDEO_STATUS_GUIDE.md](./VIDEO_STATUS_GUIDE.md) and [REMOTE_RENDERING_GUIDE.md](./REMOTE_RENDERING_GUIDE.md).
+
+Quick reference: [QUICK_REFERENCE.md](./QUICK_REFERENCE.md)
+
 ## Help
 
 We provide help on our [Discord server](https://discord.gg/6VzzNDwUwV).
