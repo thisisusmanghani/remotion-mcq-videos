@@ -31,7 +31,8 @@
     "upgrade": "remotion upgrade",
     "lint": "eslint src && tsc",
     "shorts:publish": "node scripts/publish.js",
-    "youtube:auth": "node scripts/youtube-auth.js"
+    "youtube:auth": "node scripts/youtube-auth.js",
+    "make:audio": "node scripts/make-audio.js"
   },
   "sideEffects": [
     "*.css"

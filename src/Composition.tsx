@@ -541,17 +541,13 @@ export const QuizComposition: React.FC<{ quizData: QuizQuestion }> = ({
     <AbsoluteFill style={{ fontFamily: SERIF_STACK }}>
       <Paper />
 
-      {/* Background music during the countdown, faded out at the reveal */}
+      {/* Original soundtrack from scripts/make-audio.js: ticking countdown,
+          then a chime at the reveal */}
       <Sequence durationInFrames={revealFrame}>
-        <Audio
-          src={staticFile("chinese-lunar-new-year-465871.mp3")}
-          volume={(f) =>
-            interpolate(f, [revealFrame - 15, revealFrame], [0.25, 0], clamp)
-          }
-        />
+        <Audio src={staticFile("audio/countdown.wav")} />
       </Sequence>
       <Sequence from={revealFrame}>
-        <Audio src={staticFile("success-340660.mp3")} volume={1} />
+        <Audio src={staticFile("audio/reveal.wav")} />
       </Sequence>
 
       {/* Multiply makes ink and logos sit in the paper like print */}

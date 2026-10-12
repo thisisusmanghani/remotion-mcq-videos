@@ -28,7 +28,10 @@ if (!clientId || !clientSecret) {
 
 // PKCE and state, as Google recommends for installed apps.
 const verifier = crypto.randomBytes(32).toString("base64url");
-const challenge = crypto.createHash("sha256").update(verifier).digest("base64url");
+const challenge = crypto
+  .createHash("sha256")
+  .update(verifier)
+  .digest("base64url");
 const state = crypto.randomBytes(16).toString("hex");
 let redirectUri;
 
@@ -58,9 +61,11 @@ const exchangeCode = async (code) => {
   });
   const tokens = await res.json();
   if (!res.ok || !tokens.refresh_token) {
-    throw new Error(`Google did not return a refresh token: ${JSON.stringify(tokens)}`);
+    throw new Error(
+      `Google did not return a refresh token: ${JSON.stringify(tokens)}`,
+    );
   }
-  return tokens.refresh_token;
+  return tokens;
 };
 
 const server = http.createServer(async (req, res) => {
@@ -75,7 +80,7 @@ const server = http.createServer(async (req, res) => {
     return;
   }
   try {
-    const refreshToken = await exchangeCode(code);
+    const tokens = await exchangeCode(code);
     res.end("Done. You can close this tab and go back to the terminal.");
     console.log(`
 Add these three repository secrets on GitHub
@@ -83,9 +88,17 @@ Add these three repository secrets on GitHub
 
   YT_CLIENT_ID       ${clientId}
   YT_CLIENT_SECRET   ${clientSecret}
-  YT_REFRESH_TOKEN   ${refreshToken}
+  YT_REFRESH_TOKEN   ${tokens.refresh_token}
 
 Keep the refresh token private: it can upload to your channel.`);
+    // Google only sends this for sign-ins that expire, e.g. apps in "Testing".
+    if (tokens.refresh_token_expires_in) {
+      const days = Math.round(tokens.refresh_token_expires_in / 86400);
+      console.warn(`
+WARNING: this sign-in expires in ${days} day(s), so uploads would stop then.
+The app is probably still in "Testing": publish it (Google Auth Platform >
+Audience > Publish app), then run this command again.`);
+    }
   } catch (err) {
     res.end("Something went wrong; see the terminal.");
     console.error(err.message);

@@ -13,11 +13,9 @@ temp/
 !package-lock.json
 !tsconfig.json
 !mcqs_data/**/*.json
-!output/*.json
 
 # Python credentials
 *.txt
-!requirements_youtube.txt
 !public/fonts/*.txt
 
 # Google OAuth secrets

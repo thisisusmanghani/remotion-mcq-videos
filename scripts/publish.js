@@ -115,7 +115,11 @@ const main = async () => {
       if (dryRun) {
         console.log(`Rendered ${file}\n${JSON.stringify(metadata, null, 2)}`);
       } else {
-        const video = await uploadVideo({ accessToken, filePath: file, metadata });
+        const video = await uploadVideo({
+          accessToken,
+          filePath: file,
+          metadata,
+        });
         state.push({
           id,
           index,

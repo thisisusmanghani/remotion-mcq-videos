@@ -1,54 +1,25 @@
-# Remotion video
+# Let’s Achieve: MCQ Shorts
 
-<p align="center">
-  <a href="https://github.com/remotion-dev/logo">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-dark.apng">
-      <img alt="Animated Remotion Logo" src="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-light.gif">
-    </picture>
-  </a>
-</p>
+Turns General Knowledge MCQs into YouTube Shorts styled as a printed exam
+paper, and publishes three a day to the
+[Let’s Achieve](https://www.youtube.com/channel/UC7JqrO3uDX2UONUF0J81lhw)
+channel with GitHub Actions. Built with [Remotion](https://www.remotion.dev).
 
-Welcome to your Remotion project!
+- `mcqs_data/gk/gk_mcqs.json`: the questions (scraped with `scraper.py`)
+- `mcqs_data/published.json`: what has been posted so far
+- `src/`: the video (`Composition.tsx`) and text fitting (`quiz-text.ts`)
+- `scripts/`: publishing (`publish.js`), SEO metadata (`seo.js`), the
+  YouTube upload client and one-time sign-in, and the soundtrack generator
+- `public/`: fonts, logos, paper texture and generated audio
+
+How the automation works and how to set it up: [AUTOMATION.md](AUTOMATION.md).
 
 ## Commands
 
-**Install Dependencies**
-
 ```console
-npm i
+npm ci                                   # install
+npm run dev                              # preview the video in Remotion Studio
+npm run shorts:publish -- --dry-run      # render the next Short without uploading
+npm run make:audio                       # regenerate the soundtrack
+npm run lint                             # lint and type-check
 ```
-
-**Start Preview**
-
-```console
-npm run dev
-```
-
-**Render video**
-
-```console
-npx remotion render
-```
-
-**Upgrade Remotion**
-
-```console
-npx remotion upgrade
-```
-
-## Docs
-
-Get started with Remotion by reading the [fundamentals page](https://www.remotion.dev/docs/the-fundamentals).
-
-## Help
-
-We provide help on our [Discord server](https://discord.gg/6VzzNDwUwV).
-
-## Issues
-
-Found an issue with Remotion? [File an issue here](https://github.com/remotion-dev/remotion/issues/new).
-
-## License
-
-Note that for some entities a company license is needed. [Read the terms here](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md).

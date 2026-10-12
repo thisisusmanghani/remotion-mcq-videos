@@ -74,7 +74,9 @@ const uploadVideo = async ({ accessToken, filePath, metadata }) => {
       if (!retryable || attempt === 3) {
         throw err;
       }
-      console.warn(`Upload attempt ${attempt} failed, retrying: ${err.message}`);
+      console.warn(
+        `Upload attempt ${attempt} failed, retrying: ${err.message}`,
+      );
       await new Promise((resolve) => setTimeout(resolve, attempt * 5000));
     }
   }
