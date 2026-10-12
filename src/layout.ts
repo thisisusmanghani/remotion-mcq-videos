@@ -29,16 +29,27 @@ export const INFO_ROW = {
 export const QUESTION = {
   // The question is vertically centred inside this zone.
   zoneTop: 436,
-  zoneHeight: 364,
+  zoneHeight: 324,
   labelWidth: 84,
 };
 
 export const TIMER = {
   // Top of the stopwatch body; its crown sits above this.
-  top: 838,
+  top: 820,
   size: 136,
   seconds: 10,
 };
+
+// Once time is up, the stopwatch's slot shows the answer in red pen and a
+// one-line explanation under it.
+export const REVEAL = {
+  top: 770,
+  answerHeight: 84,
+  seconds: 7,
+};
+
+export const FPS = 30;
+export const VIDEO_SECONDS = TIMER.seconds + REVEAL.seconds;
 
 export const OPTIONS = {
   top: 1000,
@@ -81,6 +92,17 @@ export const OPTION_TEXT: TextBox = {
   lineHeight: 1.15,
   maxFontSize: 62,
   minFontSize: 22,
+};
+
+// Fills the slot below "Ans: (X)", down to just above the options.
+export const EXPLANATION_TEXT: TextBox = {
+  fontFamily: HAND_STACK,
+  width: CONTENT_WIDTH,
+  height: OPTIONS.top - 6 - REVEAL.top - REVEAL.answerHeight,
+  fontWeight: 700,
+  lineHeight: 1.15,
+  maxFontSize: 44,
+  minFontSize: 26,
 };
 
 // Wrapping rules shared by the renderer and the fitting code. `balance` keeps

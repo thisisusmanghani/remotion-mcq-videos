@@ -1,6 +1,7 @@
 import "./index.css";
 import { Composition } from "remotion";
 import { QuizComposition } from "./Composition";
+import { FPS, VIDEO_SECONDS } from "./layout";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -8,15 +9,17 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id="QuizComposition"
         component={QuizComposition}
-        durationInFrames={450}
-        fps={30}
+        durationInFrames={VIDEO_SECONDS * FPS}
+        fps={FPS}
         width={1080}
         height={1920}
         defaultProps={{
           quizData: {
-            question: "Sample Question?",
-            options: ["Option A", "Option B", "Option C", "Option D"],
-            correctAnswer: 0,
+            question: "In Britain, which organization is nicknamed “Aunty”?",
+            options: ["Rolls Royce", "London Metal Exchange", "BBC", "None"],
+            correctAnswer: 2,
+            explanation:
+              "The BBC is nicknamed “Auntie” (or “Auntie Beeb”) for its old, prim public-service image.",
           },
         }}
       />

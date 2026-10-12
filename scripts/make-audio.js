@@ -1,7 +1,7 @@
 // Generates the video's soundtrack from scratch, so it's original and can't
 // get a YouTube copyright claim:
 //   public/audio/countdown.wav  10 s: stopwatch ticks over a marimba pattern
-//   public/audio/reveal.wav      5 s: bell chime and a resolving outro
+//   public/audio/reveal.wav      7 s: bell chime and a resolving outro
 //
 //   node scripts/make-audio.js
 const fs = require("fs");
@@ -139,14 +139,14 @@ const reveal = [
     0.35,
     marimba(midiToHz(n)),
   ]),
-  ...[72, 76, 79, 76, 79, 84].map((n, i) => [
-    1.5 + i * 0.5,
+  ...[72, 76, 79, 76, 79, 84, 79, 76, 72].map((n, i) => [
+    1.5 + i * 0.55,
     1.5,
-    0.3 * (1 - i * 0.13),
+    0.3 * (1 - i * 0.09),
     marimba(midiToHz(n)),
   ]),
 ];
 
 fs.mkdirSync(OUT_DIR, { recursive: true });
 writeWav(path.join(OUT_DIR, "countdown.wav"), render(10, countdown, 0.89));
-writeWav(path.join(OUT_DIR, "reveal.wav"), render(5, reveal, 0.89));
+writeWav(path.join(OUT_DIR, "reveal.wav"), render(7, reveal, 0.89));

@@ -112,6 +112,7 @@ const buildMetadata = (mcq) => {
     `Daily one-paper MCQs for PPSC, FPSC, NTS, KPPSC, SPSC and other competitive exams in Pakistan. Subscribe to ${CHANNEL} for a new General Knowledge MCQ every day.`,
     "",
     `✅ Answer: (${letter}) ${answer}`,
+    ...(mcq.explanation ? [`💡 ${plain(mcq.explanation)}`] : []),
     "",
     "#PPSC #FPSC #MCQs #GeneralKnowledge #OnePaperMCQs #shorts",
   ].join("\n");

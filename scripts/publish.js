@@ -32,7 +32,12 @@ const mcqId = (mcq) =>
     .digest("hex")
     .slice(0, 12);
 
+// Only reviewed MCQs: the answer was checked and an explanation written.
+// Flagged ones (`skip`) are wrong, ambiguous or out of date.
 const isUsable = (mcq) =>
+  typeof mcq.explanation === "string" &&
+  mcq.explanation.length > 0 &&
+  !mcq.skip &&
   Array.isArray(mcq.options) &&
   mcq.options.length === 4 &&
   Number.isInteger(mcq.correctAnswer) &&

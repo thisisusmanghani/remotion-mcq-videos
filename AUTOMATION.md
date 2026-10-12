@@ -4,7 +4,9 @@ GitHub Actions publishes three Shorts a day to YouTube, at about 12:00, 17:00
 and 21:00 Pakistan time. Each run:
 
 1. picks the next MCQ from `mcqs_data/gk/gk_mcqs.json` that hasn't been posted
-   (in a fixed shuffled order, so topics stay mixed),
+   (in a fixed shuffled order, so topics stay mixed). Only reviewed MCQs are
+   used: their answer was checked and an `explanation` written; ones flagged
+   with `skip` (wrong, ambiguous or out of date) are never posted,
 2. renders it with the exam-paper design,
 3. writes the title, description and tags from the question (`scripts/seo.js`),
 4. uploads it to YouTube as a public Short,

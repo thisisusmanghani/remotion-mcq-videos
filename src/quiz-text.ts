@@ -1,10 +1,17 @@
 import { measureText } from "@remotion/layout-utils";
-import { OPTION_TEXT, QUESTION_TEXT, TextBox } from "./layout";
+import {
+  EXPLANATION_TEXT,
+  OPTION_TEXT,
+  QUESTION_TEXT,
+  TextBox,
+} from "./layout";
 
 export type QuizQuestion = {
   question: string;
   options: string[];
   correctAnswer?: number;
+  // One line shown under the answer; MCQs are only published once they have one.
+  explanation?: string;
 };
 
 // Scraped questions come with long "_____________" blanks, invisible
@@ -23,6 +30,7 @@ export const cleanQuiz = (quiz: QuizQuestion): QuizQuestion => ({
   ...quiz,
   question: cleanText(quiz.question),
   options: quiz.options.map(cleanText),
+  explanation: quiz.explanation ? cleanText(quiz.explanation) : undefined,
 });
 
 // Measuring word by word ignores kerning across spaces; keep a small margin.
@@ -78,6 +86,7 @@ export type FittedText = {
   questionFontSize: number;
   // All options share one size so the four cards look consistent.
   optionFontSize: number;
+  explanationFontSize: number | null;
 };
 
 // Fonts must be loaded before calling this. Throws if the text can't fit, so
@@ -85,7 +94,14 @@ export type FittedText = {
 export const fitQuizText = (quiz: QuizQuestion): FittedText => {
   const questionFontSize = fitFontSize(quiz.question, QUESTION_TEXT);
   const optionFontSizes = quiz.options.map((o) => fitFontSize(o, OPTION_TEXT));
-  if (questionFontSize === null || optionFontSizes.includes(null)) {
+  const explanationFontSize = quiz.explanation
+    ? fitFontSize(quiz.explanation, EXPLANATION_TEXT)
+    : null;
+  if (
+    questionFontSize === null ||
+    optionFontSizes.includes(null) ||
+    (quiz.explanation && explanationFontSize === null)
+  ) {
     throw new Error(
       `Quiz text does not fit even at the minimum font size: ${JSON.stringify(quiz)}`,
     );
@@ -93,5 +109,6 @@ export const fitQuizText = (quiz: QuizQuestion): FittedText => {
   return {
     questionFontSize,
     optionFontSize: Math.min(...(optionFontSizes as number[])),
+    explanationFontSize,
   };
 };

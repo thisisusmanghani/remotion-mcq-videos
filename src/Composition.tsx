@@ -16,6 +16,7 @@ import { fontsLoaded } from "./fonts";
 import {
   CANVAS_WIDTH,
   CONTENT_WIDTH,
+  EXPLANATION_TEXT,
   HAND_STACK,
   HEADER,
   INFO_ROW,
@@ -23,6 +24,7 @@ import {
   OPTION_TEXT,
   QUESTION,
   QUESTION_TEXT,
+  REVEAL,
   SERIF_STACK,
   SIDE_MARGIN,
   TEXT_WRAP,
@@ -39,6 +41,7 @@ const BRAND = {
 
 const INK = "#1d1d1b";
 const RED_PEN = "#c0262d";
+const BLUE_PEN = "#1f3f93";
 const GRAPHITE = "#262626";
 const PAPER = "#f3ede0";
 
@@ -317,11 +320,14 @@ const Stopwatch: React.FC<{ revealFrame: number }> = ({ revealFrame }) => {
   );
 };
 
-// The examiner's note in red pen, written out once time is up.
-const HandwrittenAnswer: React.FC<{ letter: string; revealFrame: number }> = ({
-  letter,
-  revealFrame,
-}) => {
+// Once time is up: the answer in red pen, then a one-line explanation in blue
+// ballpoint, like a tutor's note.
+const HandwrittenAnswer: React.FC<{
+  letter: string;
+  explanation?: string;
+  explanationFontSize: number | null;
+  revealFrame: number;
+}> = ({ letter, explanation, explanationFontSize, revealFrame }) => {
   const frame = useCurrentFrame();
   if (frame < revealFrame) {
     return null;
@@ -338,51 +344,86 @@ const HandwrittenAnswer: React.FC<{ letter: string; revealFrame: number }> = ({
     [0, 1],
     clamp,
   );
+  const note = interpolate(
+    frame,
+    [revealFrame + 24, revealFrame + 36],
+    [0, 1],
+    clamp,
+  );
 
   return (
     <div
       style={{
         position: "absolute",
-        top: TIMER.top - 20,
-        width: "100%",
-        height: TIMER.size + 20,
+        top: REVEAL.top,
+        left: SIDE_MARGIN,
+        width: CONTENT_WIDTH,
+        height: REVEAL.answerHeight + EXPLANATION_TEXT.height,
         display: "flex",
-        alignItems: "center",
+        flexDirection: "column",
         justifyContent: "center",
       }}
     >
-      <div style={{ position: "relative", transform: "rotate(-4deg)" }}>
+      <div
+        style={{
+          height: REVEAL.answerHeight,
+          display: "flex",
+          alignItems: "flex-start",
+          justifyContent: "center",
+        }}
+      >
+        <div style={{ position: "relative", transform: "rotate(-3deg)" }}>
+          <div
+            style={{
+              fontFamily: HAND_STACK,
+              fontWeight: 700,
+              fontSize: 64,
+              lineHeight: 1.1,
+              color: RED_PEN,
+              clipPath: `inset(-20% ${(1 - write) * 100}% -20% -5%)`,
+            }}
+          >
+            Ans: ({letter})
+          </div>
+          <svg
+            width="100%"
+            height={24}
+            viewBox="0 0 100 24"
+            preserveAspectRatio="none"
+            style={{ position: "absolute", left: 0, bottom: -10 }}
+          >
+            <path
+              d="M 2 14 C 30 8, 60 18, 98 9"
+              fill="none"
+              stroke={RED_PEN}
+              strokeWidth={5}
+              strokeLinecap="round"
+              pathLength={1}
+              strokeDasharray={1}
+              strokeDashoffset={1 - underline}
+            />
+          </svg>
+        </div>
+      </div>
+      {explanation && explanationFontSize ? (
         <div
           style={{
+            ...TEXT_WRAP,
+            height: EXPLANATION_TEXT.height,
+            width: EXPLANATION_TEXT.width,
             fontFamily: HAND_STACK,
-            fontWeight: 700,
-            fontSize: 84,
-            lineHeight: 1.1,
-            color: RED_PEN,
-            clipPath: `inset(-20% ${(1 - write) * 100}% -20% -5%)`,
+            fontWeight: EXPLANATION_TEXT.fontWeight,
+            fontSize: explanationFontSize,
+            lineHeight: EXPLANATION_TEXT.lineHeight,
+            textAlign: "center",
+            color: BLUE_PEN,
+            opacity: note,
+            transform: `translateY(${(1 - note) * 10}px)`,
           }}
         >
-          Ans: ({letter})
+          {explanation}
         </div>
-        <svg
-          width="100%"
-          height={24}
-          viewBox="0 0 100 24"
-          preserveAspectRatio="none"
-          style={{ position: "absolute", left: 0, bottom: -14 }}
-        >
-          <path
-            d="M 2 14 C 30 8, 60 18, 98 9"
-            fill="none"
-            stroke={RED_PEN}
-            strokeWidth={5}
-            strokeLinecap="round"
-            pathLength={1}
-            strokeDasharray={1}
-            strokeDashoffset={1 - underline}
-          />
-        </svg>
-      </div>
+      ) : null}
     </div>
   );
 };
@@ -561,6 +602,8 @@ export const QuizComposition: React.FC<{ quizData: QuizQuestion }> = ({
             {quiz.correctAnswer !== undefined ? (
               <HandwrittenAnswer
                 letter={LETTERS[quiz.correctAnswer]}
+                explanation={quiz.explanation}
+                explanationFontSize={fitted.explanationFontSize}
                 revealFrame={revealFrame}
               />
             ) : null}
