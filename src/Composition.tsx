@@ -1,370 +1,585 @@
+import { useEffect, useMemo, useState } from "react";
 import {
   AbsoluteFill,
+  Audio,
+  Img,
+  Sequence,
+  cancelRender,
+  continueRender,
+  delayRender,
   interpolate,
-  spring,
+  staticFile,
   useCurrentFrame,
   useVideoConfig,
-  Audio,
-  staticFile,
-  Sequence,
-} from 'remotion';
+} from "remotion";
+import { fontsLoaded } from "./fonts";
+import {
+  CANVAS_WIDTH,
+  CONTENT_WIDTH,
+  HAND_STACK,
+  HEADER,
+  INFO_ROW,
+  OPTIONS,
+  OPTION_TEXT,
+  QUESTION,
+  QUESTION_TEXT,
+  SERIF_STACK,
+  SIDE_MARGIN,
+  TEXT_WRAP,
+  TIMER,
+} from "./layout";
+import { FittedText, QuizQuestion, cleanQuiz, fitQuizText } from "./quiz-text";
 
-interface QuizQuestion {
-  question: string;
-  options: string[];
-  correctAnswer?: number;
-}
+const BRAND = {
+  name: "LET’S ACHIEVE",
+  paper: "ONE PAPER MCQs PRACTICE",
+  exams: "PPSC • FPSC • Test Preparation",
+  subject: "General Knowledge",
+};
+
+const INK = "#1d1d1b";
+const RED_PEN = "#c0262d";
+const GRAPHITE = "#262626";
+const PAPER = "#f3ede0";
+
+const LETTERS = ["A", "B", "C", "D", "E", "F"];
+
+const clamp = {
+  extrapolateLeft: "clamp",
+  extrapolateRight: "clamp",
+} as const;
+
+// Text sizes depend on the loaded fonts, so hold the frame until they're known.
+const useFittedText = (quiz: QuizQuestion): FittedText | null => {
+  const [handle] = useState(() => delayRender("Fitting quiz text"));
+  const [fitted, setFitted] = useState<FittedText | null>(null);
+
+  useEffect(() => {
+    fontsLoaded
+      .then(() => setFitted(fitQuizText(quiz)))
+      .catch((err) => cancelRender(err));
+  }, [quiz]);
+
+  useEffect(() => {
+    if (fitted) {
+      continueRender(handle);
+    }
+  }, [fitted, handle]);
+
+  return fitted;
+};
+
+// Back-and-forth pencil strokes that cover a bubble when drawn in full.
+const scribblePath = (size: number) => {
+  const points: string[] = [];
+  for (let y = 2, i = 0; y <= size; y += 7, i++) {
+    const x = i % 2 === 0 ? 0 : size;
+    points.push(`${i === 0 ? "M" : "L"} ${x} ${y + (i % 2) * 5}`);
+  }
+  return points.join(" ");
+};
+
+const Paper: React.FC = () => (
+  <Img
+    src={staticFile("textures/paper.jpg")}
+    style={{
+      position: "absolute",
+      width: "100%",
+      height: "100%",
+      objectFit: "cover",
+    }}
+  />
+);
+
+const Rule: React.FC<{ top: number; thickness: number }> = ({
+  top,
+  thickness,
+}) => (
+  <div
+    style={{
+      position: "absolute",
+      top,
+      left: SIDE_MARGIN,
+      width: CONTENT_WIDTH,
+      height: thickness,
+      background: INK,
+    }}
+  />
+);
+
+const Header: React.FC = () => (
+  <>
+    <Img
+      src={staticFile("PPSC_Logo.png")}
+      style={{
+        position: "absolute",
+        top: HEADER.top,
+        left: SIDE_MARGIN,
+        height: HEADER.logoHeight,
+      }}
+    />
+    <Img
+      src={staticFile("FPSC_Logo.png")}
+      style={{
+        position: "absolute",
+        top: HEADER.top,
+        right: SIDE_MARGIN,
+        height: HEADER.logoHeight,
+      }}
+    />
+    <div
+      style={{
+        position: "absolute",
+        top: HEADER.top,
+        width: "100%",
+        height: HEADER.logoHeight,
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        gap: 12,
+        color: INK,
+        lineHeight: 1,
+      }}
+    >
+      <div style={{ fontSize: 56, fontWeight: 700, letterSpacing: 2 }}>
+        {BRAND.name}
+      </div>
+      <div style={{ fontSize: 26, fontWeight: 700, letterSpacing: 3 }}>
+        {BRAND.paper}
+      </div>
+      <div style={{ fontSize: 26 }}>{BRAND.exams}</div>
+    </div>
+    {/* Double rule under the letterhead, as on a printed question paper */}
+    <Rule top={HEADER.ruleTop} thickness={5} />
+    <Rule top={HEADER.ruleTop + 11} thickness={2} />
+  </>
+);
+
+const InfoRow: React.FC = () => (
+  <>
+    <div
+      style={{
+        position: "absolute",
+        top: INFO_ROW.top,
+        left: SIDE_MARGIN,
+        width: CONTENT_WIDTH,
+        display: "flex",
+        justifyContent: "space-between",
+        fontSize: 30,
+        lineHeight: 1,
+        color: INK,
+      }}
+    >
+      <span>
+        <b>Subject:</b> {BRAND.subject}
+      </span>
+      <span>
+        <b>Time:</b> {TIMER.seconds} Seconds
+      </span>
+    </div>
+    <Rule top={INFO_ROW.ruleTop} thickness={2} />
+  </>
+);
+
+const Question: React.FC<{ text: string; fontSize: number }> = ({
+  text,
+  fontSize,
+}) => (
+  <div
+    style={{
+      position: "absolute",
+      top: QUESTION.zoneTop,
+      left: SIDE_MARGIN,
+      width: CONTENT_WIDTH,
+      height: QUESTION.zoneHeight,
+      display: "flex",
+      alignItems: "center",
+    }}
+  >
+    <div
+      style={{
+        display: "flex",
+        alignItems: "flex-start",
+        fontSize,
+        fontWeight: QUESTION_TEXT.fontWeight,
+        lineHeight: QUESTION_TEXT.lineHeight,
+        color: INK,
+      }}
+    >
+      <div style={{ width: QUESTION.labelWidth, flexShrink: 0 }}>Q.</div>
+      <div style={{ ...TEXT_WRAP, width: QUESTION_TEXT.width, flexShrink: 0 }}>
+        {text}
+      </div>
+    </div>
+  </div>
+);
+
+const Stopwatch: React.FC<{ revealFrame: number }> = ({ revealFrame }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+
+  const elapsed = Math.min(frame / fps, TIMER.seconds);
+  const shown = Math.ceil(TIMER.seconds - elapsed);
+  const urgent = shown <= 3;
+  const size = TIMER.size;
+  const c = size / 2;
+  const crown = 30;
+
+  // Elapsed time as a pie slice, clockwise from 12 o'clock.
+  const sweep = (elapsed / TIMER.seconds) * 2 * Math.PI;
+  const pieRadius = c - 10;
+  const pie =
+    sweep <= 0
+      ? ""
+      : sweep >= 2 * Math.PI - 0.001
+        ? `M ${c} ${c - pieRadius} A ${pieRadius} ${pieRadius} 0 1 1 ${c - 0.01} ${c - pieRadius} Z`
+        : `M ${c} ${c} L ${c} ${c - pieRadius} A ${pieRadius} ${pieRadius} 0 ${sweep > Math.PI ? 1 : 0} 1 ${c + pieRadius * Math.sin(sweep)} ${c - pieRadius * Math.cos(sweep)} Z`;
+
+  // A small mechanical kick on every whole second.
+  const kick = interpolate(frame % fps, [0, 3, 6], [-4, 2, 0], clamp);
+  const exit = interpolate(
+    frame,
+    [revealFrame, revealFrame + 5],
+    [1, 0],
+    clamp,
+  );
+
+  return (
+    <div
+      style={{
+        position: "absolute",
+        top: TIMER.top - crown,
+        left: (CANVAS_WIDTH - size) / 2,
+        width: size,
+        height: size + crown,
+        opacity: exit,
+        transform: `rotate(${kick}deg)`,
+        transformOrigin: `50% ${crown + c}px`,
+      }}
+    >
+      <svg width={size} height={size + crown}>
+        <g transform={`translate(0 ${crown})`}>
+          <rect x={c - 11} y={-20} width={22} height={16} fill={INK} />
+          <rect x={c - 22} y={-30} width={44} height={11} rx={3} fill={INK} />
+          <rect
+            x={c - 7}
+            y={-14}
+            width={14}
+            height={12}
+            fill={INK}
+            transform={`rotate(42 ${c} ${c})`}
+          />
+          <circle
+            cx={c}
+            cy={c}
+            r={c - 4}
+            fill="none"
+            stroke={INK}
+            strokeWidth={6}
+          />
+          <path d={pie} fill={RED_PEN} fillOpacity={0.16} />
+          {Array.from({ length: TIMER.seconds }, (_, i) => {
+            const a = (i / TIMER.seconds) * 2 * Math.PI;
+            return (
+              <line
+                key={i}
+                x1={c + (c - 13) * Math.sin(a)}
+                y1={c - (c - 13) * Math.cos(a)}
+                x2={c + (c - 22) * Math.sin(a)}
+                y2={c - (c - 22) * Math.cos(a)}
+                stroke={INK}
+                strokeWidth={3}
+              />
+            );
+          })}
+        </g>
+      </svg>
+      <div
+        style={{
+          position: "absolute",
+          top: crown,
+          width: size,
+          height: size,
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          fontSize: 58,
+          fontWeight: 700,
+          fontVariantNumeric: "tabular-nums",
+          color: urgent ? RED_PEN : INK,
+          lineHeight: 1,
+        }}
+      >
+        {shown}
+      </div>
+    </div>
+  );
+};
+
+// The examiner's note in red pen, written out once time is up.
+const HandwrittenAnswer: React.FC<{ letter: string; revealFrame: number }> = ({
+  letter,
+  revealFrame,
+}) => {
+  const frame = useCurrentFrame();
+  if (frame < revealFrame) {
+    return null;
+  }
+  const write = interpolate(
+    frame,
+    [revealFrame + 2, revealFrame + 16],
+    [0, 1],
+    clamp,
+  );
+  const underline = interpolate(
+    frame,
+    [revealFrame + 14, revealFrame + 22],
+    [0, 1],
+    clamp,
+  );
+
+  return (
+    <div
+      style={{
+        position: "absolute",
+        top: TIMER.top - 20,
+        width: "100%",
+        height: TIMER.size + 20,
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+      }}
+    >
+      <div style={{ position: "relative", transform: "rotate(-4deg)" }}>
+        <div
+          style={{
+            fontFamily: HAND_STACK,
+            fontWeight: 700,
+            fontSize: 84,
+            lineHeight: 1.1,
+            color: RED_PEN,
+            clipPath: `inset(-20% ${(1 - write) * 100}% -20% -5%)`,
+          }}
+        >
+          Ans: ({letter})
+        </div>
+        <svg
+          width="100%"
+          height={24}
+          viewBox="0 0 100 24"
+          preserveAspectRatio="none"
+          style={{ position: "absolute", left: 0, bottom: -14 }}
+        >
+          <path
+            d="M 2 14 C 30 8, 60 18, 98 9"
+            fill="none"
+            stroke={RED_PEN}
+            strokeWidth={5}
+            strokeLinecap="round"
+            pathLength={1}
+            strokeDasharray={1}
+            strokeDashoffset={1 - underline}
+          />
+        </svg>
+      </div>
+    </div>
+  );
+};
+
+const OptionRow: React.FC<{
+  index: number;
+  text: string;
+  fontSize: number;
+  isCorrect: boolean;
+  revealFrame: number;
+}> = ({ index, text, fontSize, isCorrect, revealFrame }) => {
+  const frame = useCurrentFrame();
+
+  const appear = interpolate(
+    frame,
+    [6 + index * 4, 12 + index * 4],
+    [0, 1],
+    clamp,
+  );
+  const shade = isCorrect
+    ? interpolate(frame, [revealFrame, revealFrame + 10], [0, 1], clamp)
+    : 0;
+  const tick = isCorrect
+    ? interpolate(frame, [revealFrame + 8, revealFrame + 16], [0, 1], clamp)
+    : 0;
+  const bubble = OPTIONS.bubbleSize;
+
+  return (
+    <div
+      style={{
+        position: "absolute",
+        top: OPTIONS.top + index * (OPTIONS.height + OPTIONS.gap),
+        left: SIDE_MARGIN,
+        width: CONTENT_WIDTH,
+        height: OPTIONS.height,
+        opacity: appear,
+      }}
+    >
+      {/* OMR bubble, shaded in pencil for the correct answer */}
+      <div
+        style={{
+          position: "absolute",
+          left: OPTIONS.tickZone,
+          top: (OPTIONS.height - bubble) / 2,
+          width: bubble,
+          height: bubble,
+        }}
+      >
+        <svg width={bubble} height={bubble} style={{ position: "absolute" }}>
+          <defs>
+            <clipPath id={`bubble-${index}`}>
+              <circle cx={bubble / 2} cy={bubble / 2} r={bubble / 2 - 5} />
+            </clipPath>
+          </defs>
+          {shade > 0 ? (
+            <path
+              d={scribblePath(bubble)}
+              clipPath={`url(#bubble-${index})`}
+              fill="none"
+              stroke={GRAPHITE}
+              strokeWidth={12}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              opacity={0.9}
+              pathLength={1}
+              strokeDasharray={1}
+              strokeDashoffset={1 - shade}
+            />
+          ) : null}
+          <circle
+            cx={bubble / 2}
+            cy={bubble / 2}
+            r={bubble / 2 - 3}
+            fill="none"
+            stroke={INK}
+            strokeWidth={4}
+          />
+        </svg>
+        <div
+          style={{
+            position: "absolute",
+            inset: 0,
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            fontSize: 38,
+            fontWeight: 700,
+            lineHeight: 1,
+            color: shade > 0.6 ? PAPER : INK,
+          }}
+        >
+          {LETTERS[index]}
+        </div>
+      </div>
+      <div
+        style={{
+          position: "absolute",
+          left: OPTIONS.tickZone + bubble + OPTIONS.textGap,
+          top: OPTIONS.paddingY,
+          width: OPTION_TEXT.width,
+          height: OPTION_TEXT.height,
+          display: "flex",
+          alignItems: "center",
+        }}
+      >
+        <div
+          style={{
+            ...TEXT_WRAP,
+            width: "100%",
+            fontSize,
+            fontWeight: OPTION_TEXT.fontWeight,
+            lineHeight: OPTION_TEXT.lineHeight,
+            color: INK,
+          }}
+        >
+          {text}
+        </div>
+      </div>
+      {isCorrect ? (
+        <svg
+          width={OPTIONS.tickZone}
+          height={OPTIONS.tickZone}
+          viewBox="0 0 90 90"
+          style={{
+            position: "absolute",
+            left: -8,
+            top: (OPTIONS.height - OPTIONS.tickZone) / 2,
+          }}
+        >
+          <path
+            d="M 12 50 L 34 72 L 80 14"
+            fill="none"
+            stroke={RED_PEN}
+            strokeWidth={10}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            pathLength={1}
+            strokeDasharray={1}
+            strokeDashoffset={1 - tick}
+          />
+        </svg>
+      ) : null}
+    </div>
+  );
+};
 
 export const QuizComposition: React.FC<{ quizData: QuizQuestion }> = ({
   quizData,
 }) => {
-  const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
-
-  // Animation springs
-  const headerEntry = spring({
-    frame: frame - 10,
-    fps,
-    config: {
-      damping: 100,
-      stiffness: 200,
-    },
-  });
-
-  const questionEntry = spring({
-    frame: frame - 20,
-    fps,
-    config: {
-      damping: 100,
-      stiffness: 200,
-    },
-  });
-
-  const optionsEntry = (index: number) =>
-    spring({
-      frame: frame - (30 + index * 5),
-      fps,
-      config: {
-        damping: 100,
-        stiffness: 200,
-      },
-    });
-
-  const headerY = interpolate(headerEntry, [0, 1], [-100, 0]);
-  const questionScale = interpolate(questionEntry, [0, 1], [0.5, 1]);
-  const questionOpacity = interpolate(questionEntry, [0, 1], [0, 1]);
-
-  // Countdown timer (starts from 10 seconds)
-  const totalSeconds = 10;
-  const currentSecond = Math.max(0, totalSeconds - Math.floor(frame / fps));
-  const countdownEndFrame = totalSeconds * fps; // Frame when countdown ends
-  const showTimer = frame < countdownEndFrame; // Hide timer when countdown completes
-
-  // Correct answer reveal animation (starts after countdown completes)
-  const answerReveal = spring({
-    frame: frame - countdownEndFrame,
-    fps,
-    config: {
-      damping: 100,
-      stiffness: 200,
-    },
-  });
+  const quiz = useMemo(() => cleanQuiz(quizData), [quizData]);
+  const fitted = useFittedText(quiz);
+  const revealFrame = TIMER.seconds * fps;
 
   return (
-    <AbsoluteFill style={{ backgroundColor: '#1a3d0f' }}>
-      {/* Background Music - plays only during countdown */}
-      {frame < countdownEndFrame && (
-        <Audio src={staticFile('chinese-lunar-new-year-465871.mp3')} volume={0.25} />
-      )}
-      
-      {/* Success sound when correct answer reveals - PLAYS AT TICK */}
-      <Sequence from={countdownEndFrame}>
-        <Audio 
-          src={staticFile('success-340660.mp3')} 
-          volume={1}
+    <AbsoluteFill style={{ fontFamily: SERIF_STACK }}>
+      <Paper />
+
+      {/* Background music during the countdown, faded out at the reveal */}
+      <Sequence durationInFrames={revealFrame}>
+        <Audio
+          src={staticFile("chinese-lunar-new-year-465871.mp3")}
+          volume={(f) =>
+            interpolate(f, [revealFrame - 15, revealFrame], [0.25, 0], clamp)
+          }
         />
       </Sequence>
-      
-      {/* Jungle Background Image from Canva */}
-      <img
-        src={staticFile('Which animal is known as the King of the Jungle.png')}
-        style={{
-          position: 'absolute',
-          width: '100%',
-          height: '100%',
-          objectFit: 'cover',
-        }}
-      />
+      <Sequence from={revealFrame}>
+        <Audio src={staticFile("success-340660.mp3")} volume={1} />
+      </Sequence>
 
-      {/* GK Band - Top Left Corner */}
-      <div
-        style={{
-          position: 'absolute',
-          top: '80px',
-          left: '-80px',
-          width: '400px',
-          height: '120px',
-          backgroundColor: '#d4a574',
-          transform: 'rotate(-45deg)',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          boxShadow: '0 8px 20px rgba(0, 0, 0, 0.4)',
-          border: '5px solid #2d5016',
-          zIndex: 10,
-        }}
-      >
-        <span
-          style={{
-            fontSize: '72px',
-            fontWeight: '900',
-            color: '#2d5016',
-            fontFamily: 'Arial Black, Arial, sans-serif',
-            letterSpacing: '8px',
-            textShadow: '2px 2px 4px rgba(255, 255, 255, 0.3)',
-          }}
-        >
-          GK
-        </span>
-      </div>
-
-      {/* GK Band - Top Right Corner (Mirrored) */}
-      <div
-        style={{
-          position: 'absolute',
-          top: '80px',
-          right: '-80px',
-          width: '400px',
-          height: '120px',
-          backgroundColor: '#d4a574',
-          transform: 'rotate(45deg)',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          boxShadow: '0 8px 20px rgba(0, 0, 0, 0.4)',
-          border: '5px solid #2d5016',
-          zIndex: 10,
-        }}
-      >
-        <span
-          style={{
-            fontSize: '61px',
-            fontWeight: '900',
-            color: '#2d5016',
-            fontFamily: 'Arial Black, Arial, sans-serif',
-            letterSpacing: '8px',
-            textShadow: '2px 2px 4px rgba(255, 255, 255, 0.3)',
-          }}
-        >
-          SERIES
-        </span>
-      </div>
-
-      {/* Quiz Container */}
-      <AbsoluteFill
-        style={{
-          justifyContent: 'center',
-          alignItems: 'center',
-          padding: '40px 30px',
-        }}
-      >
-        {/* Countdown Timer - Alarm Clock */}
-        {showTimer && (
-          <div
-            style={{
-              position: 'absolute',
-              top: '41%',
-              left: '50%',
-              transform: `translateX(-50%) scale(${interpolate(spring({ frame, fps, config: { damping: 100, stiffness: 200 } }), [0, 1], [0.8, 1])}) rotate(${Math.sin(frame / 10) * 3}deg)`,
-            }}
-          >
-            {/* Alarm Clock Bells */}
-            <div style={{ position: 'absolute', top: '-13px', left: '26px', width: '34px', height: '34px', backgroundColor: '#d4a574', borderRadius: '50% 50% 0 0', transform: 'rotate(-20deg)' }} />
-            <div style={{ position: 'absolute', top: '-13px', right: '26px', width: '34px', height: '34px', backgroundColor: '#d4a574', borderRadius: '50% 50% 0 0', transform: 'rotate(20deg)' }} />
-            
-            {/* Clock Body - Circular */}
-            <div
-              style={{
-                width: '238px',
-                height: '238px',
-                backgroundColor: '#d4a574',
-                borderRadius: '50%',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                border: '7px solid #2d5016',
-                boxShadow: `0 10px 30px rgba(0, 0, 0, 0.5), inset 0 4px 10px rgba(0, 0, 0, 0.2)`,
-                position: 'relative',
-              }}
-            >
-              {/* Inner Circle - White Face */}
-              <div
-                style={{
-                  width: '204px',
-                  height: '204px',
-                  backgroundColor: 'rgba(255, 255, 255, 0.98)',
-                  borderRadius: '50%',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  border: '4px solid #2d5016',
-                }}
-              >
-                <span
-                  style={{
-                    fontSize: '119px',
-                    fontWeight: '900',
-                    color: currentSecond <= 3 ? '#d32f2f' : '#2d5016',
-                    fontFamily: 'Arial Black, Arial, sans-serif',
-                  }}
-                >
-                  {currentSecond}
-                </span>
-              </div>
-            </div>
-          </div>
-        )}
-
-        {/* Question Card - Separate Box */}
-        <div
-          style={{
-            position: 'absolute',
-            top: '28%',
-            width: '90%',
-            maxWidth: '950px',
-            transform: `scale(${questionScale})`,
-            opacity: questionOpacity,
-          }}
-        >
-          <div
-            style={{
-              backgroundColor: 'rgba(255, 255, 255, 0.98)',
-              borderRadius: '25px',
-              padding: '35px 40px',
-              boxShadow: '0 15px 40px rgba(0, 0, 0, 0.4)',
-            }}
-          >
-            <h2
-              style={{
-                margin: 0,
-                fontSize: '56px',
-                fontWeight: '900',
-                color: '#3d5a1f',
-                textAlign: 'center',
-                lineHeight: 1.35,
-                fontFamily: 'Arial Black, Arial, sans-serif',
-                letterSpacing: '0.5px',
-              }}
-            >
-              {quizData.question}
-            </h2>
-          </div>
-        </div>
-
-        {/* Options - Individual Boxes */}
-        <div
-          style={{
-            position: 'absolute',
-            top: '52%',
-            width: '90%',
-            maxWidth: '950px',
-            display: 'flex',
-            flexDirection: 'column',
-            gap: '20px',
-          }}
-        >
-            {quizData.options.map((option, index) => {
-              const optionSpring = optionsEntry(index);
-              const optionX = interpolate(optionSpring, [0, 1], [-300, 0]);
-              const optionOpacity = interpolate(optionSpring, [0, 1], [0, 1]);
-              
-              const isCorrect = index === quizData.correctAnswer;
-              const showAnswer = answerReveal > 0;
-              
-              // Correct answer highlight animation
-              const highlightScale = isCorrect && showAnswer 
-                ? interpolate(answerReveal, [0, 1], [1, 1.05])
-                : 1;
-              const glowIntensity = isCorrect && showAnswer
-                ? interpolate(answerReveal, [0, 1], [0, 1])
-                : 0;
-
-              return (
-                <div
-                  key={index}
-                  style={{
-                    transform: `translateX(${optionX}px) scale(${highlightScale})`,
-                    opacity: optionOpacity,
-                  }}
-                >
-                  <div
-                    style={{
-                      background: 'transparent',
-                      padding: '0px 19px 93px 190px',
-                      borderRadius: '15px',
-                      border: 'none',
-                      display: 'flex',
-                      alignItems: 'center',
-                      boxShadow: 'none',
-                      transition: 'all 0.3s ease',
-                      position: 'relative',
-                    }}
-                  >
-                    {isCorrect && showAnswer && (
-                      <div
-                        style={{
-                          position: 'absolute',
-                          right: '120px',
-                          top: '28%',
-                          transform: `translateY(-50%) scale(${interpolate(answerReveal, [0, 1], [0, 1])}) rotate(${interpolate(answerReveal, [0, 1], [-180, 0])}deg)`,
-                          opacity: glowIntensity,
-                        }}
-                      >
-                        <div
-                          style={{
-                            width: '180px',
-                            height: '180px',
-                            borderRadius: '50%',
-                            backgroundColor: '#4CAF50',
-                            display: 'flex',
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                            boxShadow: `0 0 ${40 + glowIntensity * 40}px rgba(76, 175, 80, ${0.8 * glowIntensity})`,
-                            border: '6px solid #fff',
-                          }}
-                        >
-                          <span
-                            style={{
-                              fontSize: '90px',
-                              color: '#fff',
-                              fontWeight: 'bold',
-                              lineHeight: '1',
-                            }}
-                          >
-                            ✓
-                          </span>
-                        </div>
-                      </div>
-                    )}
-                    <span
-                      style={{
-                        fontSize: '84px',
-                        color: isCorrect && showAnswer 
-                          ? (Math.floor((frame - countdownEndFrame) / 10) % 2 === 0 ? '#4CAF50' : '#fff')
-                          : '#fff',
-                        fontWeight: '800',
-                        fontFamily: 'Arial Black, Arial, sans-serif',
-                        textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-                        letterSpacing: '0.5px',
-                      }}
-                    >
-                      {option}
-                    </span>
-                  </div>
-                </div>
-              );
-            })}
-        </div>
+      {/* Multiply makes ink and logos sit in the paper like print */}
+      <AbsoluteFill style={{ mixBlendMode: "multiply" }}>
+        <Header />
+        <InfoRow />
+        {fitted ? (
+          <>
+            <Question text={quiz.question} fontSize={fitted.questionFontSize} />
+            <Stopwatch revealFrame={revealFrame} />
+            {quiz.correctAnswer !== undefined ? (
+              <HandwrittenAnswer
+                letter={LETTERS[quiz.correctAnswer]}
+                revealFrame={revealFrame}
+              />
+            ) : null}
+            {quiz.options.map((option, index) => (
+              <OptionRow
+                key={index}
+                index={index}
+                text={option}
+                fontSize={fitted.optionFontSize}
+                isCorrect={index === quiz.correctAnswer}
+                revealFrame={revealFrame}
+              />
+            ))}
+          </>
+        ) : null}
       </AbsoluteFill>
     </AbsoluteFill>
   );

@@ -18,6 +18,7 @@ temp/
 # Python credentials
 *.txt
 !requirements_youtube.txt
+!public/fonts/*.txt
 
 # Google OAuth secrets
 client_secret*.json
