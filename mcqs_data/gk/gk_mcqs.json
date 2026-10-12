@@ -152,12 +152,13 @@
   {
     "question": "Pisciculture is the study of ______________?",
     "options": [
-      "fruits",
-      "mind",
-      "fish",
+      "Fruits",
+      "Mind",
+      "Fish",
       "None of these"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Pisciculture is the breeding and raising of fish, from the Latin piscis."
   },
   {
     "question": "Telepathy is the study of ____________?",
@@ -167,7 +168,8 @@
       "communication between two minds at a distance with the help of emotions, thoughts and feelings",
       "None of these"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Telepathy is the claimed passing of thoughts between minds without the senses; science has not shown it exists."
   },
   {
     "question": "National Flower and National Emblem of Japan is ______________?",
@@ -229,7 +231,8 @@
       "Grey Book",
       "None of these"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Italy's official government reports are called Green Books."
   },
   {
     "question": "Official Book of UK is called _____________?",
@@ -391,7 +394,8 @@
       "Lawrence Ziring",
       "None of these"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "British historian Ian Talbot's Pakistan: A Modern History was first published in 1998."
   },
   {
     "question": "The Geneva Accords were signed on:",
@@ -422,7 +426,8 @@
       "Mapam Lake",
       "None of these"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 2,
+    "explanation": "The Indus rises in Tibet near Mount Kailash and Lake Manasarovar, called Mapam Yumco in Tibetan."
   },
   {
     "question": "The Strategic Arms Limitation Treaty (SALT-I) was signed in:",
@@ -655,7 +660,8 @@
       "3rd February",
       "4th February"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "World Cancer Day is marked on 4 February."
   },
   {
     "question": "What is the Total Height of K-2 Peak ?",
@@ -665,7 +671,8 @@
       "8611 meter",
       "8511 meter"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "K2, on the Pakistan–China border, rises 8,611 m, the world's second-highest peak."
   },
   {
     "question": "Smallest Republic of the world is___________?",
@@ -705,7 +712,8 @@
       "Uzbekistan",
       "Turkey"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "skip": "unverified"
   },
   {
     "question": "The Warsaw Pact was dissolved in _____________?",
@@ -821,7 +829,8 @@
       "1ST November 1947",
       "1ST November 1946"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Gilgit-Baltistan rose against Dogra rule and declared independence on 1 November 1947."
   },
   {
     "question": "Which is the Parent Company of TikTok?",
@@ -887,14 +896,15 @@
     "explanation": "The Atlantic is the saltiest of the major oceans, about 35 parts per thousand."
   },
   {
-    "question": "The President of the 79th UN General Assembly, Philemon Yang belong to belongs to which country ?",
+    "question": "Philemon Yang, President of the 79th UN General Assembly, belongs to which country?",
     "options": [
       "North Korea",
       "South Korea",
-      "Cameroonian",
+      "Cameroon",
       "Portugal"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Philemon Yang, a former Prime Minister of Cameroon, presided over the UN General Assembly's 79th session."
   },
   {
     "question": "In which type of climate are coniferous forests found?",
@@ -934,7 +944,8 @@
       "Lahore",
       "Dhaka"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "skip": "ambiguous: several Himalayan cities are at high risk"
   },
   {
     "question": "Arabian desert is in ____________.?",
@@ -975,7 +986,8 @@
       "The Atlantic Ocean",
       "Sea of Marmara"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The Strait of Gibraltar, 13 km wide at its narrowest, joins the Atlantic and the Mediterranean."
   },
   {
     "question": "Which of the following is Currency of China?",
@@ -985,7 +997,8 @@
       "Dinar",
       "Rupee"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "China's currency is the renminbi, whose basic unit is the yuan."
   },
   {
     "question": "A person who has been unusual habits is ___________?",
@@ -1086,7 +1099,8 @@
       "Brigadier(R) Feroz Hassan Khan",
       "Bob Woodward"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Brigadier (R) Feroz Hassan Khan's 2012 book tells the story of Pakistan's nuclear programme."
   },
   {
     "question": "Book “Don’t Sweat the Small Stuff and It’s All Small Stuff” is written by:_____________?",
@@ -1096,7 +1110,8 @@
       "Richard Carlson",
       "James Clear"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Psychologist Richard Carlson's 1997 self-help book became a long-running bestseller."
   },
   {
     "question": "The ‘1954 Daigo Fukuryu Maru’ incident is related to: __________?",
@@ -1179,7 +1194,8 @@
       "Territorial High Ariel Across Defense",
       "Tight High Altitude Area Direction"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "THAAD is a US system that shoots down ballistic missiles in their final phase."
   },
   {
     "question": "Book “War As I Knew It” was written by: ____________?",
@@ -1316,14 +1332,15 @@
     "correctAnswer": 1
   },
   {
-    "question": "Pakistan’s Highest mountain range K2. The second highest mountain in Pakistan is: __________?",
+    "question": "K2 is Pakistan's highest mountain. The second highest mountain in Pakistan is: __________?",
     "options": [
       "Nanga Parbat",
       "Gasherbrum I",
       "Broad Peak",
       "Rakaposhi"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Nanga Parbat (8,126 m) is Pakistan's second-highest peak, after K2 (8,611 m)."
   },
   {
     "question": "The Theme for World Smile Day Celebrated on 6th October, 2024 was ___________?",
@@ -1425,7 +1442,8 @@
       "Rights Watch",
       "Discriminated Community Watch"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Human Rights Watch began in 1978 as Helsinki Watch, monitoring the Soviet bloc."
   },
   {
     "question": "Which is the deepest lake of the world ?",
@@ -1763,7 +1781,8 @@
       "Poland",
       "Russia"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "NTB, Norsk Telegrambyrå, is Norway's national news agency."
   },
   {
     "question": "Notimex is the news agency of ____________?",
@@ -1916,7 +1935,8 @@
       "7000",
       "5000"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "skip": "ambiguous: several options are true"
   },
   {
     "question": "the Hindu Kush range guards the____________ border of Pakistan.",
@@ -2401,7 +2421,8 @@
       "New Zealand",
       "USA"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Lake Hillier on Middle Island, Western Australia, is naturally bubble-gum pink."
   },
   {
     "question": "Banff National Park, Canada’s oldest national park, is located in which province?",
@@ -2503,7 +2524,8 @@
       "26th March",
       "25th March"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "World TB Day, 24 March, marks Robert Koch's 1882 discovery of the TB bacterium."
   },
   {
     "question": "World’s Oldest Cave Paintings has recently been discovered in _____________?",
@@ -2513,7 +2535,8 @@
       "Malaysia",
       "Indonesia"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "Cave art in Sulawesi, Indonesia, dated in 2024 to at least 51,200 years old, is the oldest known."
   },
   {
     "question": "Which country in the the world is carbon negative country?",
@@ -2533,7 +2556,8 @@
       "1980",
       "1969"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "The OIC was founded in September 1969, after the arson attack on Al-Aqsa Mosque."
   },
   {
     "question": "What is the length of Karakoram Highway?",
@@ -2940,7 +2964,8 @@
       "The Grande",
       "None of these"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "China's Jinping-I, 305 m, is the world's highest dam."
   },
   {
     "question": "Largest Museum in the world is in",
@@ -2948,9 +2973,10 @@
       "USA",
       "China",
       "France",
-      "Europe"
+      "Russia"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "The Louvre in Paris is the world's largest art museum by floor space."
   },
   {
     "question": "The world oldest known city is",
@@ -3044,14 +3070,15 @@
     "correctAnswer": 2
   },
   {
-    "question": "First China War was fought between",
+    "question": "The First Opium War was fought between?",
     "options": [
       "China and Britain",
       "China and France",
       "China and Egypt",
       "China and Greek"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Britain fought China in the First Opium War (1839–42), which ended with Hong Kong ceded to Britain."
   },
   {
     "question": "Which Country has the oldest monarchy?",
@@ -3144,7 +3171,8 @@
       "Qatar",
       "Morocco"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "The OIC was founded at a summit in Rabat, Morocco, in 1969; its headquarters is in Jeddah."
   },
   {
     "question": "Epsom (England) is the place associated with",
@@ -3436,7 +3464,8 @@
       "Regional",
       "Cultural"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "NATO is a military alliance whose members pledge to defend one another under Article 5."
   },
   {
     "question": "The Atomic Bomb was dropped on the city of Nagasaki on?",
@@ -3446,7 +3475,8 @@
       "9 August 1945",
       "12 August 1945"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "The US dropped an atomic bomb on Nagasaki on 9 August 1945."
   },
   {
     "question": "The Atomic Bomb was dropped on the city of Hiroshima on?",
@@ -3477,7 +3507,8 @@
       "Mongol Conquests",
       "Taiping Rebellion"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "World War II killed an estimated 70–85 million people, the deadliest conflict in history."
   },
   {
     "question": "World War II was end in?",
@@ -3524,11 +3555,12 @@
     "question": "The first Secretary General of United Nations was?",
     "options": [
       "Dag Hammarskjold",
-      "Kurt Walheion",
+      "Kurt Waldheim",
       "U Thant",
       "Trygve Lie"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "Norway's Trygve Lie was the first UN Secretary-General, from 1946 to 1952."
   },
   {
     "question": "The hottest desert of the world is?",
@@ -3586,9 +3618,10 @@
       "Bhutan",
       "Bangladesh",
       "Indonesia",
-      "nepal"
+      "Nepal"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The taka has been Bangladesh's currency since 1972."
   },
   {
     "question": "The Earth’s Oceanic water is divided in __________ oceans.",
@@ -3618,7 +3651,8 @@
       "Mian Muhammad Aslam Hayat",
       "None of These"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "skip": "unverified"
   },
   {
     "question": "Which is the highest waterfall in India?",
@@ -3750,7 +3784,8 @@
       "India",
       "Arabian Sea"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "skip": "unverified"
   },
   {
     "question": "What is meaning of “Autophobia”?",
@@ -3989,7 +4024,8 @@
       "Jimmy Carter",
       "John J. Mearsheimer"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Former US President Jimmy Carter's 2006 book criticised Israeli policy in the occupied territories."
   },
   {
     "question": "400-year old Morro Castle is located in which country?",
@@ -4181,7 +4217,8 @@
       "Oman",
       "Chile"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Yemen covers about 528,000 km²; of these, Myanmar, at about 677,000 km², is closest in size."
   },
   {
     "question": "Which of the following countries is closest size to Sri Lanka ?",
@@ -4234,14 +4271,15 @@
     "correctAnswer": 2
   },
   {
-    "question": "SAARC charted day is celebrated on ___________?",
+    "question": "SAARC Charter Day is celebrated on ___________?",
     "options": [
       "12 January",
       "10 December",
       "8 December",
       "25 November"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "SAARC Charter Day, 8 December, marks the signing of its charter in Dhaka in 1985."
   },
   {
     "question": "The Narrowest strait of the world ?",
@@ -4454,11 +4492,12 @@
     "question": "Name the first ever female Prime Minister in the world?",
     "options": [
       "Benazir Bhutto",
-      "Indra Gandhi",
+      "Indira Gandhi",
       "Sirimavo Bandaranaike",
       "Golda Meir"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Sri Lanka's Sirimavo Bandaranaike became the world's first woman Prime Minister in 1960."
   },
   {
     "question": "Headquarter of the Asian Infrastructure Investment Bank (AIIB) is in _______________?",
@@ -4539,7 +4578,8 @@
       "Laos",
       "Thailand"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Tatmadaw is the name of Myanmar's armed forces."
   },
   {
     "question": "Which is known as Queen of Lakes in Pakistan?",
@@ -4556,10 +4596,11 @@
     "options": [
       "Naukot Fort",
       "Bukkur Fort",
-      "Schwan Fort",
+      "Sehwan Fort",
       "Ranikot Fort"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "Ranikot's walls, over 30 km long, make it one of the largest forts in the world."
   },
   {
     "question": "Capital of Vanuatu is: _____________?",
@@ -4682,7 +4723,8 @@
       "Krakarom",
       "None of These"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "skip": "ambiguous: the Himalaya is the highest range, the Andes the longest"
   },
   {
     "question": "International Youth Day is observed every year on_____________?",
@@ -4887,14 +4929,15 @@
     "correctAnswer": 1
   },
   {
-    "question": "Which city will host NATO Summit 2024?",
+    "question": "Which city hosted the NATO Summit in 2024?",
     "options": [
       "Washington, D. C",
       "New York city",
       "Warsaw",
       "Berlin"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "NATO marked its 75th anniversary at the Washington summit in July 2024."
   },
   {
     "question": "What awareness month is in May?",
@@ -5149,7 +5192,8 @@
       "Apple juice",
       "Sugarcane juice"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "Sugarcane juice was declared Pakistan's national drink in 2019."
   },
   {
     "question": "World food day is internationally observed on _______________.",
@@ -5169,7 +5213,8 @@
       "Hayat-e-jawaid",
       "Pir-e-Kamil"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Altaf Hussain Hali wrote Hayat-e-Javed (1901), a biography of Sir Syed Ahmad Khan."
   },
   {
     "question": "Term double fault is associated with: __________?",
@@ -5200,7 +5245,8 @@
       "April 15, 2024",
       "None of These"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "skip": "ambiguous: Meta AI was introduced in 2023 and expanded in 2024"
   },
   {
     "question": "Who is writer of the book ”A brief history of time ”?",
@@ -5442,7 +5488,8 @@
       "$7.5 million",
       "$7.8 million"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The US paid Russia $7.2 million for Alaska in 1867, about two cents an acre."
   },
   {
     "question": "Which one is the second largest Muslim country by population in the world.?",
@@ -5711,7 +5758,8 @@
       "South Korea",
       "Russia"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The Fukushima Daiichi plant in Japan melted down after the March 2011 earthquake and tsunami."
   },
   {
     "question": "Headquarter of NATO was initially based in?",
@@ -5946,7 +5994,8 @@
       "Integrated Air and Missile Defence",
       "Isolated Aggressive Military Defence"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Integrated Air and Missile Defence links radars and interceptors against aircraft and missiles."
   },
   {
     "question": "First and only time when Article 5 of NATO’s founding treaty was invoked?",
@@ -5966,7 +6015,8 @@
       "Demonstrating that NATO did not intend to disappear after the Cold War and NATO is the most powerfully organization",
       "None of the above"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Launched in 1994, Partnership for Peace built ties between NATO and former Soviet bloc states."
   },
   {
     "question": "Which island is shared by Germany and Poland?",
@@ -6089,7 +6139,8 @@
       "8463m/27,766ft",
       "8167m/26,795ft"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "Dhaulagiri in Nepal is 8,167 m (26,795 ft), the world's seventh-highest mountain."
   },
   {
     "question": "The height of Cho Oyu mountain is __________?",
@@ -6099,7 +6150,8 @@
       "8463m/27,766ft",
       "8201m/26,906ft"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "skip": "ambiguous: sources give 8,188 m or 8,201 m"
   },
   {
     "question": "The height of Makalu mountain is __________?",
@@ -6182,7 +6234,8 @@
       "Shipment",
       "Consignment"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "skip": "unclear question"
   },
   {
     "question": "The orange river flows in ___________?",
@@ -6226,14 +6279,15 @@
     "explanation": "Astola, off Balochistan's Makran coast, is also called Jazira Haft Talar, the Island of Seven Hills."
   },
   {
-    "question": "Which G-20 member countries did not attend the G20 Kashmir summit 2023?",
+    "question": "Which G20 members stayed away from the G20 meeting in Srinagar, Kashmir, in 2023?",
     "options": [
       "Saudi Arabia",
       "Turkey",
       "China",
       "All of these"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "China, Turkey and Saudi Arabia stayed away from the G20 tourism meeting in Srinagar in May 2023."
   },
   {
     "question": "Kennedy Space Center is located in __________?",
@@ -6254,7 +6308,8 @@
       "North Atlantic Fundamental Trading Agreement",
       "North Atlantic Free Trade Agreement"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "NAFTA linked the US, Canada and Mexico from 1994; USMCA replaced it in 2020."
   },
   {
     "question": "SUPARCO was founded in __________?",
@@ -6305,7 +6360,8 @@
       "Tajikistan",
       "India"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "TAPI stands for Turkmenistan, Afghanistan, Pakistan and India; Tajikistan is not part of it."
   },
   {
     "question": "‘International nurses day’ is observed on ________________?",
@@ -6589,7 +6645,8 @@
       "Scoring for People and the Planet",
       "None of these"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "The 2023 theme of the 6 April sports day was Scoring for People and the Planet."
   },
   {
     "question": "International Conscience day is celebrated on?",
@@ -6884,7 +6941,8 @@
       "1895",
       "1897"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The Durand Line agreement was signed in 1893 by Mortimer Durand and Amir Abdur Rahman Khan."
   },
   {
     "question": "Tear Lake also known as Ansoo Lake is located in which valley of Pakistan?",
@@ -6894,7 +6952,8 @@
       "Kaghan Valley",
       "Neelum Valley"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Teardrop-shaped Ansoo Lake lies high above the Kaghan Valley, near Malika Parbat."
   },
   {
     "question": "Siam Center is in __________?",
@@ -6956,7 +7015,8 @@
       "Honey",
       "Yogurt"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Honey's low water and high acidity let it keep for centuries; edible honey was found in Egyptian tombs."
   },
   {
     "question": "Which sport does the international federation CMAS represent?",
@@ -7088,7 +7148,8 @@
       "Baltic Sea",
       "Arabian Sea"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "skip": "no correct option: the Sea of Marmara is usually called the smallest sea"
   },
   {
     "question": "Yellow Sea lies between __________.",
@@ -7165,12 +7226,13 @@
   {
     "question": "The currency of Indonesia is _________?",
     "options": [
-      "rupiah",
-      "dinar",
-      "ringgit",
-      "riyal"
+      "Rupiah",
+      "Dinar",
+      "Ringgit",
+      "Riyal"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Indonesia's currency is the rupiah."
   },
   {
     "question": "Name the only secretary general of UN who resigned from his post?",
@@ -7215,12 +7277,13 @@
   {
     "question": "The headquarter of Amnesty International is in _________.",
     "options": [
-      "Amserdam",
+      "Amsterdam",
       "Geneva",
       "London",
       "Berlin"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Amnesty International, founded in 1961, has its international secretariat in London."
   },
   {
     "question": "The deepest part of the Earth is __________ .",
@@ -7971,12 +8034,13 @@
   {
     "question": "What is Cuju?",
     "options": [
-      "type of food",
-      "type of plant",
-      "type of drink",
-      "the first known ball game"
+      "Type of food",
+      "Type of plant",
+      "Type of drink",
+      "The first known ball game"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "Cuju, played in ancient China over 2,000 years ago, is recognised by FIFA as the earliest form of football."
   },
   {
     "question": "The headquarter of Green Peace International is located in _________.",
@@ -8221,9 +8285,10 @@
       "Honda",
       "Harley Davidson",
       "Lambretta Auto LTD",
-      "Piaggio spa"
+      "Piaggio"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "Italy's Piaggio launched the Vespa scooter in 1946."
   },
   {
     "question": "Which company gifted “cornflakes” to the world?",
@@ -8274,7 +8339,8 @@
       "France",
       "Ireland"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Vatican City is surrounded by Rome, Italy; it became an independent state in 1929."
   },
   {
     "question": "Blue Mosque is also called __________?",
@@ -8472,11 +8538,12 @@
     "question": "Who has scored the most goals ever in football history?",
     "options": [
       "Cristiano Ronaldo",
-      "Meradona",
+      "Maradona",
       "Pele",
       "None of These"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Cristiano Ronaldo became the first player to score 900 official career goals, in 2024."
   },
   {
     "question": "Qatar got independence in _________?",
@@ -8567,7 +8634,8 @@
       "Bond street",
       "Harley street"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "San Francisco's Lombard Street, with eight hairpin turns, is called the crookedest street in the world."
   },
   {
     "question": "Which is the highest airport in the world?",
@@ -8852,7 +8920,8 @@
       "Rome",
       "Shanghai"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "St Peter's Square lies in Vatican City, an enclave within Rome."
   },
   {
     "question": "Time Square is Located in which of the following city?",
@@ -9049,7 +9118,8 @@
       "1977",
       "1978"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "The group's first summit was held at Rambouillet, France, in 1975; Canada joined in 1976."
   },
   {
     "question": "Which Pakistani fast bowler was DSP in Police?",
@@ -9347,17 +9417,19 @@
       "Japanese",
       "American"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Sadako Sasaki was a Japanese girl from Hiroshima, remembered for her thousand paper cranes."
   },
   {
     "question": "Sadako Sasaki was a___________victim.",
     "options": [
-      "World War i",
-      "World War ii",
+      "World War I",
+      "World War II",
       "Napoleonic Wars",
       "Russian Civil War"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Sadako Sasaki got leukaemia from Hiroshima's radiation and folded paper cranes before dying in 1955."
   },
   {
     "question": "Famous Golden Gate Bridge connects which two cities?",
@@ -9404,12 +9476,13 @@
   {
     "question": "Mount Isa is a city located in which country?",
     "options": [
-      "Uk",
+      "UK",
       "Canada",
       "Australia",
       "France"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Mount Isa in Queensland is an outback mining city."
   },
   {
     "question": "Maitland city is in which country?",
@@ -9616,12 +9689,13 @@
   {
     "question": "Interfax is the news agency of_________?",
     "options": [
-      "London",
+      "UK",
       "Russia",
       "South Africa",
       "France"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Interfax is a private Russian news agency founded in 1989."
   },
   {
     "question": "Lipulekh and Kalapani is disputed area between:",
@@ -9770,12 +9844,13 @@
   {
     "question": "Name of the currency of Germany is _________?",
     "options": [
-      "Doesh Mark",
+      "Deutsche Mark",
       "Euro",
       "Guilder",
       "None of These"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Germany replaced the Deutsche Mark with the euro in 2002."
   },
   {
     "question": "Who is the founder of Wikipedia?",
@@ -9816,7 +9891,8 @@
       "Republic of Turkey",
       "None of These"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Before the republic of 1923, Turkey was the heartland of the Ottoman Empire."
   },
   {
     "question": "Another name for the national flower Jasmine is______?",
@@ -9859,24 +9935,26 @@
     "correctAnswer": 1
   },
   {
-    "question": "CAREC (Central Asia Economic Cooperation) was established in year ?",
+    "question": "CAREC (Central Asia Regional Economic Cooperation) was established in which year?",
     "options": [
       "2020",
       "1990",
       "1997",
       "2022"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "The Central Asia Regional Economic Cooperation programme was set up with ADB support in 1997."
   },
   {
-    "question": "The first and only Pakistani woman to have summited Mount Everest successfully?",
+    "question": "Who was the first Pakistani woman to summit Mount Everest?",
     "options": [
       "Sana Mir",
       "Zeenat Jamal",
       "Samina Baig",
       "Anita Baig"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Samina Baig of Hunza became the first Pakistani woman to climb Everest, in May 2013."
   },
   {
     "question": "When was HIV identified?",
@@ -10081,7 +10159,8 @@
       "South Africa",
       "Japan"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Zimbabwe's 2013 constitution recognises 16 official languages; only Bolivia has more."
   },
   {
     "question": "Which of the following multinational companies is not Japanese?",
@@ -10608,7 +10687,8 @@
       "1 Jan 1995",
       "1 Jan 2002"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "The euro was launched on 1 January 1999; its notes and coins followed in 2002."
   },
   {
     "question": "Which stock exchange is known as “The Big Board”?",
@@ -10649,7 +10729,8 @@
       "Shakespeare",
       "None of these"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Napoleon's soldiers affectionately called him the Little Corporal."
   },
   {
     "question": "What is the parliament of  Lativa?",
@@ -10835,7 +10916,8 @@
       "Italy",
       "Germany"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The White House at 1600 Pennsylvania Avenue, Washington, D.C., is home to the US President."
   },
   {
     "question": "Lake Constance is located in which country?",
@@ -10876,7 +10958,8 @@
       "Norway",
       "Germany"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Lake St Lucia, in KwaZulu-Natal's iSimangaliso Wetland Park, is South Africa's largest estuary."
   },
   {
     "question": "The Muslims invaded Spain in ____________?",
@@ -10907,7 +10990,8 @@
       "Hassan Abbas",
       "None of these"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Shuja Nawaz's The Battle for Pakistan (2019) examines the troubled US–Pakistan relationship."
   },
   {
     "question": "What is the full form of “USSR”?",
@@ -10980,7 +11064,8 @@
       "Canada",
       "Australia"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Microsoft's anechoic chamber in Redmond, USA, set a Guinness record as the quietest place on Earth."
   },
   {
     "question": "The architect of Faisal Mosque was: ___________?",
@@ -11175,7 +11260,8 @@
       "2 times",
       "1 time"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "The word Pakistan appears once in the anthem, in the line arz-e-Pakistan."
   },
   {
     "question": "Arak Nuclear power plant is located in which country?",
@@ -11345,7 +11431,8 @@
       "1965",
       "None of these"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 3,
+    "explanation": "The US Eighth Air Force first bombed Berlin in March 1944; the RAF had begun in 1940."
   },
   {
     "question": "In which city was the first public opera house opened?",
@@ -11479,7 +11566,8 @@
       "Dewan Rakyat",
       "None of the above"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The Dewan Negara is the Senate, the upper house of Malaysia's Parliament."
   },
   {
     "question": "The Lower House of Malaysia is called ________?",
@@ -11510,7 +11598,8 @@
       "Australia",
       "Brazil"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Dove Lake lies beneath Cradle Mountain in Tasmania, Australia."
   },
   {
     "question": "Lake Amadeus is located in which country?",
@@ -11681,7 +11770,8 @@
       "Australia",
       "Russia"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Pelee Island in Lake Erie is Canada's southernmost inhabited point."
   },
   {
     "question": "Capital of Ukraine is _________?",
@@ -11838,14 +11928,15 @@
     "correctAnswer": 1
   },
   {
-    "question": "How many ODI matches Prime Minister Imran Khan has captained for Pakistan?",
+    "question": "How many ODI matches did Imran Khan captain for Pakistan?",
     "options": [
       "135",
       "137",
       "139",
       "None of these"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Imran Khan captained Pakistan in 139 ODIs, including the 1992 World Cup win."
   },
   {
     "question": "When did Christopher Columbus discover the West Indies?",
@@ -11897,7 +11988,8 @@
       "US open",
       "Wimbledon"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "The French Open is played at Stade Roland-Garros in Paris, named after a WWI aviator."
   },
   {
     "question": "Who discovered cement?",
@@ -12094,14 +12186,15 @@
     "correctAnswer": 0
   },
   {
-    "question": "What is the profession of current Chancellor of Germany Olaf Scholz?",
+    "question": "What was the profession of former German Chancellor Olaf Scholz?",
     "options": [
       "Physicist",
       "Builder",
       "Business man",
       "Lawyer"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "Olaf Scholz, Chancellor from 2021 to 2025, trained and worked as a labour lawyer."
   },
   {
     "question": "Sutherland Waterfall is located in which country ?",
@@ -12313,7 +12406,8 @@
       "Rafael Nadal",
       "Daniil Medvedev"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "skip": "unverified"
   },
   {
     "question": "Hen and Chicken islands is located in which country?",
@@ -12344,7 +12438,8 @@
       "Hengduan Mountains range",
       "Alaska Range"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "The Hindu Kush–Himalaya holds the most ice outside the polar regions, so it's called the Third Pole."
   },
   {
     "question": "Stadium that is constructed in Gawadar named ___________?",
@@ -12608,7 +12703,8 @@
       "Red Sea",
       "Bay of China"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The Yellow River empties into the Bohai Sea, an arm of the Yellow Sea."
   },
   {
     "question": "What is the main objective of FATF?",
@@ -12665,11 +12761,12 @@
     "question": "The Kivu conflict began in 2004 between __________?",
     "options": [
       "Congo and Sudan",
-      "South Sudan and Hetu Power",
-      "Rawanda and Sudan",
-      "military of Congo and Hetu Power group"
+      "South Sudan and Hutu Power",
+      "Rwanda and Sudan",
+      "Military of Congo and Hutu Power group"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "The Kivu conflict pitted Congo's army against rebels, including Hutu Power groups like the FDLR."
   },
   {
     "question": "The Executive Board of WHO is made up of how many specialist?",
@@ -12986,7 +13083,8 @@
       "203 Km",
       "None of these"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The Suez Canal is about 193 km long, from Port Said to Suez."
   },
   {
     "question": "Who is the Author of the Book “A Journey to Disillusionment”?",
@@ -13028,7 +13126,8 @@
       "Society Day",
       "Education Day"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The UN marks World Habitat Day on the first Monday of October."
   },
   {
     "question": "In which Month is Summer Equinox occurs?",
@@ -13179,7 +13278,8 @@
       "America",
       "Brunei"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "Bandar Seri Begawan is the capital of Brunei, on the island of Borneo."
   },
   {
     "question": "Andalusia is a region of __________?",
@@ -13212,14 +13312,15 @@
     "correctAnswer": 0
   },
   {
-    "question": "Rover Cup was associated with with sports?",
+    "question": "The Rover Cup was associated with which sport?",
     "options": [
       "Horse Race",
       "Football",
       "Cricket",
       "Hockey"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The Rover Cup was one of India's oldest football tournaments, first held in 1891."
   },
   {
     "question": "Pakistan’s standard time was suggested by _________?",
@@ -13693,7 +13794,8 @@
       "England",
       "Spain"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "The medieval walls of Ávila, Spain, run about 2.5 km with 88 towers."
   },
   {
     "question": "Hamas came into power in Palestine ?",
@@ -13723,7 +13825,8 @@
       "Scotland",
       "Poland"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "The Romans built the Antonine Wall across central Scotland around 142 AD."
   },
   {
     "question": "In which city is the world’s oldest tennis court from 1496?",
@@ -13930,11 +14033,12 @@
     "question": "Reconciliation: Islam, Democracy, and the West  was written by ____________?",
     "options": [
       "ZA Bhutto",
-      "Jaswant singh",
+      "Jaswant Singh",
       "Benazir Bhutto",
       "None of these"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Benazir Bhutto finished Reconciliation shortly before her assassination; it was published in 2008."
   },
   {
     "question": "The Arrogance of Power was written by ____________?",
@@ -14079,7 +14183,8 @@
       "Pardah",
       "None of these"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Maulana Maududi's Pardah (1939) sets out his views on the role of women in Islam."
   },
   {
     "question": "Armughan i Hijaz was written by ________?",
@@ -14134,12 +14239,13 @@
   {
     "question": "Name of Japan’s bicameral legislature (Parliament) is __________?",
     "options": [
-      "P Democratic party",
+      "Democratic Party",
       "National Diet",
       "National federation",
       "None of these"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Japan's two-chamber parliament is the National Diet."
   },
   {
     "question": "Mr bean (Rowan Atkinson) Belongs to ________?",
@@ -14189,7 +14295,8 @@
       "President Putin",
       "Narendra Modi"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 2,
+    "explanation": "Putin has led Russia as President or Prime Minister since 1999, longer than Merkel's 16 years as Chancellor."
   },
   {
     "question": "How many times the National Flag of Aganistan has been changed in last 100 years?",
@@ -14270,7 +14377,8 @@
       "Atlantic and Arctic",
       "Pacific and Atlantic"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Cape Agulhas, Africa's southernmost point, is where the Atlantic and Indian Oceans meet."
   },
   {
     "question": "Whose face was first uploaded on Facebook?",
@@ -14417,7 +14525,8 @@
       "Turkey",
       "Spain"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "The Anastasian Wall was built west of Constantinople, in today's Turkey, around 500 AD."
   },
   {
     "question": "The first successful expedition to the Mount Everest was made in__________?",
@@ -14579,7 +14688,8 @@
       "Qatar",
       "Oman"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Qatar, rich in natural gas, has the highest income per person in the Muslim world."
   },
   {
     "question": "Name the bird which is fastest and can attain speed of 200km?",
@@ -14599,7 +14709,8 @@
       "Four Times",
       "Two Times"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "skip": "time-sensitive: may have changed at the 2026 World Cup"
   },
   {
     "question": "Where is the Devils Tower located ?",
@@ -14761,7 +14872,8 @@
       "Morocco",
       "Both A & C"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "Both the UAE and Morocco use a currency called the dirham."
   },
   {
     "question": "The Largest Coffee growing country in the world is _____________?",
@@ -14855,14 +14967,15 @@
     "correctAnswer": 0
   },
   {
-    "question": "What is the duration at the poles?",
+    "question": "How long does a single day (or night) last at the poles?",
     "options": [
       "3 months",
       "6 months",
       "9 months",
       "12 months"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "At each pole the Sun stays up for about six months and down for six months."
   },
   {
     "question": "Which country of Europe is famous for dairy industry?",
@@ -15118,7 +15231,8 @@
       "Bilateral Engagement And Counter Arrangement",
       "None of these"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "BECA, signed by the US and India in October 2020, lets them share geospatial intelligence."
   },
   {
     "question": "Warsaw is capital of_________?",
@@ -15154,12 +15268,13 @@
   {
     "question": "Nouakchott is capital of__________?",
     "options": [
-      "spain",
-      "sweden",
+      "Spain",
+      "Sweden",
       "Mauritania",
       "None of these"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Nouakchott, on the Atlantic coast, is the capital of Mauritania."
   },
   {
     "question": "World Photography Day WPD observed each year on ___________?",
@@ -15687,12 +15802,13 @@
   {
     "question": "Which Country is with most smartphone users ?",
     "options": [
-      "U.S.A",
+      "USA",
       "India",
       "China",
       "Canada"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "China has the most smartphone users, around a billion people."
   },
   {
     "question": "Which mughal ruler was modern to queen Elizabeth?",
@@ -15865,7 +15981,8 @@
       "Nepal",
       "India"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The Katpana cold desert near Skardu, Baltistan, lies at about 2,500 m."
   },
   {
     "question": "Which battle allowed Babur to defeat Ibrahim Lodhi and capture Delhi in 1526 ?",
@@ -16012,14 +16129,15 @@
     "correctAnswer": 1
   },
   {
-    "question": "On every 10 December, the Noble peace prize is awarded in?",
+    "question": "On 10 December each year, the Nobel Peace Prize is awarded in?",
     "options": [
       "USA",
       "Norway",
       "Rome",
       "None of these"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The Peace Prize is presented in Oslo; the other Nobel Prizes are given in Stockholm."
   },
   {
     "question": "Kaliningrad border lies with lithuania and Poland, that territory belongs to which country?",
@@ -16054,12 +16172,13 @@
   {
     "question": "Russia is located in which two continents?",
     "options": [
-      "Asia , Europe",
-      "Europe , Africa",
-      "Asia , America",
+      "Asia, Europe",
+      "Europe, Africa",
+      "Asia, America",
       "None of these"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Russia spans Eastern Europe and northern Asia, divided by the Ural Mountains."
   },
   {
     "question": "Obama’s book, “A Promised Land” came out on ______________?",
@@ -16073,14 +16192,15 @@
     "explanation": "Barack Obama's memoir A Promised Land was published on 17 November 2020."
   },
   {
-    "question": "“Becoming”, the biography written by?",
+    "question": "“Becoming” is the memoir of?",
     "options": [
       "Henry Clinton",
       "Indira Gandhi",
       "Michelle Obama",
       "Melania Trump"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Michelle Obama's memoir Becoming (2018) has sold over 17 million copies."
   },
   {
     "question": "Current Era of Geological Time Scale is _____________?",
@@ -16344,7 +16464,8 @@
       "China",
       "North America"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "The Sonoran Desert covers parts of Arizona, California and northwest Mexico."
   },
   {
     "question": "which type of milk is generally lowest in fat?",
@@ -16464,7 +16585,8 @@
       "1930",
       "1931"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Some UK women got the vote in 1918; the 1928 Act gave women equal voting rights with men."
   },
   {
     "question": "The Residential place of the Britain Prime Minister is at _____________?",
@@ -16627,7 +16749,8 @@
       "Abraham",
       "David"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Muhammad, in its many spellings, is believed to be the most common given name in the world."
   },
   {
     "question": "The oldest large-scale film studio in the world is __________?",
@@ -16691,14 +16814,15 @@
     "correctAnswer": 1
   },
   {
-    "question": "Which Gas was first used in World War 1?",
+    "question": "Which gas was first used as a weapon in World War I?",
     "options": [
       "Helium",
       "Hydrogen",
       "Chlorine",
       "Nitrogen"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Germany released chlorine gas at Ypres in April 1915, the first large-scale gas attack."
   },
   {
     "question": "The book “Post American World” is written by _________?",
@@ -16806,11 +16930,12 @@
     "question": "Which of the following is coldest capital city of the world?",
     "options": [
       "New Delhi",
-      "Ulan Baatar",
+      "Ulaanbaatar",
       "Islamabad",
       "Riyadh"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Mongolia's Ulaanbaatar is the world's coldest national capital, averaging about −1°C a year."
   },
   {
     "question": "Kot Diji Fort is located in ____________?",
@@ -17096,7 +17221,8 @@
       "Ghazni",
       "Karachi"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Peshawar is often called the oldest living city in South Asia, over 2,500 years old."
   },
   {
     "question": "In which fort did Raja Dahir’s wife hold out with 15,000 troops against Muhammad bin Qasim?",
@@ -17117,7 +17243,8 @@
       "Abdur Rahain Khan-i-Khanah",
       "None of these"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "skip": "no correct option: Faizi was Akbar's poet laureate"
   },
   {
     "question": "Amir Khusro’s name is associated with the invention of?",
@@ -17130,14 +17257,15 @@
     "correctAnswer": 0
   },
   {
-    "question": "Which two countries south Asia’s first cross-border oil pipeline?",
+    "question": "Which two countries built South Asia's first cross-border oil pipeline?",
     "options": [
       "China-Nepal",
       "India-Nepal",
       "Pakistan-China",
       "Turkey-India"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The Motihari–Amlekhgunj pipeline, opened in 2019, carries Indian fuel to Nepal."
   },
   {
     "question": "What is the literal meaning of word philosophy?",
@@ -17208,7 +17336,8 @@
       "A Child’s History of England",
       "All of these"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "Dickens wrote Oliver Twist, the Christmas story The Haunted Man and A Child's History of England."
   },
   {
     "question": "The Roman numeral for the number “1000” is ____?",
@@ -17350,7 +17479,8 @@
       "Greek",
       "English"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "skip": "ambiguous: the word mixes Latin and Greek roots"
   },
   {
     "question": "First Women Speaker of US Congress is ___________?",
@@ -17441,7 +17571,8 @@
       "Australia",
       "China"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "The Gulf of Carpentaria is a large shallow sea on Australia's northern coast."
   },
   {
     "question": "Nuuk is the capital and largest city of _________?",
@@ -17647,7 +17778,8 @@
       "Mount Everest",
       "Masherbrum"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "Masherbrum was the first Karakoram peak surveyed, so it was labelled K1."
   },
   {
     "question": "The depth of world’s deepest and largest swimming pool is?",
@@ -17677,17 +17809,19 @@
       "Noorbakhshia",
       "Qalandaria"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "The Noorbakhshia order is followed mainly in Baltistan, around Khaplu and Skardu."
   },
   {
     "question": "For which mineral, Duki is famous?",
     "options": [
-      "Suphur",
+      "Sulphur",
       "Chromite",
       "Barytes",
       "Coal"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "Duki in Balochistan is known for its coal mines."
   },
   {
     "question": "Bharatiya Janata Party was founded in?",
@@ -17881,7 +18015,8 @@
       "Clay",
       "Sand"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "The French Open is the only Grand Slam played on red clay."
   },
   {
     "question": "Wheel is a symbol of __________?",
@@ -17911,7 +18046,8 @@
       "Africa",
       "Central Asian Mountains"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The flightless kiwi lives only in New Zealand and is its national symbol."
   },
   {
     "question": "Which was the first city destroyed by the atomic bomb in World War II?",
@@ -18139,7 +18275,8 @@
       "Raphael",
       "Michelangelo"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "Michelangelo painted The Creation of Adam on the Sistine Chapel ceiling around 1512."
   },
   {
     "question": "Who is the Highest Wicket Taker of ICC Cricket World Cup 2019?",
@@ -18283,17 +18420,19 @@
       "Islands",
       "Desert"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "An oasis is a fertile spot in a desert where water reaches the surface."
   },
   {
     "question": "Theory of continental drift was presented by?",
     "options": [
       "Wegener",
-      "Lyyel",
+      "Lyell",
       "Richter",
       "Gutenberg"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Alfred Wegener proposed continental drift in 1912; plate tectonics later explained it."
   },
   {
     "question": "Bees are found on every continent of earth except?",
@@ -18837,7 +18976,8 @@
       "Omar al Mukhtar",
       "None of these"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Libyan leader Omar al-Mukhtar, who fought Italian rule until 1931, was called the Lion of the Desert."
   },
   {
     "question": "Who founded analytical psychology?",
@@ -18970,7 +19110,8 @@
       "John Martin",
       "Edison"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "skip": "unverified"
   },
   {
     "question": "How many members of ILO?",
@@ -19040,7 +19181,8 @@
       "1995",
       "2001"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Sabeer Bhatia and Jack Smith launched Hotmail on 4 July 1996; Microsoft bought it in 1997."
   },
   {
     "question": "Which country besides India celebrates its independence day on 15th August?",
@@ -19053,14 +19195,15 @@
     "correctAnswer": 3
   },
   {
-    "question": "The region Gedrosia during times of Alexander,the great is?",
+    "question": "The region of Gedrosia in the time of Alexander the Great is today's?",
     "options": [
       "Sindh",
-      "Baluchistan",
+      "Balochistan",
       "N.W.F.P",
       "Punjab"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Gedrosia was the ancient Greek name for the dry coastal region of today's Balochistan."
   },
   {
     "question": "Which explorer discovered the Island on Jamaica?",
@@ -19203,7 +19346,8 @@
       "Fazal mahmood",
       "Sadeqain"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "skip": "subjective"
   },
   {
     "question": "HIV Abbreviation?",
@@ -19402,14 +19546,15 @@
     "explanation": "SEWA is an Indian trade union for self-employed women; GATS and GATT are WTO agreements."
   },
   {
-    "question": "“Johnday river” is located in?",
+    "question": "The “John Day River” is located in?",
     "options": [
       "Alaska",
       "New york",
       "Oregon",
       "California"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "The John Day River in Oregon is one of the longest undammed rivers in the US."
   },
   {
     "question": "“Konkan coast” located in?",
@@ -19623,7 +19768,8 @@
       "26 m x 14 m",
       "28 m x 16 m"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "FIBA courts for the Olympics and world events measure 28 m by 15 m."
   },
   {
     "question": "“Guernica”, world’s famous painting was painted by Pablo Picasso in _______?",
@@ -19716,7 +19862,8 @@
       "International Court of Justice",
       "The Trusteeship Council"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "The ICJ in The Hague is the only principal UN organ based outside New York."
   },
   {
     "question": "How many are regional commissions of The United Nations Economic and Social Council (ECOSOC)?",
@@ -19937,12 +20084,13 @@
   {
     "question": "Haroon al Rashid was a caliph of __________ dynasty ?",
     "options": [
-      "Ummayad",
+      "Umayyad",
       "Abbasid",
-      "Bowahid",
-      "Alide"
+      "Buyid",
+      "Alid"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Harun al-Rashid ruled the Abbasid Caliphate from Baghdad from 786 to 809."
   },
   {
     "question": "Who were the Axis powers in World War-II?",
@@ -20088,7 +20236,8 @@
       "Yucatan Peninsula",
       "Grand Canyon"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Mesopotamia, between the Tigris and Euphrates, saw the first cities around 3500 BC."
   },
   {
     "question": "In the war of 1812, Britain set fire to White House in ________?",
@@ -20181,7 +20330,8 @@
       "1924",
       "1925"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "The 1924 Dawes Plan restructured Germany's war reparations after WWI."
   },
   {
     "question": "In regard of precautionary measures what is meant by HSE?",
@@ -20283,7 +20433,8 @@
       "Yellow Revolution",
       "None of these"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The Blue Revolution is the rapid growth of fish farming and aquaculture."
   },
   {
     "question": "Moscow became the capital of Russia again  __________?",
@@ -20303,7 +20454,8 @@
       "April 1640",
       "May 1641"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Harvard College was named after its first benefactor, clergyman John Harvard, in March 1639."
   },
   {
     "question": "Saturn’s largest moon, Titan, was discovered by Christiaan Huygens on _________ ?",
@@ -20898,12 +21050,13 @@
   {
     "question": "Germany signed the Armistice Treaty on __________ and World War I ended?",
     "options": [
-      "January 19, 1918.",
-      "May 30, 1918.",
-      "November 11, 1918.",
-      "February 15, 1918."
+      "January 19, 1918",
+      "May 30, 1918",
+      "November 11, 1918",
+      "February 15, 1918"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "The Armistice of 11 November 1918 ended the fighting in World War I."
   },
   {
     "question": "The Berlin Wall was erected in 1961 on the order of East Germany’s former Leader __________?",
@@ -21159,14 +21312,15 @@
     "correctAnswer": 3
   },
   {
-    "question": "Who is the President of United Nations General Assembly for 73rd session?",
+    "question": "Who was the President of the UN General Assembly for its 73rd session?",
     "options": [
-      "Miguel d’ Escoto",
-      "Mirvoslav la jack",
+      "Miguel d'Escoto",
+      "Miroslav Lajčák",
       "Maria Fernanda Espinosa",
       "Neelam Pari"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Ecuador's María Fernanda Espinosa presided over the UN General Assembly's 73rd session in 2018–19."
   },
   {
     "question": "What was the old name of Sri-Lanka?",
@@ -21319,7 +21473,8 @@
       "Leonid Hurwicz",
       "Yoichiro Nambu"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "skip": "outdated: John Goodenough won at 97 in 2019"
   },
   {
     "question": "Second summit of OIC was held in which country?",
@@ -21433,7 +21588,8 @@
       "Uppsala",
       "Gävle"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Stockholm, spread over 14 islands, is the capital of Sweden."
   },
   {
     "question": "In which year was Alaska sold to the US?",
@@ -21607,7 +21763,8 @@
       "Russia and Japan",
       "England and France"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "In the Crimean War (1853–56), the Ottomans, Britain and France fought Russia."
   },
   {
     "question": "Indonesia was a colony of which of the following countries?",
@@ -21627,7 +21784,8 @@
       "Mao Zedong",
       "Liu Shaoqi"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Mao Zedong chaired the Communist Party when the People's Republic was founded in 1949."
   },
   {
     "question": "The Wailing wall is situated in?",
@@ -21723,12 +21881,13 @@
   {
     "question": "Who was the Ameer of Afghanistan during WWI?",
     "options": [
-      "Abdur rehman khan",
+      "Abdur Rahman Khan",
       "Nasrullah Khan",
-      "Afzal khan",
-      "Habib Ullah khan"
+      "Afzal Khan",
+      "Habibullah Khan"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "Amir Habibullah Khan kept Afghanistan neutral in World War I."
   },
   {
     "question": "The volcano Vesuvius is located in?",
@@ -22127,7 +22286,8 @@
       "Panama Canal",
       "All of above"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "The Panama Canal, opened in 1914, links the Atlantic and Pacific Oceans."
   },
   {
     "question": "_________ is a term used to refer to a score of 111 by an individual player or a team?",
@@ -22241,14 +22401,15 @@
     "explanation": "Cricket stumps are 28 inches (71.1 cm) tall."
   },
   {
-    "question": "Which of the follwing Indian actor is known as ” Tragedy King”?",
+    "question": "Which Indian actor is known as the “Tragedy King”?",
     "options": [
       "Salman Khan",
-      "Amitabh Bachan",
+      "Amitabh Bachchan",
       "Dilip Kumar",
       "Sanjay Dutt"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Dilip Kumar, born Muhammad Yusuf Khan in Peshawar, was called the Tragedy King."
   },
   {
     "question": "What is the weight of women cricket ball?",
@@ -22521,7 +22682,8 @@
       "Earth",
       "Mars"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "Mars looks red because iron oxide, or rust, covers its surface."
   },
   {
     "question": "In which type of rocks coal and petroleum are found?",
@@ -22593,7 +22755,8 @@
       "1888",
       "1898"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "After the Meiji Restoration, the emperor moved the capital from Kyoto to Tokyo (Edo) in 1868."
   },
   {
     "question": "Which of the following city is the former capital of Japan?",
@@ -22613,7 +22776,8 @@
       "Plague",
       "Black Cough"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "skip": "ambiguous: the Black Death was the plague"
   },
   {
     "question": "1337-1453 Hundred years’ war involved which two nations?",
@@ -22664,7 +22828,8 @@
       "6th October",
       "10th December"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "World Health Day, 7 April, marks the founding of WHO in 1948."
   },
   {
     "question": "Mana Pools National Park is in___________?",
@@ -22736,7 +22901,8 @@
       "Iran",
       "India"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "The ancient mud-brick citadel of Bam in Iran was badly damaged by an earthquake in 2003."
   },
   {
     "question": "Old Town of Ghadames is located in:________?",
@@ -22951,7 +23117,8 @@
       "Switzerland",
       "Turkey"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Augusta Raurica, near Basel, is the oldest Roman colony on the Rhine, in Switzerland."
   },
   {
     "question": "A Country Floating on Oil ?",
@@ -23032,7 +23199,8 @@
       "Spermology",
       "None of these"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Vexillology, the study of flags, comes from the Latin vexillum, a banner."
   },
   {
     "question": "__________ is called the ‘low country’ of the earth?",
@@ -23092,7 +23260,8 @@
       "Equator to poles",
       "None of these"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Day length varies more and more as you move from the Equator toward the poles."
   },
   {
     "question": "The busiest Sea route is:__________?",
@@ -23440,7 +23609,8 @@
       "Italy and Sicily",
       "None of these"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "skip": "ambiguous: the strait separates Florida from Cuba and the Bahamas"
   },
   {
     "question": "Which land of country is below the sea level?",
@@ -23599,11 +23769,12 @@
     "question": "_______ is the tulip capital of the world?",
     "options": [
       "USA",
-      "Green land",
+      "Greenland",
       "Netherlands",
       "None of these"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "The Netherlands grows most of the world's tulips."
   },
   {
     "question": "Turkey connects the two continents: _____________?",
@@ -23643,7 +23814,8 @@
       "White Bellbird",
       "None of these"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "The male white bellbird of the Amazon has the loudest recorded bird call, about 125 decibels."
   },
   {
     "question": "Which of the following pairs of City and River is correct?",
@@ -23663,7 +23835,8 @@
       "Date palm",
       "None of these"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "California's coast redwoods are the tallest trees; one, Hyperion, is about 116 m."
   },
   {
     "question": "Which peninsula lies between the black sea and the sea of Azov?",
@@ -23693,7 +23866,8 @@
       "China",
       "None of these"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "skip": "wrong premise: China borders 14 countries"
   },
   {
     "question": "CEYLON was changed to SRI LANKA in:________?",
@@ -23713,7 +23887,8 @@
       "1987",
       "None of these"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The military government changed the name from Burma to Myanmar in 1989."
   },
   {
     "question": "What percentage of land is cultivable in the world?",
@@ -23737,14 +23912,15 @@
     "explanation": "Laos is the only landlocked country in Southeast Asia."
   },
   {
-    "question": "Who is writer book  ‘Cutting edge “?",
+    "question": "Who wrote the book “Cutting Edge”?",
     "options": [
-      "Waqar Younus",
-      "Waseem Akram",
-      "Javed Mian Dad",
+      "Waqar Younis",
+      "Wasim Akram",
+      "Javed Miandad",
       "Ahmed Ahsfaq"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Javed Miandad's autobiography Cutting Edge was published in 2003."
   },
   {
     "question": "The first full face transplant was performed in__________?",
@@ -23806,7 +23982,8 @@
       "14 August",
       "None of these"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Bangladesh marks Independence Day on 26 March, the date of its 1971 declaration of independence."
   },
   {
     "question": "Picture of which US President is on the 5 dollar note ?",
@@ -24131,7 +24308,8 @@
       "Philippines",
       "Denmark"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Mount Semeru is Java's highest mountain and an active volcano in Indonesia."
   },
   {
     "question": "Which European city is called as the European Jerusalem ?",
@@ -24148,10 +24326,11 @@
     "options": [
       "Multan",
       "Delhi",
-      "Khatmandu",
+      "Kathmandu",
       "Kabul"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "The Hindu Pashupatinath Temple on the Bagmati River in Kathmandu is a UNESCO site."
   },
   {
     "question": "What was the old name of Singapore?",
@@ -24390,12 +24569,13 @@
   {
     "question": "World no Tobacco Day is observed on ________ every  year.",
     "options": [
-      "12May",
+      "12 May",
       "22 May",
       "31 May",
       "None of these"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "WHO marks World No Tobacco Day on 31 May."
   },
   {
     "question": "Arab spring is a series of political revolutions started in________?",
@@ -24445,7 +24625,8 @@
       "Gamma",
       "Delta"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Alpha is the first letter of the Greek alphabet; omega is the last."
   },
   {
     "question": "The last letter of the Greek alphabet is_________?",
@@ -24618,7 +24799,8 @@
       "Brazil",
       "Denmark"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "La Tomatina is a tomato-throwing festival held in Buñol, near Valencia, each August."
   },
   {
     "question": "Onion Eating Festival is celebrated in which country ?",
@@ -24736,14 +24918,15 @@
     "explanation": "BirdLife International's global secretariat is in Cambridge, UK."
   },
   {
-    "question": "Thailand,s capital “Bangkok” lies on which river ?",
+    "question": "Thailand's capital, Bangkok, lies on which river?",
     "options": [
       "Spree",
       "Yangtze",
       "Chao Phraya",
       "None of these"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Bangkok stands on the Chao Phraya River, near the Gulf of Thailand."
   },
   {
     "question": "A village called “Abu Simbel” is located in which country?",
@@ -24799,12 +24982,13 @@
   {
     "question": "Book “Dear Mr. Jinnah” is authored by____________?",
     "options": [
-      "Fatima jinah",
-      "Liaqat Ali khan",
+      "Fatima Jinnah",
+      "Liaquat Ali Khan",
       "Allama Iqbal",
       "None of these"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Dear Mr Jinnah (2004) collects Liaquat Ali Khan's letters and speeches from 1937 to 1947."
   },
   {
     "question": "“Promise Me, Dad: A Year of Hope, Hardship, and Purpose” is book written by____________?",
@@ -24855,7 +25039,8 @@
       "Textile",
       "Mangoes"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "California's Napa Valley is the best-known wine region in the USA."
   },
   {
     "question": "The Headquarters of the International Tropical Timber Organization is located at_________?",
@@ -24874,9 +25059,10 @@
       "Mount Logan",
       "Mount Ninja",
       "Mount Vinson",
-      "Mount McKinly"
+      "Mount McKinley"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Mount Vinson, 4,892 m, is the highest peak in Antarctica."
   },
   {
     "question": "Where is Hambantota Port located ?",
@@ -24927,7 +25113,8 @@
       "Pacific Ocean",
       "Indian Ocean"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The Arctic Ocean has the widest continental shelf, stretching over 1,000 km off Siberia."
   },
   {
     "question": "The Westminster parliamentary system was developed by which country ?",
@@ -24975,10 +25162,11 @@
     "options": [
       "Lake Erie",
       "Lake Victoria",
-      "Lake Titica",
+      "Lake Titicaca",
       "Lake Manchar"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The Equator crosses northern Lake Victoria, Africa's largest lake."
   },
   {
     "question": "Loess Plateau is situated in which country ?",
@@ -25011,14 +25199,15 @@
     "correctAnswer": 3
   },
   {
-    "question": "“Kilauea volcano” is located in which country ?",
+    "question": "Where is Kilauea volcano located?",
     "options": [
       "Japan",
       "China",
       "Indonesia",
       "Hawaii"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "Kīlauea on Hawaii's Big Island is one of the world's most active volcanoes."
   },
   {
     "question": "Nobel museum is found in which city ?",
@@ -25142,7 +25331,8 @@
       "Pomology",
       "None of these"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Arachnology is the study of spiders and their relatives, from the Greek arachne."
   },
   {
     "question": "The scientific study of the brain is known as ___________?",
@@ -25316,7 +25506,8 @@
       "UNDP",
       "World Bank"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "The International Bureau of Education in Geneva has been part of UNESCO since 1969."
   },
   {
     "question": "The headquarter of World Meterological Organisation is based in which country?",
@@ -25673,7 +25864,8 @@
       "1945",
       "1947"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "The CIA was created by the National Security Act of 1947."
   },
   {
     "question": "The First Android Mobile Launched in Which year?",
@@ -25694,7 +25886,8 @@
       "Haleji Lake",
       "None of these"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Lake Titicaca, 3,812 m up in the Andes, is the highest navigable lake in the world."
   },
   {
     "question": "What is the Name of Google’s Parent Company?",
@@ -25719,12 +25912,13 @@
   {
     "question": "World biodiversity day is celebrated on:_________?",
     "options": [
-      "Mar-21",
-      "March-2",
-      "Apr-22",
-      "May-22"
+      "21 March",
+      "2 March",
+      "22 April",
+      "22 May"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "The International Day for Biological Diversity is 22 May, marking the 1992 Convention."
   },
   {
     "question": "International day of forest is celebrated on___________?",
@@ -25762,9 +25956,10 @@
       "Mount Everest",
       "Nanga Parbat",
       "K2",
-      "Trichmir"
+      "Tirich Mir"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "K2 is called the Savage Mountain for its very high death rate among climbers."
   },
   {
     "question": "In 2019, in which country there was a widespread protest against an Extradition Amendment Bill?",
@@ -25784,7 +25979,8 @@
       "2019",
       "2020"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "skip": "outdated: 2024 was the most recent leap year"
   },
   {
     "question": "Currently, about how much world’s goods trade (by volume) is carried on ships?",
@@ -25964,7 +26160,8 @@
       "Turkey",
       "Syria"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Turkey has the largest Kurdish population, around 15 million people."
   },
   {
     "question": "Where is Louvre Art gallery located?",
@@ -26096,7 +26293,8 @@
       "Karakoram",
       "None of these"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "The Andes run about 7,000 km down South America, the longest range on land."
   },
   {
     "question": "Who is known to the father of geography?",
@@ -26211,14 +26409,15 @@
     "correctAnswer": 3
   },
   {
-    "question": "The Country through which both equator abd Tropic of Capricorn passes is?",
+    "question": "The country through which both the Equator and the Tropic of Capricorn pass is?",
     "options": [
       "New Zealand",
       "Brazil",
       "Norway",
       "Australia"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Brazil is the only country crossed by both the Equator and the Tropic of Capricorn."
   },
   {
     "question": "Shah Burj was constructed by which Mughal Empror?",
@@ -26228,7 +26427,8 @@
       "Shah Jahan",
       "Babar"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Emperor Shah Jahan built the Shah Burj pavilions in both Lahore Fort and Delhi's Red Fort."
   },
   {
     "question": "Shah Burj gate is located in____________?",
@@ -26402,7 +26602,8 @@
       "2600",
       "None of these"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "skip": "figures vary by source"
   },
   {
     "question": "FIH (International Hockey Federation) was founded in which year ?",
@@ -26638,7 +26839,8 @@
       "Africa",
       "America"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "The Ogaden is a dry region of eastern Ethiopia, in the Horn of Africa."
   },
   {
     "question": "Wadi Rum” which resemblance to the surface of Mars is located in__________?",
@@ -26886,7 +27088,8 @@
       "Bhutan",
       "Pakistan"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "skip": "figures vary by source"
   },
   {
     "question": "Jaffna is situated in which country?",
@@ -26916,7 +27119,8 @@
       "Bamboo & nature",
       "None of these"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "skip": "unverified"
   },
   {
     "question": "When the world Bamboo Day is celebrated ?",
@@ -26946,7 +27150,8 @@
       "Federal Government",
       "None"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Under Article 213, the President appoints the CEC after the PM consults the opposition leader."
   },
   {
     "question": "The longest traffic jam in the world was recorded in which city?",
@@ -27007,7 +27212,8 @@
       "Russia",
       "Turkey"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Australia's Snowy Mountains include Mount Kosciuszko, the mainland's highest peak."
   },
   {
     "question": "Firdausi was__________?",
@@ -27027,7 +27233,8 @@
       "Mount Whitney",
       "Pikes Peak"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "California's Mount Whitney, 4,421 m, is the highest peak in the contiguous United States."
   },
   {
     "question": "What device’s invention was the main reason for demise of the Pony Express?",
@@ -27037,7 +27244,8 @@
       "Telephone",
       "Train"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The Pony Express closed in 1861, two days after the transcontinental telegraph was finished."
   },
   {
     "question": "What Kansas city’s name means ‘potato’ in the Kansa language?",
@@ -27068,7 +27276,8 @@
       "Ganga",
       "None of these"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Athena, goddess of wisdom and war, was the patron of Athens."
   },
   {
     "question": "ANTARA is the news agency of __________?",
@@ -27278,7 +27487,8 @@
       "December 26, 1968",
       "November 26, 1964"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "PTV began broadcasting from Lahore on 26 November 1964."
   },
   {
     "question": "Boxer Muhammad Ali died of which disease?",
@@ -27385,12 +27595,13 @@
   {
     "question": "Headquarter of the International Monetary Fund is in___________?",
     "options": [
-      "Cape town",
+      "Cape Town",
       "Berlin",
       "Washington",
       "Geneva"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "The International Monetary Fund is headquartered in Washington, D.C."
   },
   {
     "question": "How many points are in badminton Game ?",
@@ -27664,7 +27875,8 @@
       "11th",
       "6th"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "With about 241 million people in 2023, Pakistan ranks fifth in world population."
   },
   {
     "question": "The political party of Mussolini?",
@@ -27735,7 +27947,8 @@
       "Ahmed Shah Patras Bokhari",
       "None of these"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Writer Patras Bokhari was Pakistan's first permanent representative to the UN, from 1951 to 1954."
   },
   {
     "question": "What is the total period of Ottoman Empire?",
@@ -27864,9 +28077,10 @@
       "Ireland",
       "Finland",
       "New Zealand",
-      "Sawaziland"
+      "Swaziland"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Supo is the Finnish Security and Intelligence Service."
   },
   {
     "question": "When did Mohamed ElBaradei of Egypt win the Nobel Peace Prize?",
@@ -28444,22 +28658,24 @@
   {
     "question": "The capital of the Mughal Empire was shifted from Agra to Delhi by__________?",
     "options": [
-      "Jehangir",
+      "Jahangir",
       "Aurangzeb",
       "Humayun",
-      "Shahjehan"
+      "Shah Jahan"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "Shah Jahan moved the Mughal capital from Agra to his new city of Shahjahanabad (Delhi) in 1648."
   },
   {
-    "question": "The currency of portugal is__________?",
+    "question": "The currency of Portugal is__________?",
     "options": [
       "Zolty",
       "Peso",
       "Euro",
       "Escudo"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Portugal replaced the escudo with the euro in 2002."
   },
   {
     "question": "The headquarter of EFTA is in_____________?",
@@ -28688,12 +28904,13 @@
   {
     "question": "“Lost Islamic History” written by_________?",
     "options": [
-      "Firas AL khateeb",
-      "Sir Syad Ahmad",
+      "Firas Alkhateeb",
+      "Sir Syed Ahmad Khan",
       "Allama Iqbal",
       "None of these"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Firas Alkhateeb's 2014 book Lost Islamic History retells forgotten chapters of Muslim history."
   },
   {
     "question": "The International Council of Nurses established in 1899 has its headquarters in_________?",
@@ -28730,11 +28947,12 @@
     "question": "The world’s fastest manned aircraft is__________?",
     "options": [
       "SR-71 Blackbird",
-      "A-12 lockheed",
+      "Lockheed A-12",
       "F-106 Delta Dart",
       "North American X-15"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "The rocket-powered North American X-15 reached Mach 6.7 in 1967, the fastest crewed aircraft."
   },
   {
     "question": "Who was the father of Sultan Osman I – the founder of the Ottoman Empire?",
@@ -29066,7 +29284,8 @@
       "Jordan",
       "Iraq"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "The Dome of the Rock, completed in 691 AD, stands on Jerusalem's Temple Mount."
   },
   {
     "question": "Birth place of Sultan Salahuddin Ayubi?",
@@ -29287,10 +29506,11 @@
     "options": [
       "Franklin Roosevelt",
       "Andrew Jackson",
-      "Kenndy",
+      "Kennedy",
       "George Washington"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Andrew Jackson and Martin Van Buren built the Democratic Party in the 1820s."
   },
   {
     "question": "“Eagle” is the National emblem of_____________?",
@@ -29420,12 +29640,13 @@
   {
     "question": "Who won World War 1?",
     "options": [
-      "U.S.A, U.k and Germany",
-      "Australia, U.k and Germany",
-      "U.S.A, U.k and France",
-      "Hungary, U.k and Germany"
+      "USA, UK and Germany",
+      "Australia, UK and Germany",
+      "USA, UK and France",
+      "Hungary, UK and Germany"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "The Allies, including Britain, France and the USA, defeated the Central Powers in 1918."
   },
   {
     "question": "How many countries have walked on the moon?",
@@ -29497,7 +29718,8 @@
       "Mahmud Ghaznavi",
       "Sultan Salah ud din Ayoubi"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "skip": "unverified"
   },
   {
     "question": "Who became the president of Indian National Congress in 1946?",
@@ -31007,7 +31229,8 @@
       "51",
       "60"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "skip": "brand trivia"
   },
   {
     "question": "What golfer first name means” victory ” in hindi?",
@@ -31044,12 +31267,13 @@
   {
     "question": "The old name of Switzerland is________?",
     "options": [
-      "Farmosa",
+      "Formosa",
       "Helvetia",
       "Ceylon",
       "Malaya"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Helvetia, the Latin name for Switzerland, still appears on its coins and stamps."
   },
   {
     "question": "Algeria became independent in ______________?",
@@ -31147,12 +31371,13 @@
   {
     "question": "Which of the following island is the disputed Island between India and Bangladesh?",
     "options": [
-      "New Moor",
+      "New Moore",
       "Majuli",
       "Umananda",
       "Dibru-Saikhuwa"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "New Moore (South Talpatti) island, claimed by both, was submerged by rising seas by 2010."
   },
   {
     "question": "How many minutes was the longest recorded point in the history of Tennis?",
@@ -31214,7 +31439,8 @@
       "Camel",
       "Australus"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "skip": "trivia, unclear"
   },
   {
     "question": "Which country is called land of Blue sky?",
@@ -31287,14 +31513,15 @@
     "correctAnswer": 0
   },
   {
-    "question": "Crimean wars were faught between ?",
+    "question": "The Crimean War was fought between?",
     "options": [
       "Russia and Ottomans",
       "England and Egypt",
       "Crimea and Armenia",
-      "Russia and japan"
+      "Russia and Japan"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "The Crimean War (1853–56) pitted Russia against the Ottomans, Britain, France and Sardinia."
   },
   {
     "question": "When was the fast food chain, McDonald’s founded?",
@@ -31480,14 +31707,15 @@
     "correctAnswer": 1
   },
   {
-    "question": "Taj Mahal features a perfect blend of Islamic indian & _________architecture style?",
+    "question": "The Taj Mahal blends Islamic, Indian and _________ architectural styles?",
     "options": [
       "Persian",
       "Italian",
       "French",
       "British"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "The Taj Mahal blends Persian, Islamic and Indian styles; it was finished around 1653."
   },
   {
     "question": "Paris is known as the city of__________?",
@@ -31930,11 +32158,12 @@
     "question": "Capital of Belgium is_________?",
     "options": [
       "Brussels",
-      "La pez",
+      "La Paz",
       "Paris",
       "Ottawa"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Brussels is Belgium's capital and the main seat of the EU."
   },
   {
     "question": "Capital of Bulgaria is__________?",
@@ -32037,7 +32266,8 @@
       "1980",
       "1983"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Motorola's Martin Cooper made the first handheld mobile phone call in April 1973."
   },
   {
     "question": "Google is an_________multinational technology company?",
@@ -32078,7 +32308,8 @@
       "A diary",
       "Plays"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "Shakespeare wrote about 37 plays, from Hamlet to Macbeth, as well as 154 sonnets."
   },
   {
     "question": "Which is the national flower of Sri Lanka ?",
@@ -32476,7 +32707,8 @@
       "Germany",
       "Pakistan"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "skip": "ambiguous: many countries have maritime security agencies"
   },
   {
     "question": "Which country is called the “Land of Rabbits”?",
@@ -32598,7 +32830,8 @@
       "Sin Ke Qiang",
       "Hirohito"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "Emperor Hirohito reigned from 1926 to 1989, through the whole of World War II."
   },
   {
     "question": "England fought second world war under the leadership of _________?",
@@ -32661,14 +32894,15 @@
     "correctAnswer": 2
   },
   {
-    "question": "Peace treaty of Council of Westphalia was signed in _________  ?",
+    "question": "The Peace of Westphalia was signed in _________?",
     "options": [
       "1647",
       "1648",
       "1650",
       "None of these"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The Peace of Westphalia (1648) ended the Thirty Years' War and shaped the idea of sovereign states."
   },
   {
     "question": "Good Friday agreement which is related to Northern Ireland was signed in________?",
@@ -32801,7 +33035,8 @@
       "The Zambezi",
       "The Yukon"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The Congo, about 4,700 km, is Africa's second-longest river after the Nile."
   },
   {
     "question": "Battle of Actium was a decisive war fought between __________ ?",
@@ -32997,7 +33232,8 @@
       "Seychelles",
       "None"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Seychelles uses the Seychellois rupee, as do India, Pakistan, Nepal, Sri Lanka and Mauritius."
   },
   {
     "question": "What do you mean by Syntax?",
@@ -33017,7 +33253,8 @@
       "Study of insects",
       "Study of meaning and syntax"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Phonetics studies speech sounds: how they are made, carried and heard."
   },
   {
     "question": "which is the national flower of Portugal?",
@@ -33105,11 +33342,12 @@
     "question": "India’s financial capital Mumbai is located in it’s which state ?",
     "options": [
       "Bihar",
-      "Gujrat",
-      "Indhra Pardesh",
+      "Gujarat",
+      "Andhra Pradesh",
       "Maharashtra"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "Mumbai is the capital of Maharashtra and India's financial hub."
   },
   {
     "question": "“Jiji Press” is the news agency of which country?",
@@ -33529,7 +33767,8 @@
       "June 20",
       "June 25"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Russia Day, 12 June, marks the 1990 declaration of sovereignty of the Russian republic."
   },
   {
     "question": "Archery is a national game of__________?",
@@ -33652,7 +33891,8 @@
       "January 4",
       "January 5"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "World Braille Day, 4 January, is the birthday of Louis Braille."
   },
   {
     "question": "Study of “Aging” is called __________?",
@@ -33815,7 +34055,8 @@
       "India",
       "Bangladesh"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "China is the world's largest fruit producer, followed by India."
   },
   {
     "question": "Temporary Capital of Pakistan was__________?",
@@ -33979,7 +34220,8 @@
       "Titus",
       "Domitian"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Emperor Vespasian began the Colosseum around 72 AD; his son Titus opened it in 80 AD."
   },
   {
     "question": "” Gila river ” is located in ___________?",
@@ -34054,14 +34296,15 @@
     "correctAnswer": 2
   },
   {
-    "question": "Kirana mountains are present in________?",
+    "question": "The Kirana Hills are located in________?",
     "options": [
       "India",
       "Pakistan",
       "Nepal",
       "China"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The Kirana Hills are a range of rocky hills near Sargodha in Punjab."
   },
   {
     "question": "Which is the highest military award of france?",
@@ -34309,7 +34552,8 @@
       "E.M. Forster",
       "Gustave Flaubert"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "Gustave Flaubert's Madame Bovary (1857) is a classic of literary realism."
   },
   {
     "question": "” Bir Shrestho ” is the highest military award of ________ ?",
@@ -34605,10 +34849,11 @@
     "options": [
       "Minsk",
       "Riga",
-      "Lithonia",
+      "Lithuania",
       "Estonia"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Riga, on the Baltic Sea, is the capital of Latvia."
   },
   {
     "question": "What was the real name of Tipu Sultan or Tiger of Mysore ?",
@@ -34650,7 +34895,8 @@
       "Switzerland",
       "Scotland"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "William Wallace led the Scottish fight against English rule until his execution in 1305."
   },
   {
     "question": "“Csepel ” is the seaport of _______ ?",
@@ -34771,7 +35017,8 @@
       "Brazil",
       "Greece"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Pompeii, near Naples, was buried by the eruption of Mount Vesuvius in 79 AD."
   },
   {
     "question": "Soviet Union tested its first nuclear bomb on_________?",
@@ -34946,7 +35193,8 @@
       "China",
       "Libya"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "JANA was the Jamahiriya News Agency of Gaddafi's Libya, now called LANA."
   },
   {
     "question": "What type of creature is a Fulmar?",
@@ -35487,7 +35735,8 @@
       "USA",
       "China"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The chukar partridge is the national bird of both Iraq and Pakistan."
   },
   {
     "question": "The “Zambezi river ” is located in _______ ?",
@@ -35559,7 +35808,8 @@
       "Afghanistan",
       "Italy"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "The Lena flows about 4,400 km through Siberia to the Arctic Ocean."
   },
   {
     "question": "The major crops found in Sudan are________?",
@@ -35569,7 +35819,8 @@
       "oats, tobacco",
       "wool, wine"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "skip": "options only partly right"
   },
   {
     "question": "Which among the following animal don’t have vocal cords?",
@@ -35681,11 +35932,12 @@
     "question": "Which among the following have a ‘mixed heart’ __________ ?",
     "options": [
       "Birds",
-      "Fishs",
+      "Fish",
       "Reptiles",
       "None of these"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Most reptiles have a three-chambered heart, so oxygen-rich and oxygen-poor blood partly mix."
   },
   {
     "question": "Which animal has the highest blood pressure?",
@@ -35922,7 +36174,8 @@
       "Eagles",
       "Magpies"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "Heckle and Jeckle were two talking magpies in Terrytoons cartoons from 1946."
   },
   {
     "question": "‘Charles De Gaulle’ airport is in__________?",
@@ -35972,7 +36225,8 @@
       "Cuba",
       "Iran"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Manama is the capital of the island kingdom of Bahrain."
   },
   {
     "question": "Time Magazine started in which year?",
@@ -35993,7 +36247,8 @@
       "11,750 km²",
       "None of these"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Lake Ladoga near St Petersburg covers about 17,700 km², the largest lake wholly in Europe."
   },
   {
     "question": "Lake Urmia is located in ________ ?",
@@ -36073,7 +36328,8 @@
       "Ural River",
       "Don River"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "The Volga, about 3,530 km, is Europe's longest river."
   },
   {
     "question": "What is Agrostology?",
@@ -36134,7 +36390,8 @@
       "Florida",
       "Virginia"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "Virginia is called the Mother of Presidents: eight US presidents were born there."
   },
   {
     "question": "The city of Salvador, the first capital of Brazil, was founded on _________ ?",
@@ -36197,7 +36454,8 @@
       "Sweden",
       "Latvia"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "St Petersburg, founded by Peter the Great in 1703, was Russia's capital for two centuries."
   },
   {
     "question": "Ireland joined the United Kingdom on January 1_________?",
@@ -36389,7 +36647,8 @@
       "Attorney General",
       "Both A & B"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The President is Pakistan's head of state; the Prime Minister heads the government."
   },
   {
     "question": "Burj Khalifa is located in __________?",
@@ -36503,7 +36762,8 @@
       "Egypt",
       "Canada"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Haifa, on the slopes of Mount Carmel, is Israel's largest port."
   },
   {
     "question": "How many Urdu Words are used in the National Anthem of Pakistan?",
@@ -36594,7 +36854,8 @@
       "Texas",
       "Basra"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Digboi refinery in Assam, India, running since 1901, is among the oldest working refineries."
   },
   {
     "question": "Who is the author of ” Business Speed of Thought”?",
@@ -36660,14 +36921,15 @@
     "correctAnswer": 3
   },
   {
-    "question": "What is the name of boundry line between Germany and Poland?",
+    "question": "What is the name of the boundary line between Germany and Poland?",
     "options": [
       "Maginot Line",
-      "Order Neisse Line",
+      "Oder–Neisse Line",
       "24th Parallel Line",
       "Mannerheim Line"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The Oder–Neisse line has formed the Germany–Poland border since 1945."
   },
   {
     "question": "Which state of USA has the largest population 2018?",
@@ -36737,7 +36999,8 @@
       "10 December",
       "11 December"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "The UN marks International Mountain Day on 11 December."
   },
   {
     "question": "Where is the death valley located ?",
@@ -36900,7 +37163,8 @@
       "Kalology",
       "Argology"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Kalology is the study of human beauty, from the Greek kallos."
   },
   {
     "question": "Which plant is important in sericulture?",
@@ -36970,7 +37234,8 @@
       "Typhoon",
       "Twister"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Tropical cyclones are called typhoons in the western Pacific, including the China seas."
   },
   {
     "question": "‘The Economy of Modern Sindh’ book is written by___________?",
@@ -37061,7 +37326,8 @@
       "Uruguay",
       "Argentina"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Hosts Uruguay beat Argentina 4–2 in the first World Cup final in 1930."
   },
   {
     "question": "Which one of the following types of glass can cut ultraviolet?",
@@ -37303,7 +37569,8 @@
       "Seven Stars",
       "Eight Stars"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Kosovo's flag has six white stars, one for each of its main ethnic groups."
   },
   {
     "question": "The World Disability Day observed every year on____________?",
@@ -37776,14 +38043,15 @@
     "correctAnswer": 1
   },
   {
-    "question": "Which among the following country first reached the ‘Dark Side’ of the Moon?",
+    "question": "Which country first landed a spacecraft on the far side of the Moon?",
     "options": [
       "Russia",
       "USA",
       "Germany",
       "China"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "China's Chang'e 4 made the first landing on the Moon's far side in January 2019."
   },
   {
     "question": "The World’s first underground railway system was built in___________?",
@@ -37847,7 +38115,8 @@
       "China",
       "India"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "skip": "ambiguous: China and Russia both border 14 countries"
   },
   {
     "question": "Fan was invented by___________?",
@@ -37978,7 +38247,8 @@
       "N-25",
       "N-135"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The Karakoram Highway in Pakistan is designated N-35."
   },
   {
     "question": "Who was Afghan ruler at the time of USSR invasion?",
@@ -38092,14 +38362,15 @@
     "correctAnswer": 1
   },
   {
-    "question": "The World Mental Day is observed every years on_________?",
+    "question": "World Mental Health Day is observed every year on_________?",
     "options": [
       "10 October",
       "11 October",
       "13 October",
       "14 October"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "World Mental Health Day is marked on 10 October."
   },
   {
     "question": "Which is the national game of Romania?",
@@ -38119,7 +38390,8 @@
       "King Penguin",
       "Southern Cassowary"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The common ostrich, up to 2.7 m tall and 150 kg, is the largest living bird."
   },
   {
     "question": "Which is the oldest search engine of the internet?",
@@ -38423,12 +38695,13 @@
   {
     "question": "Kwame Nkrumah was one of the leaders of___________?",
     "options": [
-      "Aisia",
+      "Asia",
       "Europe",
       "Africa",
       "None of these"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Kwame Nkrumah led Ghana to independence in 1957, a first for sub-Saharan Africa."
   },
   {
     "question": "Which is the correct Abbreviation of USA Republican Party?",
@@ -38530,7 +38803,8 @@
       "George Fulton",
       "None of these"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Lebanese Christian writer George Jordac wrote The Voice of Human Justice about Imam Ali."
   },
   {
     "question": "VEXILLOLOGY is the study of _________?",
@@ -38612,7 +38886,8 @@
       "Saudi Arabia",
       "None of these"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Iraq's motto, Allahu Akbar (God is the Greatest), is also written on its flag."
   },
   {
     "question": "“Nizar-Qabbani” is the National poet of__________?",
@@ -38622,7 +38897,8 @@
       "Iran",
       "Saudi Arabia"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Nizar Qabbani (1923–1998) is Syria's most celebrated modern poet."
   },
   {
     "question": "Tbilisi is the capital of which country?",
@@ -38832,12 +39108,13 @@
   {
     "question": "The Book “Bang-i-Dara” was written by___________?",
     "options": [
-      "Jon Elia",
+      "Jaun Elia",
       "Mirza Ghalib",
       "Faiz Ahmed Faiz",
       "Allama Iqbal"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "Bang-e-Dara (1924) was Iqbal's first collection of Urdu poetry."
   },
   {
     "question": "The Planet which revolves slowly around the Sun is__________?",
@@ -39123,7 +39400,8 @@
       "Urdu",
       "None"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Persian remained the language of the court and administration under Maharaja Ranjit Singh."
   },
   {
     "question": "Ema is an example of _________?",
@@ -39530,7 +39808,8 @@
       "David Warner",
       "Rohit Sharma"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "India's Rohit Sharma scored 648 runs with a record five centuries at the 2019 World Cup."
   },
   {
     "question": "How many times England won the ICC World Cup?",
@@ -39684,7 +39963,8 @@
       "1762",
       "1782"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "The Talpurs defeated the Kalhoras at Halani in 1782 and took control of Sindh."
   },
   {
     "question": "Which style of painting was used by early Renaissance artists_______?",
@@ -39929,7 +40209,8 @@
       "Sir Mexalot’s",
       "King Arthur’s"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "In legend, Excalibur was King Arthur's sword, given to him by the Lady of the Lake."
   },
   {
     "question": "What is human body’s largest organ according to 2018 discovery?",
@@ -39939,7 +40220,8 @@
       "Interstitium",
       "None"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "skip": "disputed: the skin is still usually called the largest organ"
   },
   {
     "question": "Which vegetable is Toxic For Dogs?",
@@ -40051,7 +40333,8 @@
       "K K Aziz",
       "Ayesha Jalal"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Former PM Chaudhry Muhammad Ali wrote The Emergence of Pakistan (1967)."
   },
   {
     "question": "In which year Cricket World Cup was started?",
@@ -40112,7 +40395,8 @@
       "9 June 2019",
       "10 June 2019"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "The first World Food Safety Day was marked on 7 June 2019."
   },
   {
     "question": "Who said “Ballot is stronger than the bullet”?",
@@ -40339,7 +40623,8 @@
       "Health Day",
       "Both A & B"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "In 2019, 12 May was both International Nurses Day and Mother's Day, the second Sunday of May."
   },
   {
     "question": "Theresa May is the Britain’s _______ female Prime Minister?",
@@ -40575,7 +40860,8 @@
       "1937",
       "1938"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Burma was separated from British India on 1 April 1937 under the Government of India Act 1935."
   },
   {
     "question": "When Asia-Pacific Economic Cooperation was established?",
@@ -40706,10 +40992,11 @@
     "options": [
       "Senegal",
       "Guinea",
-      "Sierra leone",
+      "Sierra Leone",
       "Liberia"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Freetown, on the Atlantic coast, is the capital of Sierra Leone."
   },
   {
     "question": "Which of the following country has no boundary with Syria?",
@@ -40719,7 +41006,8 @@
       "Turkey",
       "Israel"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Syria borders Turkey, Iraq, Jordan, Israel and Lebanon, but not Iran."
   },
   {
     "question": "The land of hospitality is____________?",
@@ -40729,7 +41017,8 @@
       "Baluchistan",
       "Punjab"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "skip": "subjective"
   },
   {
     "question": "Death of Genghis Khan in battle against the Western Xia Dynasty (China) in _______ ?",
@@ -40809,7 +41098,8 @@
       "1945",
       "1968"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The first economics prize was awarded in 1969, to Ragnar Frisch and Jan Tinbergen."
   },
   {
     "question": "Rome Statute, is related to which of the following organizations?",
@@ -40972,7 +41262,8 @@
       "14 March",
       "10 March"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "skip": "ambiguous: the date changes every year"
   },
   {
     "question": "First Female Ambassador of Saudi Arabia to US is___________?",
@@ -41003,7 +41294,8 @@
       "1991",
       "1995"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The G7 set up the FATF at its 1989 Paris summit to fight money laundering."
   },
   {
     "question": "What is the tenure of FATF Presidentship which rotates among member Countries?",
@@ -41410,7 +41702,8 @@
       "Larkana",
       "Sukkur"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Larkana is nicknamed the Eden of Sindh for its fertile orchards and fields."
   },
   {
     "question": "Twyfelfontein is in___________?",
@@ -41553,7 +41846,8 @@
       "Fertilization",
       "Drinks"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Indus Valley cities were built of standard-sized bricks made from river clay."
   },
   {
     "question": "Indus Valley Civilization belongs to__________?",
@@ -41594,7 +41888,8 @@
       "Agra",
       "Calcutta"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "Calcutta was the capital of British India until the move to Delhi in 1911."
   },
   {
     "question": "Last Mughal Empire was___________?",
@@ -41717,7 +42012,8 @@
       "Abd L Malik",
       "Marwan 11"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "skip": "inaccurate: Abd al-Rahman I was an emir; Abd al-Rahman III became the first caliph in 929"
   },
   {
     "question": "The Muslim invaded Spain in__________?",
@@ -41830,7 +42126,8 @@
       "Blue-Eyed Grass",
       "Rose"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The red poppy, linked to WWI's Flanders Fields, is commonly named Belgium's national flower."
   },
   {
     "question": "The fish that has four hearts,one nostril,no jaws and no stomach is__________?",
@@ -41871,7 +42168,8 @@
       "SZABUL",
       "Bahria University"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "SZABUL, the Shaheed Zulfiqar Ali Bhutto University of Law in Karachi, was founded in 2013."
   },
   {
     "question": "Who was the first Captain of the Pakistan national cricket team?",
@@ -42089,7 +42387,8 @@
       "24 June",
       "26 June"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "The UN marks the International Day against Drug Abuse and Illicit Trafficking on 26 June."
   },
   {
     "question": "For how many years Pakistan was placed on FATF’s Grey List for the first time?",
@@ -42191,7 +42490,8 @@
       "Inter Services Public Relations",
       "Internal Superior Public Relations"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "ISPR is the media wing of Pakistan's armed forces."
   },
   {
     "question": "” Brisbane ” is the seaport of _______ ?",
@@ -42231,7 +42531,8 @@
       "March 21, 2006",
       "July 26, 1994"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Mark Zuckerberg launched TheFacebook from his Harvard dorm on 4 February 2004."
   },
   {
     "question": "MUST is a secret agency of which country?",
@@ -42518,7 +42819,8 @@
       "0",
       "1"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "skip": "unverified"
   },
   {
     "question": "QMobile was launched in ____________?",
@@ -42671,7 +42973,8 @@
       "Russia",
       "Korea"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "The ruble is Russia's currency; Belarus also uses a ruble."
   },
   {
     "question": "The currency of Panama is_________?",
@@ -42743,7 +43046,8 @@
       "Shakespeare",
       "Adolf Hitler"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Toni Morrison's first novel, The Bluest Eye, came out in 1970; she won the Nobel Prize in 1993."
   },
   {
     "question": "World No-Tobacco Day is observed on__________?",
@@ -42809,11 +43113,12 @@
     "question": "River Mackenzie is located in__________?",
     "options": [
       "Russia",
-      "Usa",
+      "USA",
       "UK",
       "Canada"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "The Mackenzie flows from Great Slave Lake to the Arctic Ocean in Canada."
   },
   {
     "question": "The Arch of Janus is situated in_________?",
@@ -43004,7 +43309,8 @@
       "Ukraine",
       "None"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Minsk is the capital of Belarus."
   },
   {
     "question": "The longest lunar eclipse of the 21st century occurred on__________?",
@@ -43046,7 +43352,8 @@
       "Saudi Arabia",
       "Iran"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Surat in Gujarat, India, is a major centre of diamond cutting and textiles."
   },
   {
     "question": "The playground of “Baseball” is known as___________?",
@@ -43056,7 +43363,8 @@
       "Court",
       "Rink"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "A baseball field is called a diamond, after the shape of its infield."
   },
   {
     "question": "Aleppo is a famous city of which Country?",
@@ -43119,7 +43427,8 @@
       "France",
       "Germany"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Penang, on Malaysia's northwest coast, is a historic trading port."
   },
   {
     "question": "Maktoobat e Imam Rabbani is one of the writtings of ______________?",
@@ -43222,7 +43531,8 @@
       "An event occurring every four years.",
       "An event occurring every sixteen years."
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Biennial means every two years; biannual means twice a year."
   },
   {
     "question": "Pakistan is hosting IDEAS (International defence exhibition and seminar) since ________?",
@@ -43247,12 +43557,13 @@
   {
     "question": "IDEAS stands for _________?",
     "options": [
-      "Internal defense exhibition and seminar.",
-      "International defence exhibition and seminar.",
-      "Indian defence exhibition and seminar.",
+      "Internal defence exhibition and seminar",
+      "International defence exhibition and seminar",
+      "Indian defence exhibition and seminar",
       "None of these"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "IDEAS is Pakistan's International Defence Exhibition and Seminar, held in Karachi."
   },
   {
     "question": "Which two countries are separated by Mac Mohan Line?",
@@ -43289,11 +43600,12 @@
     "question": "Who is called the father of Modern Psychology?",
     "options": [
       "Wilhelm Wundt",
-      "Ibn-e-Khaldoom",
-      "Adams Smith",
-      "Charless Darwin"
+      "Ibn Khaldun",
+      "Adam Smith",
+      "Charles Darwin"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Wilhelm Wundt opened the first psychology laboratory in Leipzig in 1879."
   },
   {
     "question": "Name the Architecture of  Mazar e iqbal ?",
@@ -43358,12 +43670,13 @@
   {
     "question": "Who is the author of the book “Pakistan: Beyond The Crisis State”?",
     "options": [
-      "Asma Jahngir",
+      "Asma Jahangir",
       "Dr Sheerin Mazari",
       "Maleeha Lodhi",
-      "Tehmina Junjoya"
+      "Tehmina Janjua"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Maleeha Lodhi edited Pakistan: Beyond the Crisis State, published in 2011."
   },
   {
     "question": "Who is the Author of book “Governing The Ungovernable”?",
@@ -43413,7 +43726,8 @@
       "1951",
       "1953"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "skip": "ambiguous: PTCL's predecessor began in 1947, the company in 1996"
   },
   {
     "question": "When did Pakistan became member of IMF?",
@@ -43672,7 +43986,8 @@
       "Latin",
       "German"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Curriculum vitae is Latin for the course of one's life."
   },
   {
     "question": "Dynamite was invented by___________?",
@@ -43886,7 +44201,8 @@
       "11",
       "12"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "With its overseas territories, France spans 12 time zones, the most of any country."
   },
   {
     "question": "Donald John Trump belongs to the state of________?",
@@ -44083,14 +44399,15 @@
     "correctAnswer": 2
   },
   {
-    "question": "When The International Association of Athletics Federations (IAAF) founded in Stockholum, Swedon?",
+    "question": "When was the International Association of Athletics Federations (IAAF) founded in Stockholm, Sweden?",
     "options": [
       "17 July 1912",
       "17 July 1914",
       "17 July 1916",
       "17 July 1918"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "The IAAF, now World Athletics, was founded in Stockholm on 17 July 1912."
   },
   {
     "question": "Where is the headquarter of The International Association of Athletics Federations IAAF?",
@@ -44341,7 +44658,8 @@
       "8 players",
       "9 players"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Under the Laws of the Game, a match cannot continue if a team has fewer than seven players."
   },
   {
     "question": "In which sport can you hear the score announced as “30-love” ?",
@@ -44569,10 +44887,11 @@
     "options": [
       "Volleyball",
       "Badminton",
-      "Gulf",
+      "Golf",
       "Table tennis"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "The Swaythling Cup is the men's team trophy at the World Table Tennis Championships."
   },
   {
     "question": "Afghanistan became an affiliate member of the International Cricket Council (ICC) in___________?",
@@ -44693,9 +45012,10 @@
       "Barcelona",
       "Madrid",
       "Lahore",
-      "Sydny"
+      "Sydney"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "The first Hockey World Cup was held in Barcelona in 1971, and Pakistan won it."
   },
   {
     "question": "How many rows and columns are in the modern Periodic Table?",
@@ -44791,14 +45111,15 @@
     "explanation": "The Federal Tax Ombudsman office was created in 2000; Justice (R) Saleem Akhtar was the first to hold it."
   },
   {
-    "question": "The epic Peom “Shahnama” was written by________?",
+    "question": "The epic poem “Shahnama” was written by________?",
     "options": [
       "Al Beruni",
       "Firdausi",
       "Amir Khusrau",
       "Rumi"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Ferdowsi spent about 30 years writing the Shahnameh, completed around 1010."
   },
   {
     "question": "The capital of Belarus is……..?",
@@ -44952,7 +45273,8 @@
       "1st July, 2007",
       "1st July, 2008"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "skip": "unverified"
   },
   {
     "question": "“Al-Farooq” and “AL-Ghazali” are written by?",
@@ -45006,14 +45328,15 @@
     "explanation": "The 2018 Asian Games in Jakarta and Palembang used the motto Energy of Asia."
   },
   {
-    "question": "Hangzhou will be the _________ Chinese City to host Asian games in 2022.",
+    "question": "Hangzhou became the _________ Chinese city to host the Asian Games.",
     "options": [
       "1st",
       "2nd",
       "3rd",
       "4th"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "After Beijing (1990) and Guangzhou (2010), Hangzhou hosted the Asian Games in 2023."
   },
   {
     "question": "The 17th Asian games were held in which City?",
@@ -45120,12 +45443,13 @@
   {
     "question": "The day which is celebrated on 21 September every year is _________?",
     "options": [
-      "Indigenious day",
+      "Indigenous Day",
       "Election day",
       "Central excise day",
       "World peace day"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "The UN's International Day of Peace is observed on 21 September."
   },
   {
     "question": "The third Sunday in January is annually celebrated as____________?",
@@ -45175,7 +45499,8 @@
       "1.5%",
       "2%"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "skip": "vague: World Bank rates vary"
   },
   {
     "question": "Which Country recently joined in IMF as 189th member?",
@@ -45280,7 +45605,8 @@
       "September 1950",
       "September 1951"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "skip": "unverified date"
   },
   {
     "question": "SAARC Disaster Management Center was set up in Oct 2006 at_________?",
@@ -45495,7 +45821,8 @@
       "Vintage Cars",
       "Stamps"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Vexillology is the study of flags, from the Latin vexillum."
   },
   {
     "question": "In which city Interpol was founded in September 7, 1923?",
@@ -45518,14 +45845,15 @@
     "correctAnswer": 2
   },
   {
-    "question": "When was Chernobyl catastrophic nuclear accident occurred in Ukrainian Soviet Socialist Republic?",
+    "question": "When did the Chernobyl nuclear accident occur in the Ukrainian SSR?",
     "options": [
       "26 April 1980",
       "26 April 1986",
       "26 April 1989",
       "26 April 1994"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The Chernobyl disaster on 26 April 1986 was the worst nuclear accident in history."
   },
   {
     "question": "How many countries are member of UNO?",
@@ -45839,12 +46167,13 @@
   {
     "question": "The Author of book “Pakistan: A Hard Country” is___________?",
     "options": [
-      "Anatol lieven",
+      "Anatol Lieven",
       "Ruskin Dom",
       "I H Qureshi",
       "Stephan Job"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "British journalist Anatol Lieven's Pakistan: A Hard Country was published in 2011."
   },
   {
     "question": "Where was the first Asia Cup held?",
@@ -45895,7 +46224,8 @@
       "57",
       "60"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "skip": "figures vary by source"
   },
   {
     "question": "Pakistan became a member of International Atomic Energy Agency (IAEA) in_________?",
@@ -46058,7 +46388,8 @@
       "Gandhi",
       "Rabindra Nath"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Khan Abdul Ghaffar Khan led the non-violent Khudai Khidmatgar movement among the Pashtuns."
   },
   {
     "question": "The International Olympic Committee (IOC) was founded in__________?",
@@ -46171,7 +46502,8 @@
       "1936",
       "1942"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The first FIFA World Cup was held in Uruguay in 1930, and the hosts won."
   },
   {
     "question": "The FIFA Women’s World Cup was commenced in_________?",
@@ -46570,7 +46902,8 @@
       "Tokyo, Japan",
       "Seoul, South Korea"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "The first Asian Games were held in New Delhi in March 1951."
   },
   {
     "question": "The 1951 Asian games was officially known as__________?",
@@ -46673,7 +47006,8 @@
       "Rakaposhi",
       "Mount Everest"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "K2 has also been called Dapsang and Chogori."
   },
   {
     "question": "The Indus flows into the Arabian sea at________?",
@@ -46853,9 +47187,10 @@
       "Paris, France",
       "New York, USA",
       "London, UK",
-      "Hague, Netherland"
+      "The Hague, Netherlands"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "The third Nuclear Security Summit was held in The Hague on 24–25 March 2014."
   },
   {
     "question": "Which Continent has the highest number of Countries?",
@@ -46930,12 +47265,13 @@
   {
     "question": "“Doab” is a _______?",
     "options": [
-      "Area b/w two oceans",
-      "Area b/w two rivers",
-      "Area b/w two islands",
-      "Area b/w two countries"
+      "Area between two oceans",
+      "Area between two rivers",
+      "Area between two islands",
+      "Area between two countries"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "A doab is the land between two converging rivers, like Punjab's Bari Doab."
   },
   {
     "question": "First Asian city to host the Olympics is__________?",
@@ -47302,7 +47638,8 @@
       "Benazir Income Support Programme",
       "Bhutto Income Support Programme"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "The Benazir Income Support Programme, launched in 2008, gives cash support to poor families."
   },
   {
     "question": "Model Town incident happened in Lahore on ___________?",
@@ -47449,14 +47786,15 @@
     "correctAnswer": 2
   },
   {
-    "question": "Belgium is located in Europe?",
+    "question": "In which part of Europe is Belgium located?",
     "options": [
       "West",
       "East",
       "North",
       "South"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Belgium lies in Western Europe, between France, the Netherlands, Germany and Luxembourg."
   },
   {
     "question": "What is the length of Ranikot fort?",
@@ -47507,7 +47845,8 @@
       "Pakistan",
       "None of the above"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "The CIA is the foreign intelligence service of the United States."
   },
   {
     "question": "Pakistan came into being 27 Ramadan_________A.H?",
@@ -47660,7 +47999,8 @@
       "Arabian Desert",
       "Atacama Desert"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "Chile's Atacama is the driest non-polar desert; some stations have never recorded rain."
   },
   {
     "question": "The largest waterfalls system in the world is__________?",
@@ -47742,7 +48082,8 @@
       "Lady Finger",
       "All of these"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Okra, known as bhindi or lady finger, is often named Pakistan's national vegetable."
   },
   {
     "question": "FIR stands for ___________?",
@@ -47779,11 +48120,12 @@
     "question": "ECG stands for _______________?",
     "options": [
       "East Capital Group",
-      "Electro Cardio Gram",
+      "Electrocardiogram",
       "Emergency Cell Group",
       "Electronic Communication Group"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "An ECG (electrocardiogram) records the heart's electrical activity."
   },
   {
     "question": "ACU stands for _____________?",
@@ -47895,7 +48237,8 @@
       "Gross Domestic Product",
       "General Demand for Production"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "GDP measures the value of all goods and services produced in a country in a year."
   },
   {
     "question": "CTD stands for ______________?",
@@ -47945,7 +48288,8 @@
       "$24.4 billion USD",
       "None of above"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "skip": "unverified"
   },
   {
     "question": "Who holds the authority to announce the date for elections in consultation with the ECP?",
@@ -48110,7 +48454,8 @@
       "Parliament",
       "UN General Assembly"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "With all 193 members, the UN General Assembly is often called the parliament of the world."
   },
   {
     "question": "SAARC stands for ______________?",
@@ -48145,12 +48490,13 @@
   {
     "question": "Who wrote “The sun also rises”?",
     "options": [
-      "D.H.Lawrence",
+      "D. H. Lawrence",
       "Hemingway",
-      "Voctoria Schofield",
-      "T.S.Eliot"
+      "Victoria Schofield",
+      "T. S. Eliot"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Ernest Hemingway's first novel, The Sun Also Rises (1926), follows expatriates in Paris and Spain."
   },
   {
     "question": "Philology is the study of ___________?",
@@ -48433,7 +48779,8 @@
       "Sri Lanka",
       "India"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Pakistan's cricket team plays in green and is nicknamed the Green Shirts."
   },
   {
     "question": "Which cricket team is called “The Kangaroos”?",
@@ -48700,14 +49047,15 @@
     "correctAnswer": 1
   },
   {
-    "question": "Which of the following is the word’s oldest currency?",
+    "question": "Which of the following is the world’s oldest currency still in use?",
     "options": [
       "Euro",
       "British pound sterling",
       "Japanese yen",
       "U.S dollar"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The pound sterling, dating back about 1,200 years, is the oldest currency still in use."
   },
   {
     "question": "Which of the following is the most traded currency in the world?",
@@ -48960,7 +49308,8 @@
       "Rice",
       "None"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Cotton is a cash crop grown mainly for sale and industry, not for food."
   },
   {
     "question": "Which country has largest area under cultivation?",
@@ -49043,17 +49392,19 @@
       "Erosion",
       "Lagoon"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "A peninsula is land surrounded by water on three sides, like India or Arabia."
   },
   {
-    "question": "Which state of USA is called the mother of president?",
+    "question": "Which US state is called the Mother of Presidents?",
     "options": [
       "Texas",
       "Virginia",
       "California",
       "Florida"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Eight US presidents, including Washington and Jefferson, were born in Virginia."
   },
   {
     "question": "TA stands for?",
@@ -49619,9 +49970,10 @@
       "Azerbaijan",
       "Uzbekistan",
       "Tajikistan",
-      "Tukemnestan"
+      "Turkmenistan"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Azerbaijan is the Land of Fire for its natural gas flames, like those at Yanar Dag."
   },
   {
     "question": "Which Country is Called “Land of mighty rivers”?",
@@ -49682,7 +50034,8 @@
       "Pachacutec",
       "Viracocha Inca"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Machu Picchu was built around 1450 for the Inca emperor Pachacuti."
   },
   {
     "question": "Who built the Pharos of Alexandria?",
@@ -49743,7 +50096,8 @@
       "Canada",
       "Ireland"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "skip": "ambiguous nickname"
   },
   {
     "question": "Which City is called “Valley of flowers”?",
@@ -50313,11 +50667,12 @@
     "question": "2018 Commonwealth Games were held in which Australian city?",
     "options": [
       "Canberra",
-      "Sidney",
+      "Sydney",
       "Gold Coast",
       "None"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Queensland's Gold Coast hosted the 2018 Commonwealth Games."
   },
   {
     "question": "Where is the Headquarter of Islamic Military Counter Terrorism Coalition (IMCTC)?",
@@ -50489,7 +50844,8 @@
       "5th",
       "6th"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Pakistan, with about 241 million people in 2023, is the world's fifth most populous country."
   },
   {
     "question": "Hundred years War fought between?",
@@ -50692,7 +51048,8 @@
       "15 September 2014",
       "27 September 2015"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "skip": "unverified date"
   },
   {
     "question": "World’s oldest person (woman) From japan,was died on 21-april-2018,  at the age of 117 was______?",
@@ -50902,12 +51259,13 @@
   {
     "question": "The first artificial satellite on earth is ______________?",
     "options": [
-      "Sputnik I.",
+      "Sputnik 1",
       "Giotto",
       "Prithvi",
       "Gaia"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "The Soviet Union launched Sputnik 1, the first artificial satellite, on 4 October 1957."
   },
   {
     "question": "CTBT was adopted by the UN General Assembly on___________?",
@@ -51357,7 +51715,8 @@
       "Evaluation",
       "Test"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "skip": "ambiguous"
   },
   {
     "question": "“FBI” of America was established in_____________?",
@@ -51440,7 +51799,8 @@
       "1982",
       "1989"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "The UN Convention on the Law of the Sea was signed in Jamaica in 1982."
   },
   {
     "question": "World Wildlife Fund was established on________________?",
@@ -51564,14 +51924,15 @@
     "correctAnswer": 3
   },
   {
-    "question": "What is the name of the world’s solar power plane _______?",
+    "question": "What is the name of the solar-powered plane that flew around the world?",
     "options": [
       "Solar Impulse 2",
       "Sun Flight",
       "Falcon Solar Plane",
       "Sun Traveler"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Solar Impulse 2 completed the first round-the-world flight powered only by the Sun in 2016."
   },
   {
     "question": "In which country was the world’s first Android newscasters, Kodomoroid unveiled _________?",
@@ -51601,7 +51962,8 @@
       "Sri Lanka",
       "Myanmar"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Operation Black Tornado was India's commando operation against the 2008 Mumbai attackers."
   },
   {
     "question": "Noble Eagle is_______________________________?",
@@ -51723,7 +52085,8 @@
       "Volleyball",
       "Table Tennis"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "The Durand Cup, first held in 1888, is one of Asia's oldest football tournaments."
   },
   {
     "question": "The UN has__________________additional/regional headquarters districts.",
@@ -51916,7 +52279,8 @@
       "Rivers",
       "None of the above"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "skip": "ambiguous: ocean basins dwarf river basins"
   },
   {
     "question": "Who appoints the Chief Election Commissioner of India__________?",
@@ -51967,7 +52331,8 @@
       "Nine",
       "Ten"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 0,
+    "explanation": "Under Article 34 of the ASEAN Charter, its working language is English."
   },
   {
     "question": "The country famous for Samba dance is_________?",
@@ -52032,14 +52397,15 @@
     "correctAnswer": 0
   },
   {
-    "question": "River Jordon flow out into __________?",
+    "question": "The River Jordan flows into __________?",
     "options": [
-      "Dead sea",
-      "Caspian sea",
-      "Red sea",
-      "Mediterranean sea"
+      "Dead Sea",
+      "Caspian Sea",
+      "Red Sea",
+      "Mediterranean Sea"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "The Jordan River flows south through the Sea of Galilee into the Dead Sea."
   },
   {
     "question": "What is the significance of a small country “Ecuador”___________?",
@@ -52054,12 +52420,13 @@
   {
     "question": "The country in which river Wangchu flows is ________________?",
     "options": [
-      "Srilanka",
+      "Sri Lanka",
       "Bhutan",
       "Nepal",
       "Cambodia"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The Wang Chhu river flows through Bhutan's capital, Thimphu."
   },
   {
     "question": "The country known is the sugar bowl of the world___________?",
@@ -52111,7 +52478,8 @@
       "14",
       "21"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "About 241 athletes from 14 nations competed at the first modern Olympics in Athens in 1896."
   },
   {
     "question": "The Patagonian Desert is located in ____________?",
@@ -52184,7 +52552,8 @@
       "Motor car",
       "Railway"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "skip": "vague"
   },
   {
     "question": "The number regarded as lucky number in Italy is______________?",
@@ -52289,7 +52658,8 @@
       "Atlantic  Ocean",
       "Arctic  Ocean"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Diego Garcia, in the Chagos Islands, hosts a major US–UK military base in the Indian Ocean."
   },
   {
     "question": "“Decision Point” Book is written by____________.",
@@ -52808,7 +53178,8 @@
       "17 May 1950",
       "25 April 1950"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The National Museum of Pakistan opened in Karachi's Frere Hall on 17 April 1950."
   },
   {
     "question": "Keemiya-e Saadat was written by________________?",
@@ -52838,7 +53209,8 @@
       "Bhutan",
       "Mongolia"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Nagqu is a high-altitude city in northern Tibet, China."
   },
   {
     "question": "Who is the author of the famous book, “The Spirit of Islam”?",
@@ -52866,9 +53238,10 @@
       "Dhaka",
       "Faridpur",
       "Calcutta",
-      "Selhat"
+      "Sylhet"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Nawab Abdul Latif founded the Muhammadan Literary Society in Calcutta in 1863."
   },
   {
     "question": "John Stuart Mill wrote a famous book ” on liberty” in____________?",
@@ -53096,14 +53469,15 @@
     "correctAnswer": 3
   },
   {
-    "question": "What was the name of concrete barrier that physically and ideologically divided Germany in 1961?",
+    "question": "What was the name of the concrete barrier that divided Berlin from 1961?",
     "options": [
       "Peace Wall",
       "Peace Berlin Wall",
       "Berlin Wall",
       "Peace Wall of Berlin"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "The Berlin Wall, built in 1961, divided the city until it fell in November 1989."
   },
   {
     "question": "Wood is the main raw material for the manufacture of ____________?",
@@ -53184,17 +53558,19 @@
       "6",
       "9"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Newton divided the visible spectrum into seven colours: red, orange, yellow, green, blue, indigo and violet."
   },
   {
     "question": "Blind dolphins are found in which river of Pakistan?",
     "options": [
       "Indus",
-      "Jehlum",
+      "Jhelum",
       "Kabul",
       "Chenab"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "The nearly blind Indus river dolphin lives mainly in the Indus between Chashma and Kotri barrages."
   },
   {
     "question": "Where the Pakistan’s first radio station was setup?",
@@ -53279,14 +53655,15 @@
     "correctAnswer": 0
   },
   {
-    "question": "The first war b/w Arabs and Israel was fought in?",
+    "question": "The first war between the Arabs and Israel was fought in?",
     "options": [
       "1948",
       "1946",
       "1942",
       "1940"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "The first Arab–Israeli war began in May 1948, after Israel declared independence."
   },
   {
     "question": "Who gave the title of Mahatma to Gandhiji?",
@@ -53500,10 +53877,11 @@
     "options": [
       "1560s",
       "1570s",
-      "1783s",
+      "1783",
       "1470s"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Louis-Sébastien Lenormand made the first recorded parachute descent in France in 1783."
   },
   {
     "question": "Scientific bureau of Economic Cooperation Organization is situated in______________?",
@@ -53819,10 +54197,11 @@
     "options": [
       "Tomato",
       "Red Ball",
-      "Union",
+      "Onion",
       "Love Apple"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "Tomatoes were once called love apples in Europe."
   },
   {
     "question": "How many Players in Polo Team on each side?",
@@ -53915,7 +54294,8 @@
       "Aurangzeb Alamgir",
       "Shehnshah Akbar"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Emperor Aurangzeb built Lahore's Badshahi Mosque in 1671–73."
   },
   {
     "question": "Worlds biggest irrigation scheme ?",
@@ -53925,7 +54305,8 @@
       "Sukkur barrage",
       "All of these"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "skip": "garbled options"
   },
   {
     "question": "First ever Chinese Newspaper was launched in Pakistan is____________?",
@@ -54008,7 +54389,8 @@
       "Lake Pontchartrain Causeway",
       "King Fahd Causeway Bridge"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The 164.8 km Danyang–Kunshan Grand Bridge in China is the world's longest bridge."
   },
   {
     "question": "The highest sand dunes are found is_________?",
@@ -54047,9 +54429,10 @@
       "Argentina",
       "Brazil",
       "Denmark",
-      "Mangolia"
+      "Mongolia"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The real has been Brazil's currency since 1994."
   },
   {
     "question": "The world’s narrowest street is______?",
@@ -54101,7 +54484,8 @@
       "Madge Bester",
       "Bridgettle Jordan"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "India's Jyoti Amge, 62.8 cm tall, is the shortest living woman according to Guinness."
   },
   {
     "question": "World tallest man is from which country?",
@@ -54111,7 +54495,8 @@
       "Pakistan",
       "Africa"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Turkey's Sultan Kösen, 2.51 m, is the world's tallest living man according to Guinness."
   },
   {
     "question": "World’s tallest man is _________?",
@@ -54223,7 +54608,8 @@
       "10 feathers",
       "16 feathers"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "A feathered shuttlecock has 16 overlapping goose feathers fixed in a cork base."
   },
   {
     "question": "Which Country did oriented Basketball?",
@@ -54275,7 +54661,8 @@
       "Hyderabad",
       "Multan"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "skip": "unverified"
   },
   {
     "question": "Honduras is a _________ Country?",
@@ -54409,7 +54796,8 @@
       "Sri Lanka and Maldives",
       "Pakistan and Iran"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "The Palk Strait separates Tamil Nadu in India from northern Sri Lanka."
   },
   {
     "question": "The book Emile or “On Education” on the nature of education and man is written by__________?",
@@ -54612,7 +55000,8 @@
       "Mesopotamia",
       "Svalbard"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Oslo was named Christiania, later Kristiania, from 1624 until 1925."
   },
   {
     "question": "For how many years did Nelson Mandela remain in prison?",
@@ -54622,7 +55011,8 @@
       "31",
       "27"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "Nelson Mandela spent 27 years in prison, from 1962 until his release in 1990."
   },
   {
     "question": "Who is the author of diplomacy?",
@@ -54735,7 +55125,8 @@
       "Japan",
       "China"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "Beijing's Democracy Wall drew posters calling for political reform in 1978–79."
   },
   {
     "question": "10 Downing Street is the official Residence of____________?",
@@ -55306,7 +55697,8 @@
       "Shanghai",
       "Berlin"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "Taipei is the capital of Taiwan."
   },
   {
     "question": "Former Egypt President Hosni Mubarak ruled Egypt for almost_________years?",
@@ -55743,11 +56135,12 @@
     "question": "Which is the Currency of Kyrgyzstan from the following?",
     "options": [
       "Lats",
-      "Dinaar",
+      "Dinar",
       "Som",
-      "Durham"
+      "Dirham"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "Kyrgyzstan's currency is the som."
   },
   {
     "question": "what is the capital of Australia?",
@@ -55932,7 +56325,8 @@
       "Jordan",
       "Nauru"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "Monaco, about 2 km², is the smallest country with a coastline."
   },
   {
     "question": "__________________ is the number one producer of gold in the world?",
@@ -55957,14 +56351,15 @@
     "explanation": "Venice in Italy is built on 118 islands linked by canals and bridges."
   },
   {
-    "question": "2022 FIFA world cup will held in____________?",
+    "question": "The 2022 FIFA World Cup was held in____________?",
     "options": [
       "Russia",
       "UAE",
       "USA",
       "Qatar"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "Qatar hosted the 2022 FIFA World Cup, which Argentina won."
   },
   {
     "question": "Who of the following has won the Nobel Prize for Literature 2017?",
@@ -55994,7 +56389,8 @@
       "Bank of Credit and Commerce International",
       "None of These"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 2,
+    "explanation": "BCCI, founded by Agha Hasan Abedi in 1972, collapsed in a huge fraud scandal in 1991."
   },
   {
     "question": "GATT Headquarters is located At?",
@@ -56236,7 +56632,8 @@
       "Indus river",
       "Beas river"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "The Taj Mahal in Agra stands on the southern bank of the Yamuna River."
   },
   {
     "question": "In which country is the volcano Mount Aso?",
@@ -56317,7 +56714,8 @@
       "1795",
       "1755"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "skip": "ambiguous: the union was enacted in 1800 and took effect in 1801"
   },
   {
     "question": "UNICEF stand for__________?",
@@ -56389,7 +56787,8 @@
       "1791",
       "1792"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 0,
+    "explanation": "The French Revolution began in 1789; the Bastille was stormed on 14 July."
   },
   {
     "question": "In which year New Zealand Government granted unqualified right of vote to women:",
@@ -56573,7 +56972,8 @@
       "Israel",
       "Afghanistan"
     ],
-    "correctAnswer": 3
+    "correctAnswer": 3,
+    "explanation": "KHAD was Afghanistan's secret police and intelligence agency during the Soviet era."
   },
   {
     "question": "The Supreme Military intelligence branch of the Israeli Defense Forces is _________?",
