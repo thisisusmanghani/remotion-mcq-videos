@@ -28,21 +28,22 @@ concurrency:
 
 jobs:
   publish:
-    runs-on: ubuntu-latest
+    # Pinned so ubuntu-latest moving to Ubuntu 26 can't break headless Chrome.
+    runs-on: ubuntu-24.04
     timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
-          node-version: "20"
+          node-version: "24"
           cache: npm
 
       - run: npm ci
 
       # After npm ci, which would otherwise wipe it.
       - name: Cache Remotion's headless Chrome
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: node_modules/.remotion
           key: remotion-chrome-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
@@ -58,7 +59,7 @@ jobs:
 
       - name: Keep the rendered videos for a week
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: shorts-${{ github.run_id }}
           path: out/publish/*.mp4
