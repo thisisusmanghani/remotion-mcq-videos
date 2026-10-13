@@ -1,7 +1,8 @@
 # Automatic publishing
 
-GitHub Actions publishes three Shorts a day to YouTube, at about 12:00, 17:00
-and 21:00 Pakistan time. Each run:
+Three Shorts a day go public on YouTube at 10:00, 15:00 and 20:00 Pakistan
+time, so each one gets a few hours to itself before the next. GitHub Actions
+keeps the next two days uploaded and scheduled. For each empty slot, a run:
 
 1. picks the next MCQ from `mcqs_data/gk/gk_mcqs.json` that hasn't been posted
    (in a fixed shuffled order, so topics stay mixed). Only reviewed MCQs are
@@ -9,8 +10,11 @@ and 21:00 Pakistan time. Each run:
    with `skip` (wrong, ambiguous or out of date) are never posted,
 2. renders it with the exam-paper design,
 3. writes the title, description and tags from the question (`scripts/seo.js`),
-4. uploads it to YouTube as a public Short,
+4. uploads it to YouTube as private, scheduled to go public at the slot's time,
 5. records it in `mcqs_data/published.json`, so nothing is posted twice.
+
+YouTube publishes at the exact minute. GitHub often starts scheduled runs hours
+late, but that only changes when a video is uploaded, not when it appears.
 
 ## One-time setup (about 10 minutes)
 
@@ -41,8 +45,8 @@ To check it straight away: *Actions → Publish Shorts → Run workflow*.
 
 ## Changing things
 
-- **Shorts per day**: each `cron` line in `.github/workflows/publish.yml` is one
-  Short.
+- **Times and Shorts per day**: `SLOTS_PKT` in `scripts/publish.js`; one entry
+  per Short. The `cron` lines only decide when uploads happen.
 - **Title, description, tags**: `scripts/seo.js`.
 - **Try it without uploading**: `npm run shorts:publish -- --dry-run`.
 

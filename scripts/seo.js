@@ -96,7 +96,9 @@ const buildTags = (question, answer) => {
   return tags;
 };
 
-const buildMetadata = (mcq) => {
+// With `publishAt` (an ISO time) the video stays private until YouTube
+// publishes it at that moment.
+const buildMetadata = (mcq, publishAt) => {
   const question = plain(mcq.question);
   const options = mcq.options.map(plain);
   const letter = LETTERS[mcq.correctAnswer];
@@ -126,7 +128,9 @@ const buildMetadata = (mcq) => {
       defaultLanguage: "en",
     },
     status: {
-      privacyStatus: "public",
+      ...(publishAt
+        ? { privacyStatus: "private", publishAt }
+        : { privacyStatus: "public" }),
       selfDeclaredMadeForKids: false,
     },
   };

@@ -1,18 +1,20 @@
 name: Publish Shorts
 
-# Renders the next unpublished MCQ and uploads it to YouTube, three times a
-# day: about 12:00, 17:00 and 21:00 Pakistan time (UTC+5). Off-the-hour
-# minutes because GitHub delays jobs scheduled exactly on the hour.
+# Keeps the next two days of Shorts uploaded and scheduled: YouTube makes each
+# one public at exactly 10:00, 15:00 or 20:00 Pakistan time (see
+# scripts/publish.js). GitHub can start scheduled runs hours late, so the run
+# times don't matter; three a day just means a missed run is soon made up.
+# Off-the-hour minutes because GitHub is busiest on the hour.
 on:
   schedule:
-    - cron: "17 7 * * *"
-    - cron: "17 12 * * *"
-    - cron: "17 16 * * *"
+    - cron: "23 0 * * *"
+    - cron: "23 8 * * *"
+    - cron: "23 16 * * *"
   workflow_dispatch:
     inputs:
       count:
-        description: "How many Shorts to publish"
-        default: "1"
+        description: "Most Shorts to schedule (empty: fill the next two days)"
+        default: ""
       dry_run:
         description: "Render only, don't upload"
         type: boolean
@@ -53,7 +55,7 @@ jobs:
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
-          COUNT: ${{ inputs.count || '1' }}
+          COUNT: ${{ inputs.count }}
           DRY_RUN: ${{ inputs.dry_run && '1' || '' }}
         run: node scripts/publish.js
 
