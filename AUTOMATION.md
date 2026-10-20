@@ -1,14 +1,28 @@
 # Automatic publishing
 
-Three Shorts a day go public on YouTube at 10:00, 15:00 and 20:00 Pakistan
-time, so each one gets a few hours to itself before the next. GitHub Actions
-keeps the next two days uploaded and scheduled. For each empty slot, a run:
+Five Shorts a day go public on YouTube, three hours apart from 09:00 to 21:00
+Pakistan time, so each one gets a few hours to itself before the next. GitHub
+Actions keeps the next two days uploaded and scheduled.
 
-1. picks the next MCQ from `mcqs_data/gk/gk_mcqs.json` that hasn't been posted
-   (in a fixed shuffled order, so topics stay mixed). Only reviewed MCQs are
-   used: their answer was checked and an `explanation` written; ones flagged
-   with `skip` (wrong, ambiguous or out of date) are never posted,
-2. renders it with the exam-paper design,
+The MCQs come from three banks:
+
+- **current**, `mcqs_data/current/current_mcqs.json`. Each run,
+  `scripts/current-affairs.js` reads Google Trends and Google News for Pakistan
+  and has Gemini research a few safe, factual topics with Google Search, write
+  an MCQ for each and fact-check it in a second call. These go in the 15:00 and
+  21:00 slots and are dropped if they haven't been posted within a week.
+- **knowledge**, `mcqs_data/knowledge/knowledge_mcqs.json`: everyday things
+  people look up, such as rice types, crops, solar power, money and documents.
+- **gk**, `mcqs_data/gk/gk_mcqs.json`: the reviewed one-paper General Knowledge
+  bank, with curiosity topics first because they draw far more views.
+
+Each slot takes the next MCQ from the first of its banks that has one left. For
+each empty slot, a run:
+
+1. picks that MCQ. Only reviewed MCQs are used: their answer was checked and an
+   `explanation` written. Ones flagged with `skip` (wrong, ambiguous or out of
+   date) are never posted,
+2. renders it with the exam-paper design, with its category as the subject,
 3. writes the title, description and tags from the question (`scripts/seo.js`),
 4. uploads it to YouTube as private, scheduled to go public at the slot's time,
 5. records it in `mcqs_data/published.json`, so nothing is posted twice.
@@ -45,8 +59,12 @@ To check it straight away: *Actions → Publish Shorts → Run workflow*.
 
 ## Changing things
 
-- **Times and Shorts per day**: `SLOTS_PKT` in `scripts/publish.js`; one entry
-  per Short. The `cron` lines only decide when uploads happen.
+- **Times, Shorts per day, and which bank each slot uses**: `SLOTS_PKT` in
+  `scripts/publish.js`, with one entry per Short. The `cron` lines only decide
+  when uploads happen.
+- **Current affairs** need the `GEMINI_API_KEY` repository secret, a free key
+  from https://aistudio.google.com/app/apikey. Without it, those slots fall
+  back to the other banks.
 - **Title, description, tags**: `scripts/seo.js`.
 - **Try it without uploading**: `npm run shorts:publish -- --dry-run`.
 

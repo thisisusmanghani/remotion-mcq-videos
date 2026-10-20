@@ -59,8 +59,14 @@ const plain = (text) =>
 
 const MAX_TITLE = 100;
 
-const buildTitle = (question) => {
-  for (const suffix of [" | PPSC & FPSC MCQs", " | PPSC MCQs", " #PPSC", ""]) {
+const GK = "General Knowledge";
+
+const buildTitle = (question, topic) => {
+  const suffixes =
+    topic === GK
+      ? [" | PPSC & FPSC MCQs", " | PPSC MCQs", " #PPSC", ""]
+      : [` | ${topic} MCQs`, " | GK MCQs", ""];
+  for (const suffix of suffixes) {
     if (question.length + suffix.length <= MAX_TITLE) {
       return question + suffix;
     }
@@ -81,8 +87,13 @@ const keyPhrases = (text) =>
     })
     .filter((phrase) => phrase.length > 2);
 
-const buildTags = (question, answer) => {
-  const keywords = [...new Set(keyPhrases(`${question} ${answer}`))];
+const buildTags = (question, answer, topic) => {
+  const keywords = [
+    ...new Set([
+      ...(topic === GK ? [] : [topic.toLowerCase()]),
+      ...keyPhrases(`${question} ${answer}`),
+    ]),
+  ];
   // YouTube allows 500 characters of tags in total, separators included.
   const tags = [];
   let length = 0;
@@ -103,6 +114,8 @@ const buildMetadata = (mcq, publishAt) => {
   const options = mcq.options.map(plain);
   const letter = LETTERS[mcq.correctAnswer];
   const answer = options[mcq.correctAnswer];
+  const topic = mcq.category ?? GK;
+  const topicTag = `#${topic.replace(/[^A-Za-z]/g, "")}`;
 
   const description = [
     question,
@@ -111,19 +124,19 @@ const buildMetadata = (mcq, publishAt) => {
     "",
     "⏱️ You have 10 seconds. Comment your answer before the reveal!",
     "",
-    `Daily one-paper MCQs for PPSC, FPSC, NTS, KPPSC, SPSC and other competitive exams in Pakistan. Subscribe to ${CHANNEL} for a new General Knowledge MCQ every day.`,
+    `Daily one-paper MCQs for PPSC, FPSC, NTS, KPPSC, SPSC and other competitive exams in Pakistan. Subscribe to ${CHANNEL} for new MCQs every day.`,
     "",
     `✅ Answer: (${letter}) ${answer}`,
     ...(mcq.explanation ? [`💡 ${plain(mcq.explanation)}`] : []),
     "",
-    "#PPSC #FPSC #MCQs #GeneralKnowledge #OnePaperMCQs #shorts",
+    `${topic === GK ? "" : `${topicTag} `}#PPSC #FPSC #MCQs #GeneralKnowledge #OnePaperMCQs #shorts`,
   ].join("\n");
 
   return {
     snippet: {
-      title: buildTitle(question),
+      title: buildTitle(question, topic),
       description,
-      tags: buildTags(question, answer),
+      tags: buildTags(question, answer, topic),
       categoryId: "27", // Education
       defaultLanguage: "en",
     },

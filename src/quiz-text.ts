@@ -12,6 +12,8 @@ export type QuizQuestion = {
   correctAnswer?: number;
   // One line shown under the answer; MCQs are only published once they have one.
   explanation?: string;
+  // Printed as the paper's subject; General Knowledge when missing.
+  category?: string;
 };
 
 // Scraped questions come with long "_____________" blanks, invisible

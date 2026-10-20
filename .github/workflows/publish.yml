@@ -1,9 +1,11 @@
 name: Publish Shorts
 
 # Keeps the next two days of Shorts uploaded and scheduled: YouTube makes each
-# one public at exactly 10:00, 15:00 or 20:00 Pakistan time (see
-# scripts/publish.js). GitHub can start scheduled runs hours late, so the run
-# times don't matter; three a day just means a missed run is soon made up.
+# one public at its slot's exact time, five a day from 09:00 to 21:00 Pakistan
+# time (see SLOTS_PKT in scripts/publish.js). Before that, it writes fresh
+# current-affairs MCQs from the day's trends. GitHub can start scheduled runs
+# hours late, so the run times don't matter; three a day just means a missed
+# run is soon made up.
 # Off-the-hour minutes because GitHub is busiest on the hour.
 on:
   schedule:
@@ -50,6 +52,14 @@ jobs:
           path: node_modules/.remotion
           key: remotion-chrome-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
 
+      # A failure here (feeds or Gemini down) just means the current-affairs
+      # slots fall back to the other banks this run.
+      - name: Write current-affairs MCQs
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/current-affairs.js
+
       - name: Render and upload
         env:
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
@@ -74,7 +84,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add mcqs_data/published.json
+          git add mcqs_data/published.json mcqs_data/current/current_mcqs.json
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Publish Shorts (run ${{ github.run_number }})"
           git pull --rebase

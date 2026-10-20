@@ -1,7 +1,7 @@
 # Let’s Achieve: MCQ Shorts
 
 Turns General Knowledge MCQs into YouTube Shorts styled as a printed exam
-paper, and publishes three a day to the
+paper, and publishes five a day to the
 [Let’s Achieve](https://www.youtube.com/channel/UC7JqrO3uDX2UONUF0J81lhw)
 channel with GitHub Actions. Built with [Remotion](https://www.remotion.dev).
 

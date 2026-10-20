@@ -159,7 +159,7 @@ const Header: React.FC = () => (
   </>
 );
 
-const InfoRow: React.FC = () => (
+const InfoRow: React.FC<{ subject: string }> = ({ subject }) => (
   <>
     <div
       style={{
@@ -175,7 +175,7 @@ const InfoRow: React.FC = () => (
       }}
     >
       <span>
-        <b>Subject:</b> {BRAND.subject}
+        <b>Subject:</b> {subject}
       </span>
       <span>
         <b>Time:</b> {TIMER.seconds} Seconds
@@ -594,7 +594,7 @@ export const QuizComposition: React.FC<{ quizData: QuizQuestion }> = ({
       {/* Multiply makes ink and logos sit in the paper like print */}
       <AbsoluteFill style={{ mixBlendMode: "multiply" }}>
         <Header />
-        <InfoRow />
+        <InfoRow subject={quiz.category ?? BRAND.subject} />
         {fitted ? (
           <>
             <Question text={quiz.question} fontSize={fitted.questionFontSize} />
