@@ -84,7 +84,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add mcqs_data/published.json mcqs_data/current/current_mcqs.json
+          git add mcqs_data/published.json mcqs_data/current/current_mcqs.json mcqs_data/playlists.json
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Publish Shorts (run ${{ github.run_number }})"
           git pull --rebase

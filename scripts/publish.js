@@ -19,7 +19,13 @@ const crypto = require("crypto");
 const { bundle } = require("@remotion/bundler");
 const { renderMedia, selectComposition } = require("@remotion/renderer");
 const { buildMetadata } = require("./seo");
-const { getAccessToken, uploadVideo } = require("./youtube");
+const {
+  getAccessToken,
+  uploadVideo,
+  createPlaylist,
+  addToPlaylist,
+  viewCounts,
+} = require("./youtube");
 
 const ROOT = path.join(__dirname, "..");
 const BANKS = {
@@ -31,6 +37,8 @@ const BANKS = {
   gk: path.join(ROOT, "mcqs_data", "gk", "gk_mcqs.json"),
 };
 const STATE_PATH = path.join(ROOT, "mcqs_data", "published.json");
+// Playlist ID per category, so each is created only once.
+const PLAYLISTS_PATH = path.join(ROOT, "mcqs_data", "playlists.json");
 const OUT_DIR = path.join(ROOT, "out", "publish");
 
 // Pakistan time (UTC+5, no daylight saving), three hours apart from morning
@@ -170,6 +178,99 @@ const render = async (serveUrl, mcq, file) => {
   });
 };
 
+const GK = "General Knowledge";
+// Older Shorts filed into playlists per run; each costs 50 of the 10,000 daily
+// YouTube API units.
+const PLAYLIST_BACKFILL = 20;
+const STATS_DAYS = 60;
+
+const publishedAt = (entry) => Date.parse(entry.publishAt ?? entry.publishedAt);
+
+// The upload-only sign-in can't manage playlists or read statistics; those
+// steps are skipped until the channel owner signs in again (AUTOMATION.md).
+const needsSignIn = (err) => err.status === 403;
+
+// Adds a Short to its category's playlist, creating the playlist the first
+// time a category is seen.
+const fileInPlaylist = async (accessToken, playlists, entry) => {
+  const category = entry.category ?? GK;
+  if (!playlists[category]) {
+    playlists[category] = await createPlaylist(
+      accessToken,
+      `${category} MCQs`,
+      `${category} MCQs as YouTube Shorts: think for 10 seconds, then see the answer with a one-line explanation. New Shorts every day from Let's Achieve for PPSC, FPSC and other competitive exams in Pakistan.`,
+    );
+    fs.writeFileSync(PLAYLISTS_PATH, `${JSON.stringify(playlists, null, 2)}\n`);
+    console.log(`Created the "${category} MCQs" playlist.`);
+  }
+  await addToPlaylist(accessToken, playlists[category], entry.videoId);
+  entry.playlist = playlists[category];
+};
+
+// Every run: record views of the recent Shorts (to learn which topics work)
+// and file a few older Shorts into their playlists.
+const upkeep = async (accessToken, state, playlists) => {
+  const now = Date.now();
+  const live = state.filter(
+    (entry) =>
+      entry.videoId &&
+      publishedAt(entry) < now &&
+      now - publishedAt(entry) < STATS_DAYS * 24 * HOUR,
+  );
+  try {
+    const views = await viewCounts(
+      accessToken,
+      live.map((entry) => entry.videoId),
+    );
+    const at = new Date(now).toISOString();
+    for (const entry of live) {
+      if (entry.videoId in views) {
+        entry.views = views[entry.videoId];
+        entry.viewsAt = at;
+      }
+    }
+    // Shorts get most of their views in the first days; compare older ones.
+    const byCategory = {};
+    for (const entry of live) {
+      if (
+        entry.views !== undefined &&
+        now - publishedAt(entry) > 2 * 24 * HOUR
+      ) {
+        (byCategory[entry.category ?? GK] ??= []).push(entry.views);
+      }
+    }
+    console.log(
+      `Average views by category: ${
+        Object.entries(byCategory)
+          .map(
+            ([category, list]) =>
+              `${category} ${Math.round(list.reduce((a, b) => a + b, 0) / list.length)} (${list.length} Shorts)`,
+          )
+          .join(", ") || "not enough data yet"
+      }.`,
+    );
+
+    const unfiled = state
+      .filter((entry) => entry.videoId && !entry.playlist)
+      .slice(0, PLAYLIST_BACKFILL);
+    for (const entry of unfiled) {
+      await fileInPlaylist(accessToken, playlists, entry);
+    }
+    if (unfiled.length) {
+      console.log(`Filed ${unfiled.length} older Short(s) into playlists.`);
+    }
+    return true;
+  } catch (err) {
+    if (!needsSignIn(err)) {
+      throw err;
+    }
+    console.warn(
+      "Skipping playlists and view stats: the YouTube sign-in only allows uploads. See AUTOMATION.md to sign in again.",
+    );
+    return false;
+  }
+};
+
 const main = async () => {
   const count = argValue("--count") || process.env.COUNT;
   const dryRun =
@@ -202,26 +303,33 @@ const main = async () => {
       .join(", ")}.`,
   );
 
-  const limit = count ? Number(count) : Infinity;
-  const slots = freeSlots(Date.now(), state).slice(0, limit);
-  // A dry run always renders one, to test the pipeline.
-  if (dryRun && !slots.length) {
-    slots.push({ time: null, banks: SLOTS_PKT[0].banks });
-  }
-  if (!slots.length) {
-    console.log(`The next ${LOOKAHEAD_HOURS} hours are already scheduled.`);
-    return;
-  }
-
-  const serveUrl = await bundle({
-    entryPoint: path.join(ROOT, "src", "index.ts"),
-    webpackOverride: (config) => config,
-  });
   const accessToken = dryRun ? null : await getAccessToken(credentials);
-  fs.mkdirSync(OUT_DIR, { recursive: true });
-
+  const playlists = fs.existsSync(PLAYLISTS_PATH)
+    ? JSON.parse(fs.readFileSync(PLAYLISTS_PATH, "utf8"))
+    : {};
   let scheduled = 0;
   try {
+    const canManage = accessToken
+      ? await upkeep(accessToken, state, playlists)
+      : false;
+
+    const limit = count ? Number(count) : Infinity;
+    const slots = freeSlots(Date.now(), state).slice(0, limit);
+    // A dry run always renders one, to test the pipeline.
+    if (dryRun && !slots.length) {
+      slots.push({ time: null, banks: SLOTS_PKT[0].banks });
+    }
+    if (!slots.length) {
+      console.log(`The next ${LOOKAHEAD_HOURS} hours are already scheduled.`);
+      return;
+    }
+
+    const serveUrl = await bundle({
+      entryPoint: path.join(ROOT, "src", "index.ts"),
+      webpackOverride: (config) => config,
+    });
+    fs.mkdirSync(OUT_DIR, { recursive: true });
+
     for (const slot of slots) {
       let item = null;
       // Text that can't fit is a property of the MCQ, so skip it for good and
@@ -273,16 +381,23 @@ const main = async () => {
           filePath: file,
           metadata,
         });
-        state.push({
+        const entry = {
           id,
           bank,
           index,
-          category: mcq.category ?? "General Knowledge",
+          category: mcq.category ?? GK,
           videoId: video.id,
           title: metadata.snippet.title,
           publishAt,
           uploadedAt: new Date().toISOString(),
-        });
+        };
+        state.push(entry);
+        // A later run retries Shorts that missed their playlist.
+        if (canManage) {
+          await fileInPlaylist(accessToken, playlists, entry).catch((err) =>
+            console.warn(`Not filed in a playlist yet: ${err.message}`),
+          );
+        }
         console.log(
           `Scheduled https://youtube.com/shorts/${video.id} for ${pkt(publishAt)}: ${metadata.snippet.title}`,
         );

@@ -30,6 +30,18 @@ each empty slot, a run:
 YouTube publishes at the exact minute. GitHub often starts scheduled runs hours
 late, but that only changes when a video is uploaded, not when it appears.
 
+Each run also:
+
+- **Files every Short into a playlist** named after its category, such as
+  "Agriculture MCQs" or "Current Affairs MCQs". It creates a playlist the
+  first time a category appears and remembers it in `mcqs_data/playlists.json`.
+- **Records each recent Short's views** in `published.json`, and logs the
+  average views per category so you can see which topics work.
+
+Both need the sign-in from step 2 below, with its "Manage your YouTube account"
+permission. An older upload-only sign-in still publishes, but these two steps
+are skipped until you sign in again.
+
 ## One-time setup (about 10 minutes)
 
 YouTube only accepts uploads that the channel owner has approved once. After

@@ -82,4 +82,67 @@ const uploadVideo = async ({ accessToken, filePath, metadata }) => {
   }
 };
 
-module.exports = { getAccessToken, uploadVideo };
+const DATA_API = "https://www.googleapis.com/youtube/v3";
+
+const api = async (accessToken, path, { method = "GET", body } = {}) => {
+  const res = await fetch(`${DATA_API}${path}`, {
+    method,
+    headers: {
+      Authorization: `Bearer ${accessToken}`,
+      ...(body ? { "Content-Type": "application/json" } : {}),
+    },
+    body: body ? JSON.stringify(body) : undefined,
+  });
+  const text = await res.text();
+  if (!res.ok) {
+    throw httpError(
+      `YouTube ${method} ${path.split("?")[0]}`,
+      res.status,
+      text,
+    );
+  }
+  return text ? JSON.parse(text) : {};
+};
+
+const createPlaylist = async (accessToken, title, description) =>
+  (
+    await api(accessToken, "/playlists?part=snippet,status", {
+      method: "POST",
+      body: {
+        snippet: { title, description },
+        status: { privacyStatus: "public" },
+      },
+    })
+  ).id;
+
+const addToPlaylist = (accessToken, playlistId, videoId) =>
+  api(accessToken, "/playlistItems?part=snippet", {
+    method: "POST",
+    body: {
+      snippet: { playlistId, resourceId: { kind: "youtube#video", videoId } },
+    },
+  });
+
+// View counts by video ID, 50 IDs per request (1 quota unit each).
+const viewCounts = async (accessToken, videoIds) => {
+  const views = {};
+  for (let i = 0; i < videoIds.length; i += 50) {
+    const ids = videoIds.slice(i, i + 50).join(",");
+    const { items = [] } = await api(
+      accessToken,
+      `/videos?part=statistics&id=${ids}`,
+    );
+    for (const item of items) {
+      views[item.id] = Number(item.statistics?.viewCount ?? 0);
+    }
+  }
+  return views;
+};
+
+module.exports = {
+  getAccessToken,
+  uploadVideo,
+  createPlaylist,
+  addToPlaylist,
+  viewCounts,
+};

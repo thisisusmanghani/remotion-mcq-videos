@@ -1,5 +1,6 @@
-// One-time setup: lets this project upload to your YouTube channel and prints
-// the three values to save as GitHub secrets.
+// One-time setup: lets this project upload to your YouTube channel, file the
+// Shorts into playlists and read their view counts, and prints the three
+// values to save as GitHub secrets.
 //
 //   npm run youtube:auth -- path/to/client_secret.json [--no-browser]
 //
@@ -9,7 +10,11 @@ const crypto = require("crypto");
 const fs = require("fs");
 const { spawn } = require("child_process");
 
-const SCOPE = "https://www.googleapis.com/auth/youtube.upload";
+// Upload alone can't manage playlists or read statistics; "youtube" can.
+const SCOPE = [
+  "https://www.googleapis.com/auth/youtube.upload",
+  "https://www.googleapis.com/auth/youtube",
+].join(" ");
 
 const secretPath = process.argv.slice(2).find((arg) => !arg.startsWith("--"));
 if (!secretPath) {
@@ -90,7 +95,7 @@ Add these three repository secrets on GitHub
   YT_CLIENT_SECRET   ${clientSecret}
   YT_REFRESH_TOKEN   ${tokens.refresh_token}
 
-Keep the refresh token private: it can upload to your channel.`);
+Keep the refresh token private: it can manage your channel.`);
     // Google only sends this for sign-ins that expire, e.g. apps in "Testing".
     if (tokens.refresh_token_expires_in) {
       const days = Math.round(tokens.refresh_token_expires_in / 86400);
