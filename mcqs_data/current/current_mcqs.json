@@ -1,1 +1,59 @@
-[]
+[
+  {
+    "question": "In October 2026, which Pakistani cricketer scored a century in the tri-series opener against Sri Lanka?",
+    "options": [
+      "Babar Azam",
+      "Mohammad Rizwan",
+      "Agha Salman",
+      "Shaheen Afridi"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Agha Salman scored a commanding 107 runs for Pakistan against Sri Lanka in the tri-series opener on October 18, 2026.",
+    "category": "Current Affairs",
+    "topic": "Cricket",
+    "createdAt": "2026-10-20T13:40:53.127Z",
+    "sources": [
+      "gulfnews.com",
+      "youtube.com",
+      "icc-cricket.com",
+      "washingtontimes.com",
+      "pakistantoday.com.pk"
+    ]
+  },
+  {
+    "question": "In October 2026, which country launched a spacecraft to Mars' moons to collect soil samples?",
+    "options": [
+      "USA",
+      "China",
+      "Russia",
+      "Japan"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Japan launched its Martian Moons eXploration (MMX) mission on October 19-20, 2026, to bring back samples from Phobos.",
+    "category": "Current Affairs",
+    "topic": "Space Exploration",
+    "createdAt": "2026-10-20T13:40:53.127Z",
+    "sources": [
+      "spacepolicyonline.com",
+      "youtube.com",
+      "nationthailand.com",
+      "planetary.org",
+      "techtimes.com"
+    ]
+  },
+  {
+    "question": "In October 2026, Pakistan's Army Chief traveled to which country for high-level regional talks?",
+    "options": [
+      "Saudi Arabia",
+      "China",
+      "Iran",
+      "Turkey"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Pakistan's Army Chief, Asim Munir, arrived in Tehran, Iran, on October 20, 2026, for high-level discussions.",
+    "category": "Current Affairs",
+    "topic": "International Relations",
+    "createdAt": "2026-10-20T13:40:53.127Z",
+    "sources": []
+  }
+]
