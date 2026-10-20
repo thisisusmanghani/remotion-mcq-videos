@@ -55,5 +55,47 @@
     "topic": "International Relations",
     "createdAt": "2026-10-20T13:40:53.127Z",
     "sources": []
+  },
+  {
+    "question": "In October 2026, by how much did the Pakistani government increase petrol prices per litre?",
+    "options": [
+      "Re0.88",
+      "Re1.50",
+      "Re0.53",
+      "Re1.00"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The government increased petrol price by Re0.88 per litre, effective October 21, 2026.",
+    "category": "Current Affairs",
+    "topic": "Petrol Price",
+    "createdAt": "2026-10-20T20:04:30.885Z",
+    "sources": [
+      "dawn.com",
+      "pakistantoday.com.pk",
+      "brecorder.com",
+      "24newshd.tv",
+      "minutemirror.com.pk"
+    ]
+  },
+  {
+    "question": "In October 2026, Pakistan reported its 7th polio case, the first in nearly two years in which city?",
+    "options": [
+      "Lahore",
+      "Karachi",
+      "Peshawar",
+      "Quetta"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pakistan reported its 7th polio case of 2026 in October, marking the disease's return to Karachi after nearly two years.",
+    "category": "Current Affairs",
+    "topic": "Polio Case",
+    "createdAt": "2026-10-20T20:04:30.885Z",
+    "sources": [
+      "news.cn",
+      "brecorder.com",
+      "substack.com",
+      "dawn.com",
+      "tribune.com.pk"
+    ]
   }
 ]
