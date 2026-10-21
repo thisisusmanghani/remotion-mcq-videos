@@ -118,5 +118,24 @@
       "dailypakistan.com.pk",
       "pkrevenue.com"
     ]
+  },
+  {
+    "question": "In October 2026, which Italian club achieved a historic 4-1 victory over Manchester United in the Champions League?",
+    "options": [
+      "A) Como",
+      "B) Inter Milan",
+      "C) AC Milan",
+      "D) Napoli"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Como defeated Manchester United 4-1 in a Champions League match on October 21, 2026.",
+    "category": "Current Affairs",
+    "topic": "Champions League Football",
+    "createdAt": "2026-10-21T20:17:00.763Z",
+    "sources": [
+      "manutd.com",
+      "click2houston.com",
+      "theguardian.com"
+    ]
   }
 ]
