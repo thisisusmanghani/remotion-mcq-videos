@@ -97,5 +97,26 @@
       "dawn.com",
       "tribune.com.pk"
     ]
+  },
+  {
+    "question": "In October 2026, by how much did the gold price per tola drop in Pakistan on October 14?",
+    "options": [
+      "Rs. 1,000",
+      "Rs. 2,000",
+      "Rs. 3,000",
+      "Rs. 4,000"
+    ],
+    "correctAnswer": 2,
+    "explanation": "On October 14, 2026, the gold price per tola in Pakistan fell by Rs. 3,000.",
+    "category": "Current Affairs",
+    "topic": "Gold Price Pakistan",
+    "createdAt": "2026-10-21T04:57:45.961Z",
+    "sources": [
+      "samaa.tv",
+      "tnnenglish.com",
+      "thepublicpurview.com",
+      "dailypakistan.com.pk",
+      "pkrevenue.com"
+    ]
   }
 ]
