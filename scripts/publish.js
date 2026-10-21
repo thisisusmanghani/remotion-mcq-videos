@@ -162,20 +162,38 @@ const loadQueue = (bank, file, done) => {
   );
 };
 
+// Headless Chrome on GitHub's runners once stalled loading the bundled fonts
+// past Remotion's 30-second default (run 27), so allow longer and try twice.
+const RENDER_TIMEOUT_MS = 120000;
+
 const render = async (serveUrl, mcq, file) => {
   const inputProps = { quizData: mcq };
-  const composition = await selectComposition({
-    serveUrl,
-    id: "QuizComposition",
-    inputProps,
-  });
-  await renderMedia({
-    composition,
-    serveUrl,
-    codec: "h264",
-    outputLocation: file,
-    inputProps,
-  });
+  for (let attempt = 1; ; attempt++) {
+    try {
+      const composition = await selectComposition({
+        serveUrl,
+        id: "QuizComposition",
+        inputProps,
+        timeoutInMilliseconds: RENDER_TIMEOUT_MS,
+      });
+      await renderMedia({
+        composition,
+        serveUrl,
+        codec: "h264",
+        outputLocation: file,
+        inputProps,
+        timeoutInMilliseconds: RENDER_TIMEOUT_MS,
+      });
+      return;
+    } catch (err) {
+      if (/does not fit/.test(err.message) || attempt === 2) {
+        throw err;
+      }
+      console.warn(
+        `Render attempt ${attempt} failed, retrying: ${err.message.split("\n")[0]}`,
+      );
+    }
+  }
 };
 
 const GK = "General Knowledge";
@@ -261,13 +279,15 @@ const upkeep = async (accessToken, state, playlists) => {
     }
     return true;
   } catch (err) {
-    if (!needsSignIn(err)) {
-      throw err;
+    if (needsSignIn(err)) {
+      console.warn(
+        "Skipping playlists and view stats: the YouTube sign-in only allows uploads. See AUTOMATION.md to sign in again.",
+      );
+      return false;
     }
-    console.warn(
-      "Skipping playlists and view stats: the YouTube sign-in only allows uploads. See AUTOMATION.md to sign in again.",
-    );
-    return false;
+    // Bookkeeping must never cost a day's uploads; the next run catches up.
+    console.warn(`Playlists and view stats stopped early: ${err.message}`);
+    return true;
   }
 };
 

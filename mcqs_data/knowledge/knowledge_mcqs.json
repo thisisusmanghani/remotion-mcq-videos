@@ -1,0 +1,4310 @@
+[
+  {
+    "question": "How is Sella rice made?",
+    "options": [
+      "Grains are polished twice",
+      "Paddy is soaked and steamed in its husk",
+      "Rice is aged in sacks for a year",
+      "Broken grains are pressed together"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sella is parboiled: paddy is soaked, steamed and dried before milling, which hardens the grain.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "Why does Sella rice keep more B vitamins than ordinary white rice?",
+    "options": [
+      "Vitamins are sprayed on it",
+      "It is grown in richer soil",
+      "It is never polished",
+      "Steaming moves bran vitamins inward"
+    ],
+    "correctAnswer": 3,
+    "explanation": "During parboiling, B vitamins from the bran soak into the grain, so milling removes less of them.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "What is the difference between brown rice and white rice?",
+    "options": [
+      "White rice has its bran milled off",
+      "Brown rice is a different plant",
+      "Brown rice is roasted",
+      "White rice is bleached"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Brown rice keeps its bran and germ; milling and polishing remove them to make white rice.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "What is Super Basmati?",
+    "options": [
+      "A grade of broken rice",
+      "Basmati that has been parboiled",
+      "A rice variety bred in Pakistan",
+      "Basmati aged for two years"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Super Basmati is a variety released in 1996 by the Kala Shah Kaku rice institute; Sella is a processing method.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "What is 1121 (Kainat) basmati rice best known for?",
+    "options": [
+      "Grains that grow very long when cooked",
+      "Short, sticky grains",
+      "A red bran layer",
+      "Growing only in Sindh"
+    ],
+    "correctAnswer": 0,
+    "explanation": "1121 grains can stretch to around 20 mm when cooked, more than double their raw length.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "Which area of Punjab is the traditional home of basmati rice?",
+    "options": [
+      "Thal",
+      "Cholistan",
+      "Kalar tract",
+      "Pothohar"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Kalar tract around Gujranwala, Sialkot, Sheikhupura and Hafizabad grows Pakistan's finest basmati.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "Pakistan's coarse IRRI-6 rice is named after a rice institute in which country?",
+    "options": [
+      "Japan",
+      "China",
+      "Thailand",
+      "Philippines"
+    ],
+    "correctAnswer": 3,
+    "explanation": "IRRI is the International Rice Research Institute in the Philippines, where IRRI-6 was first bred.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "Which crop's burnt stubble adds to Punjab's autumn smog?",
+    "options": [
+      "Wheat",
+      "Rice",
+      "Cotton",
+      "Sugarcane"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Rice is harvested in October and November, and burning its leftover straw adds smoke to the smog season.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "Why do farmers keep standing water in rice fields?",
+    "options": [
+      "It holds back many weeds",
+      "It makes grains longer",
+      "It keeps grains white",
+      "It scares away birds"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Rice pipes air to its roots through channels in its stems, while many weeds cannot survive in flooded soil.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "How is rice usually planted in Punjab?",
+    "options": [
+      "Seeds are scattered on dry soil",
+      "Nursery seedlings are transplanted",
+      "Old stem cuttings are planted",
+      "Grains are sown with a wheat drill"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Farmers grow seedlings in a nursery (paneeri) and transplant them by hand into flooded fields.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "What is chokar in wheat?",
+    "options": [
+      "The germ inside the grain",
+      "The dried stalk",
+      "The starchy centre",
+      "The bran, its outer layer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chokar is the fibre-rich outer skin of the grain; it stays in atta but is removed from maida.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "What is bhoosa, stored by farmers after the wheat harvest?",
+    "options": [
+      "A fertiliser made from bones",
+      "Seed kept for next year",
+      "Chopped straw used as animal fodder",
+      "Wheat kept for flour"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Threshing breaks wheat stalks into fine bits called bhoosa, a year-round dry feed for cattle.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "When are Rabi crops like wheat usually sown in Pakistan?",
+    "options": [
+      "October to December",
+      "February to March",
+      "May to June",
+      "July to August"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Rabi crops are sown in autumn and early winter, then harvested in spring around April and May.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "Which of these is a Kharif crop?",
+    "options": [
+      "Wheat",
+      "Gram",
+      "Mustard",
+      "Rice"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Kharif crops such as rice and cotton are sown in the hot months and harvested in autumn.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "What does the word Rabi literally mean?",
+    "options": [
+      "Winter",
+      "Spring",
+      "Rain",
+      "Harvest"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Rabi is Arabic for spring, when these winter crops are harvested; Kharif means autumn.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "Which crop is called white gold in Pakistan?",
+    "options": [
+      "Wheat",
+      "Maize",
+      "Cotton",
+      "Tobacco"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Cotton is called white gold because it feeds Pakistan's huge textile industry and its exports.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "What does a cotton ginning factory do?",
+    "options": [
+      "Separates fibre from cotton seeds",
+      "Spins cotton into thread",
+      "Weaves cotton cloth",
+      "Dyes raw cotton"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ginning pulls the fluffy lint off the seeds; lint goes to spinning mills and seeds to oil mills.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "What is khal binola, fed to cattle?",
+    "options": [
+      "Wheat straw",
+      "Cottonseed cake",
+      "Maize silage",
+      "Mustard leaves"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Binola is cottonseed; once its oil is pressed out, the leftover cake (khal) is a protein-rich feed.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "Bt cotton resists bollworms using a gene taken from what?",
+    "options": [
+      "A spider",
+      "A neem tree",
+      "A soil bacterium",
+      "A virus"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Bt is Bacillus thuringiensis, a soil bacterium whose gene makes a protein toxic to bollworms.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "What is bagasse, left over at sugar mills?",
+    "options": [
+      "Thick brown syrup",
+      "Burnt sugar",
+      "Dried cane leaves",
+      "Crushed sugarcane fibre"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Bagasse is the dry fibre left after cane is crushed; mills burn it as fuel for their boilers.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "How is sugarcane usually planted?",
+    "options": [
+      "Seeds from its flowers",
+      "Root cuttings",
+      "Pieces of stem with buds",
+      "Grafted shoots"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Farmers lay pieces of cane stem in furrows, and each bud, or eye, sprouts into new shoots.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "What is canola?",
+    "options": [
+      "Rapeseed bred for better oil",
+      "A type of sunflower",
+      "A Canadian olive",
+      "A soybean variety"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Canola was bred in Canada from rapeseed to be low in erucic acid; the name comes from Canada and oil.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "What kind of plant is berseem, the green winter fodder?",
+    "options": [
+      "A grass",
+      "A maize variety",
+      "A wheat variety",
+      "A clover"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Berseem is Egyptian clover, a fast-regrowing legume that can be cut many times over winter.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "What is silage?",
+    "options": [
+      "Dried wheat straw",
+      "Green fodder stored airtight to ferment",
+      "Dung cakes for fuel",
+      "Ground cottonseed"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chopped green maize packed airtight ferments and stays fresh for months as cattle feed.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "Which desert area grows most of Pakistan's chana (gram)?",
+    "options": [
+      "Thal",
+      "Cholistan",
+      "Thar",
+      "Kharan"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chana needs little water, so the sandy Thal around Bhakkar, Layyah and Khushab is its main home.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "Why do farmers grow pulses or berseem to improve their soil?",
+    "options": [
+      "They kill soil insects",
+      "They remove salt",
+      "Their roots add nitrogen to the soil",
+      "They add potassium"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Bacteria in nodules on legume roots turn nitrogen from the air into a form plants can use.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "Which nutrient does urea mainly give to crops?",
+    "options": [
+      "Phosphorus",
+      "Nitrogen",
+      "Potassium",
+      "Zinc"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Urea is about 46% nitrogen, the nutrient behind lush green leaves and growth.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "What does DAP fertiliser mainly supply?",
+    "options": [
+      "Potassium",
+      "Calcium",
+      "Iron",
+      "Phosphorus"
+    ],
+    "correctAnswer": 3,
+    "explanation": "DAP, diammonium phosphate, is rich in phosphorus for strong roots and also has some nitrogen.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "Potash fertiliser supplies which nutrient, the K in NPK?",
+    "options": [
+      "Potassium",
+      "Calcium",
+      "Carbon",
+      "Copper"
+    ],
+    "correctAnswer": 0,
+    "explanation": "K is the symbol for potassium, from its Latin name kalium; it helps crops resist disease and drought.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "What is the main raw material for making urea in Pakistan?",
+    "options": [
+      "Coal",
+      "Furnace oil",
+      "Natural gas",
+      "Rock salt"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Urea is made from ammonia and carbon dioxide, which fertiliser plants produce from natural gas.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "Why do farmers spread gypsum on salt-affected (sodic) soil?",
+    "options": [
+      "It adds nitrogen",
+      "Its calcium replaces harmful sodium",
+      "It kills weeds",
+      "It makes soil acidic"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Calcium from gypsum pushes out sodium, which is then washed away, so water can soak in again.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "In the farmers' phrase sem-o-thur, what does sem mean?",
+    "options": [
+      "Salinity",
+      "Drought",
+      "Soil erosion",
+      "Waterlogging"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Sem is waterlogging, when groundwater rises too high; thur is the salt crust that follows.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "How does too much irrigation make farmland salty?",
+    "options": [
+      "Canal water carries sea salt",
+      "Fertiliser turns into salt",
+      "Rising water evaporates, leaving salt",
+      "Rain brings salt from hills"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Seepage raises the water table; as it evaporates near the surface, dissolved salts stay behind.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "What is drip irrigation?",
+    "options": [
+      "Water dripped slowly at plant roots",
+      "Spraying water like rain",
+      "Flooding the whole field",
+      "Pumping water into canals"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Drip pipes deliver water drop by drop to each plant's roots, using far less water than flooding.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "What is barani farmland?",
+    "options": [
+      "Land watered by canals",
+      "Land watered by tube wells",
+      "Land left unsown",
+      "Land that depends on rain"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Barani areas such as the Pothohar plateau have little canal water, so crops rely on rainfall.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "What is a karez, found in Balochistan?",
+    "options": [
+      "A stone dam",
+      "An underground water channel",
+      "A windmill pump",
+      "A rainwater tank"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A karez is a gently sloping tunnel that brings groundwater from hills to fields by gravity alone.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "What is warabandi in canal irrigation?",
+    "options": [
+      "A ban on tube wells",
+      "Closing canals for repairs",
+      "Fixed weekly turns for canal water",
+      "A tax on water use"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Under warabandi, each farmer on a watercourse gets canal water at a fixed day and time each week.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "Why does laser land levelling save irrigation water?",
+    "options": [
+      "Water spreads evenly on a flat field",
+      "It makes soil hold less water",
+      "It covers fields with plastic",
+      "It shades the soil"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A laser-guided scraper makes the field flat, so water covers it evenly without pooling in low spots.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "Sindhri mango is named after a town near which city?",
+    "options": [
+      "Multan",
+      "Mirpur Khas",
+      "Rahim Yar Khan",
+      "Muzaffargarh"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sindhri comes from Sindhri near Mirpur Khas in Sindh; this large, sweet mango reaches markets early.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "Which famous mango is one of the last to arrive, in July and August?",
+    "options": [
+      "Sindhri",
+      "Dusehri",
+      "Langra",
+      "Chaunsa"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chaunsa is a late variety grown mainly in south Punjab, around Multan and Rahim Yar Khan.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "Which famous mango stays green even when fully ripe?",
+    "options": [
+      "Sindhri",
+      "Chaunsa",
+      "Langra",
+      "Anwar Ratol"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Langra keeps its green skin when ripe, so softness and smell, not colour, show it is ready.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "Why do Sindh's mangoes reach the market before Punjab's?",
+    "options": [
+      "Hotter weather ripens them sooner",
+      "Sindh uses more fertiliser",
+      "They are picked unripe",
+      "Sindh gets more rain"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Sindh's warmer climate brings earlier flowering and fruiting, so its mango season starts in May.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "Why are mango trees of a variety like Chaunsa grafted instead of grown from seed?",
+    "options": [
+      "Mango seeds never sprout",
+      "Grafted trees need no water",
+      "Seeds are poisonous",
+      "Seedlings would not give the same mango"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A tree grown from a mango stone can bear different fruit, so a twig of the variety is grafted on.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "Kinnow is a cross between which two citrus fruits?",
+    "options": [
+      "Orange and lemon",
+      "King and Willow Leaf mandarins",
+      "Grapefruit and lime",
+      "Malta and mosambi"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Kinnow was bred in California from King and Willow Leaf mandarins, and its name joins the two.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "Which district is known as the home of Pakistan's Kinnow?",
+    "options": [
+      "Swat",
+      "Multan",
+      "Sargodha",
+      "Larkana"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Sargodha grows the bulk of Pakistan's Kinnow, picked from about December to March.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "Aseel dates mainly come from which district of Sindh?",
+    "options": [
+      "Khairpur",
+      "Thatta",
+      "Badin",
+      "Tharparkar"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Khairpur is famous for its vast date orchards, and Aseel is the main variety grown there.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "Which city is called the Fruit Garden of Pakistan?",
+    "options": [
+      "Abbottabad",
+      "Multan",
+      "Sargodha",
+      "Quetta"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Quetta's cool, dry valleys grow apples, grapes, apricots, cherries and pomegranates.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "Which fruit is called Japani phal in Pakistan?",
+    "options": [
+      "Lychee",
+      "Persimmon",
+      "Kiwi",
+      "Plum"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Japani phal is the persimmon, an orange autumn fruit grown in Swat and other northern valleys.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "Which province grows most of Pakistan's bananas?",
+    "options": [
+      "Punjab",
+      "Khyber Pakhtunkhwa",
+      "Sindh",
+      "Balochistan"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Bananas love heat and water, and Sindh, around Thatta and Hyderabad, grows most of them.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "Which region of Pakistan is famous for apricots, many of them sun-dried?",
+    "options": [
+      "Cholistan",
+      "Thar",
+      "Makran",
+      "Gilgit-Baltistan"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Apricot trees fill the valleys of Hunza and Baltistan, where the fruit is sun-dried for winter.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "Chilgoza nuts come from which kind of tree?",
+    "options": [
+      "A pine tree",
+      "An oak tree",
+      "A walnut tree",
+      "A palm tree"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chilgoza are the seeds of the chilgoza pine, which grows in places such as Zhob and Chitral.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "Nili-Ravi is a famous Pakistani breed of which animal?",
+    "options": [
+      "Cow",
+      "Buffalo",
+      "Goat",
+      "Sheep"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Nili-Ravi buffaloes of Punjab are top milk producers, often marked white on face, legs and tail.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "What is the Sahiwal breed famous for?",
+    "options": [
+      "Fast racing camels",
+      "Fine wool sheep",
+      "Large meat goats",
+      "Milk from heat-tolerant cows"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Sahiwal cows from Punjab give good milk in hot climates and have been exported to many countries.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "Beetal, a popular goat with long hanging ears, comes from which province?",
+    "options": [
+      "Sindh",
+      "Balochistan",
+      "Punjab",
+      "Gilgit-Baltistan"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Beetal goats from Punjab are tall, with long drooping ears and a Roman nose, raised for meat and milk.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "Lohi, from Punjab, is a breed of which animal?",
+    "options": [
+      "Sheep",
+      "Goat",
+      "Buffalo",
+      "Cow"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Lohi is a large sheep breed of central Punjab, raised for both mutton and wool.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "Why do broiler chickens grow so fast?",
+    "options": [
+      "Hormone injections",
+      "Selective breeding and rich feed",
+      "Steroids in their water",
+      "Special vaccines"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Decades of breeding for fast growth plus high-protein feed let broilers reach market weight in about 6 weeks.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "What is Aseel in Pakistani poultry?",
+    "options": [
+      "A broiler strain",
+      "A duck breed",
+      "A quail breed",
+      "A hardy desi chicken breed"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Aseel is an old breed of the subcontinent, famous for its strength, upright stance and fighting spirit.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "How many chambers does a buffalo's stomach have?",
+    "options": [
+      "Two",
+      "Three",
+      "Four",
+      "Six"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Cattle and buffaloes are ruminants: their four-part stomach lets them chew the cud (jugali) and digest grass.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "Pakistan's prized sidr honey comes from the flowers of which tree?",
+    "options": [
+      "Kikar (acacia)",
+      "Beri (jujube)",
+      "Neem",
+      "Shisham"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sidr is the Arabic name for Ziziphus trees such as beri, so sidr honey is also sold as beri honey.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "Phulai honey comes from the flowers of which kind of tree?",
+    "options": [
+      "Acacia",
+      "Pine",
+      "Mango",
+      "Orange"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Phulai is a thorny wild acacia of the Pothohar region; bees make a prized honey from its blossoms.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "What is tunnel farming?",
+    "options": [
+      "Farming inside mountain tunnels",
+      "Irrigating through buried pipes",
+      "Growing crops under plastic tunnels",
+      "Growing plants without soil"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Plastic tunnels trap warmth, letting farmers grow vegetables like cucumbers before their normal season.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "Why do farmers buy fresh hybrid seed every season?",
+    "options": [
+      "Hybrid seed cannot be stored",
+      "Saved seed will not sprout",
+      "Saving seed is illegal",
+      "Saved seed gives uneven, weaker crops"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Hybrids do not breed true, so seed saved from them gives a mixed crop that loses the hybrid's yield.",
+    "category": "Agriculture"
+  },
+  {
+    "question": "Why do many cooks prefer Sella rice for biryani?",
+    "options": [
+      "It has the strongest aroma",
+      "It cooks in half the time",
+      "Its grains stay firm and separate",
+      "It needs no soaking"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Parboiling hardens the grain, so Sella rarely breaks or turns mushy, even in big degs.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "What does the word basmati mean?",
+    "options": [
+      "Fragrant",
+      "Long grain",
+      "White pearl",
+      "King of rice"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Basmati comes from bas, meaning fragrance, after the natural aroma of the cooked rice.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "What is the difference between atta and maida?",
+    "options": [
+      "Atta is rice flour; maida is wheat",
+      "Maida is coarser than atta",
+      "Atta is bleached; maida is not",
+      "Atta is whole wheat; maida is refined"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Atta is ground from the whole grain; maida is finely milled from the white inner part, without bran.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "What is suji (sooji)?",
+    "options": [
+      "Ground rice",
+      "Coarsely ground wheat",
+      "Gram flour",
+      "Corn starch"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Suji is semolina, coarse grains of wheat, which is why suji halwa has a grainy texture.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "What does chakki atta mean?",
+    "options": [
+      "Flour mixed with barley",
+      "Flour from imported wheat",
+      "Flour ground by a stone mill",
+      "Flour with the bran removed"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chakki atta is whole wheat ground between stones, giving a coarser flour than roller mills.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "How is gur (jaggery) made?",
+    "options": [
+      "By boiling down sugarcane juice",
+      "By roasting white sugar",
+      "By drying dates",
+      "By mixing sugar with honey"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cane juice is boiled until thick and set into blocks, so gur keeps the molasses that white sugar loses.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "What is masoor daal in English?",
+    "options": [
+      "Green gram",
+      "Red lentil",
+      "Black gram",
+      "Chickpea"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Masoor is the lentil; whole it has a brown skin, but split and husked it is orange-red.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "Which daal is black when whole but white once husked?",
+    "options": [
+      "Masoor",
+      "Moong",
+      "Chana",
+      "Mash (urad)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Mash, or black gram, has a black skin, but husked mash daal is creamy white.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "Besan (gram flour) is made by grinding which daal?",
+    "options": [
+      "Chana daal",
+      "Masoor daal",
+      "Moong daal",
+      "Mash daal"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Besan is ground chana daal, the split desi chickpea, used for pakoras, kadhi and laddu.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "What is chhuhara?",
+    "options": [
+      "A dried apricot",
+      "A dried fig",
+      "A dried date",
+      "A dried plum"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chhuhara is made by boiling and sun-drying dates picked before full ripeness, which makes them hard.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "Which gas from ripe fruit makes nearby fruit ripen faster?",
+    "options": [
+      "Oxygen",
+      "Ethylene",
+      "Nitrogen",
+      "Carbon monoxide"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Ripe bananas and mangoes give off ethylene, which triggers ripening in fruit kept next to them.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "What decides whether a hen lays white or brown eggs?",
+    "options": [
+      "Its feed",
+      "Its age",
+      "The season",
+      "Its breed"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Shell colour comes from the hen's breed; brown and white eggs are equally nutritious inside.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "What mainly makes some egg yolks deeper orange?",
+    "options": [
+      "Extra protein",
+      "The hen's age",
+      "Pigments in the hen's feed",
+      "The egg being fertilised"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Desi hens eat greens and insects rich in natural pigments, so their yolks look deeper orange.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "How can you tell that a raw egg is old?",
+    "options": [
+      "It floats in a bowl of water",
+      "It sinks and lies flat",
+      "It feels heavier",
+      "Its shell looks darker"
+    ],
+    "correctAnswer": 0,
+    "explanation": "As eggs age, moisture escapes through the shell and the air pocket grows, so stale eggs float.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "Why is buffalo milk whiter than cow milk?",
+    "options": [
+      "It has more water",
+      "It has almost no yellow beta-carotene",
+      "It is boiled longer",
+      "It has more sugar"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Cows pass yellow beta-carotene into milk; buffaloes turn it into vitamin A, so their milk is pure white.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "Why does milk boil over but water does not?",
+    "options": [
+      "Milk is heavier than water",
+      "Milk boils at a lower heat",
+      "Milk sugar makes foam",
+      "A skin of protein and fat traps steam"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Heating milk forms a skin (malai) of protein and fat that traps rising steam until it froths over.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "How is paneer made?",
+    "options": [
+      "Curdling hot milk with lemon or vinegar",
+      "Drying dahi in the sun",
+      "Churning cream",
+      "Boiling milk until thick"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Acid makes milk proteins clump into curds, which are drained and pressed into paneer.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "What turns milk into dahi (yogurt)?",
+    "options": [
+      "Lemon juice",
+      "Freezing",
+      "Bacteria that make lactic acid",
+      "Long boiling"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Bacteria from a spoon of old dahi turn milk sugar into lactic acid, which sets the milk.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "Why does honey turn grainy in winter?",
+    "options": [
+      "It has gone bad",
+      "Sugar was added to it",
+      "Water got into it",
+      "Its natural glucose forms crystals"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Crystallising is natural and does not mean honey is fake; warming the jar gently melts it back.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "Where is most Himalayan pink salt actually mined?",
+    "options": [
+      "Nepal",
+      "Khewra, in Punjab",
+      "Tibet",
+      "Ladakh"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pink salt comes from the Salt Range, mainly the Khewra mine in Jhelum district, not the Himalayas.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "What gives pink salt its pink colour?",
+    "options": [
+      "Traces of iron oxide",
+      "Added food colour",
+      "Sea algae",
+      "Copper"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pink salt is mostly sodium chloride; tiny amounts of iron oxide and other minerals tint it pink.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "Why does kala namak smell like boiled eggs?",
+    "options": [
+      "It is mixed with egg powder",
+      "It has extra iron",
+      "It contains sulphur compounds",
+      "It is smoked over wood"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Kala namak contains sulphur compounds, the same kind that give boiled eggs their smell.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "Why is iodine added to table salt?",
+    "options": [
+      "To make it whiter",
+      "To prevent goitre",
+      "To stop it caking",
+      "To make it saltier"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Lack of iodine swells the thyroid gland (goitre); iodised salt is a cheap way to prevent it.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "What is kalonji, often wrongly sold as onion seeds?",
+    "options": [
+      "Black sesame",
+      "Mustard seeds",
+      "Poppy seeds",
+      "Nigella seeds"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Kalonji comes from Nigella sativa, a flowering plant of the buttercup family, not from onions.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "What is ajwain called in English?",
+    "options": [
+      "Fennel seeds",
+      "Cumin seeds",
+      "Carom seeds",
+      "Caraway seeds"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Ajwain, or carom, gets its sharp, thyme-like taste from thymol, the same oil found in thyme.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "What gives haldi (turmeric) its bright yellow colour?",
+    "options": [
+      "Curcumin",
+      "Carotene",
+      "Chlorophyll",
+      "Saffron oil"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Turmeric is the root-like stem of a ginger relative, and curcumin is its yellow pigment.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "Laung (cloves) are which part of the clove tree?",
+    "options": [
+      "Dried seeds",
+      "Dried flower buds",
+      "Pieces of bark",
+      "Dried roots"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Cloves are flower buds picked before they open and dried until they turn dark brown.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "What is the difference between black and white pepper?",
+    "options": [
+      "They grow on different plants",
+      "White pepper is unripe",
+      "Black pepper is roasted",
+      "White pepper has its skin removed"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Both come from the same berry: black pepper is dried whole, white pepper is the seed without its skin.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "Jaifal (nutmeg) and javitri (mace) come from what?",
+    "options": [
+      "The same fruit",
+      "Two different trees",
+      "A ginger root",
+      "A palm tree"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Nutmeg is the seed, and mace is the red, lacy covering wrapped around it.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "Where did chillies, now used in almost every Pakistani dish, originally come from?",
+    "options": [
+      "China",
+      "Arabia",
+      "The Americas",
+      "Africa"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chillies are native to the Americas; Portuguese traders brought them to South Asia in the 1500s.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "Which town in Sindh is famous for its red chillies?",
+    "options": [
+      "Hala",
+      "Kunri",
+      "Shikarpur",
+      "Thatta"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Kunri in Umerkot district hosts a huge red chilli market and is often called the chilli capital.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "Why does dahi ease a chilli burn better than water?",
+    "options": [
+      "Dahi is always colder",
+      "Dahi numbs the tongue",
+      "Dahi contains salt",
+      "Capsaicin dissolves in fat, not water"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Capsaicin, the fiery chemical, mixes with fat and milk protein, so dahi washes it away; water cannot.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "What is Kasuri methi?",
+    "options": [
+      "Dried fenugreek leaves",
+      "Fennel seeds",
+      "Dried mint",
+      "Dried coriander"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Kasuri methi is named after Kasur in Punjab, famous for fragrant fenugreek dried for curries.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "What are tukh malanga seeds in falooda?",
+    "options": [
+      "Chia seeds",
+      "Poppy seeds",
+      "Basil seeds",
+      "Sesame seeds"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Tukh malanga are sweet basil seeds; soaked in water they swell with a cool, jelly-like coat.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "Why is basmati soaked before cooking?",
+    "options": [
+      "To remove its colour",
+      "So grains cook evenly and stay long",
+      "To kill insects",
+      "To add flavour"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Soaked grains absorb water first, so they cook faster and evenly and stretch longer without breaking.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "How does yeast make bread and naan dough rise?",
+    "options": [
+      "It adds air when kneaded",
+      "It soaks up water and swells",
+      "It melts the gluten",
+      "It gives off carbon dioxide gas"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Yeast, a tiny fungus, eats sugars in the dough and releases carbon dioxide, which gluten traps as bubbles.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "What is the difference between baking soda and baking powder?",
+    "options": [
+      "Baking soda contains yeast",
+      "Baking powder is ground sugar",
+      "Baking powder already contains an acid",
+      "Baking soda is made from corn"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Baking soda needs an acid like dahi or lemon to fizz; baking powder is soda with a dry acid mixed in.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "What is banaspati ghee?",
+    "options": [
+      "Hardened vegetable oil",
+      "Clarified butter",
+      "Buffalo-milk ghee",
+      "Coconut oil"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Banaspati is vegetable oil hardened by hydrogenation, so it sets like ghee but contains no milk.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "Why can desi ghee be heated more than butter without burning?",
+    "options": [
+      "It contains more water",
+      "Its milk solids have been removed",
+      "It has added salt",
+      "It is thicker than butter"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Ghee is butter cooked until its water boils off and milk solids are removed; those solids burn first.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "What makes your eyes water when you cut onions?",
+    "options": [
+      "Onion juice splashing",
+      "Dust from the dry skin",
+      "Pollen inside the onion",
+      "A sulphur gas from cut cells"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Cutting breaks onion cells, and enzymes make a sulphur gas that stings the eyes; chilled onions help.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "Why do cut apples turn brown?",
+    "options": [
+      "They absorb dust",
+      "They lose their sugar",
+      "An enzyme reacts with oxygen",
+      "Bacteria grow on them"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Cutting exposes an enzyme that reacts with oxygen in the air; a squeeze of lemon slows the browning.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "Why does a pressure cooker cook daal faster?",
+    "options": [
+      "Water gets hotter than 100°C inside",
+      "It stirs the food",
+      "It removes air bubbles",
+      "It uses less water"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Trapped steam raises the pressure, so water boils at about 120°C instead of 100°C.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "What is qalai on copper and brass pots?",
+    "options": [
+      "A clay lining",
+      "A thin coating of tin",
+      "A silver polish",
+      "A wax layer"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Qalai coats the inside with tin, stopping sour foods from reacting with the copper or brass.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "Why should you never pour water on a burning oil pan?",
+    "options": [
+      "Water feeds the flame with oxygen",
+      "It cracks the pan instantly",
+      "It flashes to steam and spreads fire",
+      "Water turns into fuel"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Water sinks, boils instantly and throws out burning oil; cover the pan with a lid and turn off the gas.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "Why does bread go stale faster in the fridge?",
+    "options": [
+      "Cold speeds up starch hardening",
+      "It absorbs fridge smells",
+      "Its yeast dies",
+      "Its sugar freezes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Starch in bread recrystallises fastest at fridge temperatures; freezing or room storage is better.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "Why should potatoes be stored in the dark?",
+    "options": [
+      "Light makes them shrink",
+      "Light turns them green and bitter",
+      "Darkness keeps them sweet",
+      "Light attracts insects"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Light makes potatoes turn green and build up solanine, a bitter natural toxin, near the skin.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "What does freezing do to most germs in food?",
+    "options": [
+      "Kills all of them",
+      "Makes them multiply",
+      "Turns them into toxins",
+      "Pauses them but does not kill them"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Freezing puts most germs to sleep; they become active again once the food thaws.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "On a food pack, what does Best Before mean?",
+    "options": [
+      "Unsafe to eat after that date",
+      "The date it was made",
+      "Quality is best until that date",
+      "The date it was packed"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Best Before is about taste and texture; food may still be safe after it, unlike a Use By date.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "Why is raw papaya paste rubbed on meat before a BBQ?",
+    "options": [
+      "Its enzyme softens the meat",
+      "Its sugar burns into a crust",
+      "Its acid kills germs",
+      "Its water steams the meat"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Raw papaya contains papain, an enzyme that breaks down tough proteins and makes meat tender.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "Why do bananas turn black in the fridge?",
+    "options": [
+      "The fridge light",
+      "They ripen faster",
+      "They soak up moisture",
+      "Cold damages their peel cells"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Bananas are tropical, so cold injures peel cells that then brown; the fruit inside is usually fine.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "What makes black tea different from green tea?",
+    "options": [
+      "It comes from a different plant",
+      "Its leaves are oxidised",
+      "It is roasted with sugar",
+      "It is grown in darker soil"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Both come from the same tea plant; black tea leaves are left to oxidise and darken, green tea is not.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "What gives Kashmiri chai its pink colour?",
+    "options": [
+      "Rose syrup",
+      "Beetroot juice",
+      "Baking soda with green tea leaves",
+      "Red food colour"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Special green tea leaves boiled with a pinch of soda turn deep red, and milk then makes the tea pink.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "What is the difference between naan and roti?",
+    "options": [
+      "Naan is leavened white-flour bread",
+      "Naan is made of rice flour",
+      "Roti is deep-fried",
+      "Roti uses more yeast"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Naan uses maida raised with yeast or dahi, while roti or chapati is usually unleavened whole-wheat atta.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "Which city is famous for sohan halwa?",
+    "options": [
+      "Peshawar",
+      "Sialkot",
+      "Quetta",
+      "Multan"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Multan is famous for sohan halwa, a firm, ghee-rich sweet topped with nuts.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "What is the main difference between biryani and pulao?",
+    "options": [
+      "Pulao is always vegetarian",
+      "Biryani is layered; pulao uses stock",
+      "Biryani uses brown rice",
+      "Pulao is made with suji"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pulao rice cooks in meat stock (yakhni), while biryani layers part-boiled rice over spicy masala.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "Sajji is a famous dish of which province?",
+    "options": [
+      "Punjab",
+      "Sindh",
+      "Balochistan",
+      "Gilgit-Baltistan"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Balochi sajji is whole lamb or chicken, lightly salted and slow-roasted on skewers around a fire.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "Why is kulfi denser than ice cream?",
+    "options": [
+      "It is not churned, so has little air",
+      "It has more sugar",
+      "It is frozen faster",
+      "It contains flour"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Kulfi is thickened milk frozen in moulds without churning, so no air is whipped in and it melts slowly.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "What is Chinese salt in Pakistani kitchens?",
+    "options": [
+      "Rock salt",
+      "Baking soda",
+      "Citric acid",
+      "Monosodium glutamate (MSG)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chinese salt is MSG, a flavour enhancer that gives food a savoury, meaty (umami) taste.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "What is tatri, used to make food sour?",
+    "options": [
+      "Vinegar",
+      "Citric acid",
+      "Dried mango powder",
+      "Tamarind"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Tatri is citric acid crystals, the same acid in lemons, used in chaat, chutneys and drinks.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "What makes popcorn pop?",
+    "options": [
+      "Air trapped in the shell",
+      "Oil entering the kernel",
+      "Water inside turning to steam",
+      "Salt reacting with starch"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Heat turns water inside the kernel to steam until the pressure bursts the hard hull and the starch puffs out.",
+    "category": "Food & Kitchen"
+  },
+  {
+    "question": "Why is the sky blue on a clear day?",
+    "options": [
+      "It reflects the blue sea",
+      "Air scatters blue light the most",
+      "Space beyond the air is blue",
+      "The Sun gives off mostly blue light"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Air molecules scatter blue light much more than red, so blue reaches our eyes from every part of the sky.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "Why do sunsets look red and orange?",
+    "options": [
+      "Sunlight passes through more air",
+      "The Sun cools down in the evening",
+      "The Sun grows bigger at sunset",
+      "The Sun moves farther from Earth"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Low sunlight crosses far more air, which scatters away the blue and leaves mostly reds and oranges.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "Where must the Sun be for you to see a rainbow?",
+    "options": [
+      "In front of you",
+      "Directly overhead",
+      "Behind you",
+      "Hidden behind clouds"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Sunlight from behind you bends and reflects inside raindrops ahead of you, splitting into its colours.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "Why can a full glass bottle of water crack in the freezer?",
+    "options": [
+      "Cold makes the glass shrink",
+      "Ice is heavier than water",
+      "Air in the bottle freezes",
+      "Water expands as it freezes"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Water expands by about 9% when it turns to ice, pushing hard enough to crack glass.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "Why does water boil below 100°C in Skardu and Murree?",
+    "options": [
+      "Mountain water is softer",
+      "Mountain water is colder",
+      "Air pressure is lower there",
+      "The air has less oxygen"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Higher up, air presses less on the water, so it boils at a lower temperature and food takes longer to cook.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "Why do we see lightning before we hear thunder?",
+    "options": [
+      "Light travels much faster than sound",
+      "Thunder is made later than lightning",
+      "Our eyes react faster than ears",
+      "Rain slows down the sound"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Light covers 300,000 km a second, while sound covers only about 343 metres, so the flash wins every time.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "You see lightning, then hear thunder 6 seconds later. About how far away was it?",
+    "options": [
+      "6 km",
+      "2 km",
+      "600 metres",
+      "20 km"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sound travels about 1 km every 3 seconds, so count the seconds after the flash and divide by 3.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "What makes the loud sound of thunder?",
+    "options": [
+      "Clouds bumping into each other",
+      "Raindrops hitting the ground",
+      "Wind rushing between clouds",
+      "Air expanding from lightning's heat"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Lightning makes the air around it about five times hotter than the Sun's surface, so it expands with a bang.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "Why does a ceiling fan make us feel cooler?",
+    "options": [
+      "It lowers the room's temperature",
+      "It helps sweat evaporate faster",
+      "It pulls in cold air from outside",
+      "It removes heat from the walls"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A fan doesn't cool the air; moving air speeds up the evaporation of sweat, which carries heat away from skin.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "Why does metal feel colder than wood in the same room?",
+    "options": [
+      "Metal draws heat from skin faster",
+      "Metal is always colder than wood",
+      "Wood makes its own heat",
+      "Metal holds more cold air"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Both are at room temperature, but metal conducts heat away from your skin much faster, so it feels colder.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "Why does the Moon seem to change shape during the month?",
+    "options": [
+      "Earth's shadow covers part of it",
+      "Clouds hide part of it",
+      "We see varying parts of its lit side",
+      "The Moon really changes its shape"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Half the Moon is always lit by the Sun; as it orbits Earth, we see more or less of that bright half.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "Why do we always see the same face of the Moon?",
+    "options": [
+      "It spins once per orbit of Earth",
+      "It does not spin at all",
+      "Its far side is always dark",
+      "Earth blocks the other side"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Moon spins exactly once each time it circles Earth, a match called tidal locking, so one side always faces us.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "Why is an Islamic month always 29 or 30 days long?",
+    "options": [
+      "It is a twelfth of a solar year",
+      "The Moon circles the Sun monthly",
+      "The Moon's cycle is about 29.5 days",
+      "It follows the Sun's movement"
+    ],
+    "correctAnswer": 2,
+    "explanation": "New moon to new moon takes about 29.5 days, so each lunar month has either 29 or 30 days.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "Why does Ramadan come about 11 days earlier each year?",
+    "options": [
+      "Earth's orbit is speeding up",
+      "Leap years push it earlier",
+      "Time zones shift each year",
+      "The lunar year is about 11 days shorter"
+    ],
+    "correctAnswer": 3,
+    "explanation": "12 lunar months make about 354 days, while the solar year has 365, so Ramadan moves through all the seasons.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "Why is sea water salty?",
+    "options": [
+      "Fish release salt into it",
+      "Rivers carry dissolved minerals into it",
+      "Salt rains down from clouds",
+      "Undersea salt mines melt"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Rain and rivers wash minerals out of rocks into the sea; when sea water evaporates, the salt stays behind.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "What causes summer and winter on Earth?",
+    "options": [
+      "Earth's distance from the Sun",
+      "The tilt of Earth's axis",
+      "Changes in the Sun's heat",
+      "The Moon's position"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Earth's axis is tilted about 23.5°, so each half of the planet gets more direct sunlight for part of the year.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "When in the year is Earth closest to the Sun?",
+    "options": [
+      "Late June",
+      "Late March",
+      "Late September",
+      "Early January"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Earth is nearest the Sun in early January, during our winter, which shows distance does not cause seasons.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "About how long does sunlight take to reach Earth?",
+    "options": [
+      "8 seconds",
+      "1 minute",
+      "8 minutes",
+      "1 hour"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Sun is about 150 million km away, so its light, racing at 300,000 km a second, takes about 8 minutes.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "Through which of these does sound travel fastest?",
+    "options": [
+      "Steel",
+      "Water",
+      "Air",
+      "Rubber"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Sound moves about 343 m/s in air, about 1,500 m/s in water and nearly 6,000 m/s in steel.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "Which of these is attracted to a magnet?",
+    "options": [
+      "Copper wire",
+      "Aluminium can",
+      "Iron nail",
+      "Gold ring"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Iron, nickel and cobalt are magnetic metals; copper, aluminium and gold are not attracted to a magnet.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "What happens if you cut a bar magnet in half?",
+    "options": [
+      "You get two smaller magnets",
+      "It stops being a magnet",
+      "One half is north, one is south",
+      "Only one half stays magnetic"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Each piece gets its own north and south pole; a magnet with only one pole has never been found.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "Why do we get more static shocks in dry winter weather?",
+    "options": [
+      "Cold air conducts electricity",
+      "Dry air lets charge build up",
+      "The body makes more current in winter",
+      "Winter clouds charge the air"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Moist air slowly drains static charge away, but in dry air it builds up on us until it jumps as a spark.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "Why do stars twinkle at night?",
+    "options": [
+      "They flicker like flames",
+      "They spin very fast",
+      "Clouds pass in front of them",
+      "Moving air bends their light"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Starlight passes through moving layers of air that bend it slightly, so the star seems to flicker.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "Which is the hottest planet in our solar system?",
+    "options": [
+      "Mercury",
+      "Mars",
+      "Jupiter",
+      "Venus"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Venus is farther from the Sun than Mercury, but its thick carbon dioxide atmosphere traps heat at about 465°C.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "Why does a huge steel ship float while a steel nail sinks?",
+    "options": [
+      "Waves keep pushing it up",
+      "Ships use a lighter steel",
+      "Its hollow hull pushes aside more water",
+      "Its engines hold it up"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A ship floats when it pushes aside water weighing as much as itself; its hollow shape makes that possible.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "Why does a glass of cold water 'sweat' on a summer day?",
+    "options": [
+      "Water seeps through the glass",
+      "Moisture in the air condenses on it",
+      "Ice from inside melts outside",
+      "Glass sweats like our skin"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Water vapour in warm air turns back into droplets when it touches the cold surface of the glass.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "Which two words make up the word 'smog'?",
+    "options": [
+      "Smoke and fog",
+      "Smell and fog",
+      "Smoke and gas",
+      "Sand and fog"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Smog mixes smoke and fog; in Punjab's winter, cold still air traps pollution near the ground.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "Why are white clothes cooler in summer than black ones?",
+    "options": [
+      "White reflects more sunlight",
+      "White cloth is thinner",
+      "Black cloth traps sweat",
+      "White lets more air through"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Dark colours absorb most sunlight and turn it into heat, while white reflects most of it away.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "How does a clay matka keep water cool?",
+    "options": [
+      "Clay is naturally cold",
+      "Clay blocks the sun's heat",
+      "Clay adds cooling minerals",
+      "Water seeping out evaporates"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Water seeps through tiny pores to the outside and evaporates, taking heat away and cooling the water inside.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "Which gas makes up most of the air we breathe?",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen",
+      "Hydrogen"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Air is about 78% nitrogen and only about 21% oxygen; carbon dioxide is well under 1%.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "At what temperature do Celsius and Fahrenheit thermometers show the same number?",
+    "options": [
+      "0",
+      "-40",
+      "100",
+      "37"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Minus 40 is the only temperature where both scales agree: -40°C is exactly -40°F.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "What causes most earthquakes in Pakistan?",
+    "options": [
+      "Underground gas explosions",
+      "Heavy monsoon rains",
+      "Mining and digging",
+      "Moving plates of Earth's crust"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Pakistan sits where the Indian, Eurasian and Arabian plates meet; their slow grinding causes earthquakes.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "What does a 'light-year' measure?",
+    "options": [
+      "A distance",
+      "A length of time",
+      "Brightness of stars",
+      "Speed of light"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A light-year is the distance light travels in one year, about 9.46 trillion kilometres.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "What is a 'shooting star' really?",
+    "options": [
+      "A star falling from the sky",
+      "A comet passing close by",
+      "A satellite catching fire",
+      "A space rock burning up in our air"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A meteor is a small bit of space rock or dust that burns up as it rushes into Earth's atmosphere.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "Why does Mars look red?",
+    "options": [
+      "Its soil is full of rusty iron",
+      "It is extremely hot",
+      "It has red oceans",
+      "Red gases cover it"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Mars's dust and rocks contain a lot of iron oxide, the same chemical as rust, which gives it a red colour.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "Why is a day added to February in a leap year?",
+    "options": [
+      "To match the Moon's cycle",
+      "To balance the months' lengths",
+      "Earth's orbit takes about 365.25 days",
+      "Earth spins faster in winter"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The extra quarter day each year adds up to one whole day every four years, so February gets a 29th day.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "What causes the 'water on the road' mirage on hot days?",
+    "options": [
+      "Oil leaking from vehicles",
+      "Hot air near the road bends light",
+      "Water vapour rising from tar",
+      "Heat melting the road surface"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Light from the sky bends upward in the hot air just above the road, so we see a shimmering image like water.",
+    "category": "Everyday Science"
+  },
+  {
+    "question": "How do solar panels make electricity?",
+    "options": [
+      "By heating water into steam",
+      "By storing sunlight as heat",
+      "By spinning a tiny turbine",
+      "Sunlight frees electrons in silicon"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Solar cells use the photovoltaic effect: light knocks electrons loose in silicon, creating an electric current.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "What kind of current do solar panels produce?",
+    "options": [
+      "AC, like the grid",
+      "Three-phase AC",
+      "DC, direct current",
+      "Static electricity"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Solar cells make direct current (DC), which flows one way only, unlike the alternating current of the grid.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "Why does an on-grid solar system switch off during load-shedding?",
+    "options": [
+      "To keep line workers safe",
+      "To protect the panels",
+      "Its batteries take over",
+      "The meter blocks solar power"
+    ],
+    "correctAnswer": 0,
+    "explanation": "An on-grid inverter shuts down when the grid fails, so it never sends power into lines being repaired.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "What is a hybrid solar system?",
+    "options": [
+      "Panels with grid but no batteries",
+      "Panels with grid and battery backup",
+      "Panels with batteries but no grid",
+      "Panels that turn to follow the Sun"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A hybrid system uses the grid and batteries together; on-grid has no batteries and off-grid has no grid link.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "What does 'net metering' mean for a home with solar panels?",
+    "options": [
+      "Selling spare solar units to the grid",
+      "Storing spare units in batteries",
+      "Running the home without the grid",
+      "Paying a fixed monthly line rent"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A two-way meter records units you export and import, and you are billed for the difference, or net.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "Which direction should solar panels face in Pakistan for the most power?",
+    "options": [
+      "North",
+      "South",
+      "East",
+      "West"
+    ],
+    "correctAnswer": 1,
+    "explanation": "North of the equator the Sun arcs across the southern sky, so south-facing panels catch the most sunlight.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "Why do solar panels lose some output in very hot weather?",
+    "options": [
+      "Hot air blocks the sunlight",
+      "Summer sunlight is weaker",
+      "Heat lowers the cells' efficiency",
+      "The glass turns cloudy in heat"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Solar cells lose voltage as they heat up, so panels give less power in scorching heat than in cool sunshine.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "What is the main job of an inverter?",
+    "options": [
+      "Store extra electricity",
+      "Change AC into DC",
+      "Keep the voltage steady",
+      "Change DC into AC"
+    ],
+    "correctAnswer": 3,
+    "explanation": "An inverter turns DC from batteries or solar panels into the AC that fans, fridges and lights use.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "Why does an inverter AC use less electricity than a regular AC?",
+    "options": [
+      "It has a smaller compressor",
+      "It uses a special gas",
+      "It has no outdoor unit",
+      "Its compressor varies its speed"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Its compressor slows down once the room is cool instead of switching fully on and off, which wastes power.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "What does '1.5 ton' mean on an air conditioner?",
+    "options": [
+      "Its weight",
+      "Its power use per hour",
+      "Its cooling capacity",
+      "Its gas pressure"
+    ],
+    "correctAnswer": 2,
+    "explanation": "One ton of cooling equals the heat absorbed by melting a ton of ice in a day, about 12,000 BTU per hour.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "Why does water drip from an air conditioner?",
+    "options": [
+      "Room moisture condenses on its cold coil",
+      "Its gas leaks out as water",
+      "Rainwater collects inside it",
+      "Its pipes are rusting"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The cold indoor coil turns water vapour from room air into droplets, which drain out through a pipe.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "What is one 'unit' on a Pakistani electricity bill?",
+    "options": [
+      "One watt used for one hour",
+      "1,000 watts for one minute",
+      "One kilowatt-hour",
+      "One volt for one hour"
+    ],
+    "correctAnswer": 2,
+    "explanation": "One unit is one kilowatt-hour: the energy a 1,000-watt appliance uses in one hour.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "How long can a 100-watt bulb run on one unit of electricity?",
+    "options": [
+      "10 hours",
+      "1 hour",
+      "100 hours",
+      "24 hours"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A 100-watt bulb uses 1,000 watt-hours, or one unit, in 10 hours; a 10-watt LED would take 100 hours.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "Why do LED bulbs use much less electricity than old filament bulbs?",
+    "options": [
+      "They give dimmer light",
+      "They waste far less energy as heat",
+      "They use thinner wires",
+      "They switch off when idle"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An ordinary filament bulb turns about 90% of its electricity into heat; an LED turns far more into light.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "Which household bulb contains a small amount of mercury?",
+    "options": [
+      "LED bulb",
+      "Filament bulb",
+      "Halogen bulb",
+      "Energy saver (CFL)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Energy savers, or CFLs, glow using a little mercury vapour, which is why they need careful disposal.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "Why does a room air cooler work poorly in humid weather?",
+    "options": [
+      "Humid air is too heavy to move",
+      "Its water gets too warm",
+      "The fan slows in humid air",
+      "Humid air slows evaporation"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Coolers work by evaporating water, which happens fast in dry June heat but slowly in sticky monsoon air.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "What is LPG mainly made of?",
+    "options": [
+      "Methane",
+      "Propane and butane",
+      "Hydrogen",
+      "Carbon monoxide"
+    ],
+    "correctAnswer": 1,
+    "explanation": "LPG, liquefied petroleum gas, is mostly propane and butane kept as a liquid under pressure in cylinders.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "Why does leaked LPG gather near the floor?",
+    "options": [
+      "It is heavier than air",
+      "It sticks to floor tiles",
+      "Fans push it downward",
+      "The cylinder sits on the floor"
+    ],
+    "correctAnswer": 0,
+    "explanation": "LPG is about one and a half to two times heavier than air, so a leak settles low, while natural gas rises.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "What is the main gas in CNG and Sui gas?",
+    "options": [
+      "Propane",
+      "Butane",
+      "Methane",
+      "Hydrogen"
+    ],
+    "correctAnswer": 2,
+    "explanation": "CNG is natural gas, mostly methane, squeezed at very high pressure into cylinders so cars can carry it.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "How is natural gas turned into LNG?",
+    "options": [
+      "By cooling it to about -162°C",
+      "By mixing it with petrol",
+      "By compressing it in cylinders",
+      "By removing its methane"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chilled to about -162°C, natural gas becomes a liquid taking 600 times less space, so ships can carry it.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "Natural gas has no smell, so why can we smell a gas leak?",
+    "options": [
+      "Gas reacts with room air",
+      "Old pipes add a rusty smell",
+      "A smelly chemical is added to it",
+      "The burner leaves a smell"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Gas companies add a tiny amount of a strong-smelling chemical, called an odorant, so leaks are noticed fast.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "Why is it dangerous to sleep in a closed room with a gas heater on?",
+    "options": [
+      "The room becomes too hot",
+      "It dries out the air",
+      "It uses up the room's nitrogen",
+      "It can build up carbon monoxide"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Burning gas in a closed room uses up oxygen and can make carbon monoxide, a poison gas with no colour or smell.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "How does a diesel engine ignite its fuel?",
+    "options": [
+      "With a spark plug",
+      "Heat of highly squeezed air",
+      "With a small pilot flame",
+      "By mixing it with LPG"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Diesel engines squeeze air so hard it gets hot enough to ignite the fuel sprayed in; petrol engines need a spark.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "What does the octane number of petrol measure?",
+    "options": [
+      "Energy in each litre",
+      "Resistance to engine knocking",
+      "Amount of sulphur in it",
+      "How thick the petrol is"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Higher-octane petrol resists igniting too early under compression, the cause of engine knocking.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "What does '70cc' on a motorcycle mean?",
+    "options": [
+      "Engine size of 70 cubic centimetres",
+      "Top speed of 70 km/h",
+      "Runs 70 km on a litre",
+      "Can carry 70 kg"
+    ],
+    "correctAnswer": 0,
+    "explanation": "cc means cubic centimetres, the total volume swept by the engine's pistons; bigger cc usually means more power.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "What does the 'G' in 4G and 5G stand for?",
+    "options": [
+      "Gigabyte",
+      "Global",
+      "Gateway",
+      "Generation"
+    ],
+    "correctAnswer": 3,
+    "explanation": "5G is the fifth generation of mobile networks, offering faster speeds and less delay than 4G.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "When your phone uses mobile data instead of Wi-Fi, where does the internet come from?",
+    "options": [
+      "A nearby Wi-Fi router",
+      "Straight from satellites",
+      "The network's cell towers",
+      "Other phones nearby"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Mobile data comes from your network's cell towers, while Wi-Fi comes from a nearby router on a fixed line.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "What is the difference between 2.4 GHz and 5 GHz Wi-Fi?",
+    "options": [
+      "5 GHz uses more electricity",
+      "2.4 GHz is for phones only",
+      "5 GHz is faster but reaches less far",
+      "2.4 GHz works only outdoors"
+    ],
+    "correctAnswer": 2,
+    "explanation": "2.4 GHz travels farther and through walls better, while 5 GHz carries data faster over a shorter range.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "What is the main advantage of lithium-ion over lead-acid batteries?",
+    "options": [
+      "They never wear out",
+      "They are lighter and last longer",
+      "They work without an inverter",
+      "They cannot catch fire"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Lithium-ion batteries weigh much less, can be drained deeper and last far more charge cycles than lead-acid.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "Why is distilled water, not tap water, used to top up tubular batteries?",
+    "options": [
+      "Distilled water is colder",
+      "Tap water is too heavy",
+      "Tap water evaporates faster",
+      "Tap water's minerals harm the plates"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Charging splits some of the water into gas, and impurities in tap water would damage the battery's plates.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "How does a microwave oven heat food?",
+    "options": [
+      "It makes water molecules shake fast",
+      "It heats the plate first",
+      "It uses a hot coil like a heater",
+      "It blows hot air around the food"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Microwaves flip water molecules back and forth billions of times a second, and that motion becomes heat.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "What does the capacitor in a ceiling fan do?",
+    "options": [
+      "Helps the motor start and turn",
+      "Stores power for load-shedding",
+      "Cools the motor down",
+      "Blocks voltage spikes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A single-phase fan motor needs the capacitor's push to start and turn; a weak one makes the fan run slow.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "Why do the back and sides of a fridge feel warm?",
+    "options": [
+      "Its motor is overheating",
+      "Electricity is leaking",
+      "Its inside light warms it",
+      "It releases heat taken from inside"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A fridge doesn't make cold; its refrigerant soaks up heat inside and releases it through the coils outside.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "Why does phone GPS work even without mobile data or Wi-Fi?",
+    "options": [
+      "It uses the SIM card's signal",
+      "It picks up satellite signals",
+      "It guesses from your last location",
+      "It uses nearby phones' Bluetooth"
+    ],
+    "correctAnswer": 1,
+    "explanation": "GPS, run by the USA, works by timing signals from at least four satellites; data only helps load maps faster.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "Who is Bluetooth named after?",
+    "options": [
+      "A shark with blue teeth",
+      "Its inventor's nickname",
+      "A Danish king",
+      "A Viking ship"
+    ],
+    "correctAnswer": 2,
+    "explanation": "It honours Harald Bluetooth, a 10th-century king who united Denmark and Norway, as the tech unites devices.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "What does 'QR' in QR code stand for?",
+    "options": [
+      "Quality Rating",
+      "Quick Read",
+      "Quick Response",
+      "Query Result"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Quick Response codes were invented in Japan in 1994 to track car parts quickly in factories.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "What is the frequency of household electricity in Pakistan?",
+    "options": [
+      "50 Hz",
+      "60 Hz",
+      "110 Hz",
+      "220 Hz"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pakistan's AC supply runs at 50 Hz, meaning 50 back-and-forth cycles each second; the USA uses 60 Hz.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "What is the job of the earth wire in house wiring?",
+    "options": [
+      "Carries the main supply",
+      "Returns current to the supply",
+      "Boosts low voltage",
+      "Leads fault current into the ground"
+    ],
+    "correctAnswer": 3,
+    "explanation": "If a live wire touches an appliance's metal body, the earth wire sends the current to the ground, not through you.",
+    "category": "Home & Technology"
+  },
+  {
+    "question": "Which vitamin prevents scurvy, the disease of bleeding gums?",
+    "options": [
+      "Vitamin A",
+      "Vitamin D",
+      "Vitamin C",
+      "Vitamin K"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Vitamin C, plentiful in guava, kinnow and lemons, keeps gums healthy; sailors on long voyages once got scurvy.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "Which vitamin does our skin make in sunlight?",
+    "options": [
+      "Vitamin A",
+      "Vitamin B12",
+      "Vitamin C",
+      "Vitamin D"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Sunlight on the skin makes vitamin D, which helps the body absorb calcium; a lack can cause rickets in children.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "Night blindness is linked to a lack of which vitamin?",
+    "options": [
+      "Vitamin C",
+      "Vitamin A",
+      "Vitamin D",
+      "Vitamin E"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Vitamin A, from foods like carrots, mangoes and liver, helps the eyes see in dim light.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "Lack of which mineral is the most common cause of anaemia?",
+    "options": [
+      "Iron",
+      "Calcium",
+      "Zinc",
+      "Sodium"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Iron is needed to make haemoglobin, the protein in red blood cells that carries oxygen around the body.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "Which blood group is known as the universal donor?",
+    "options": [
+      "O negative",
+      "AB positive",
+      "A positive",
+      "B negative"
+    ],
+    "correctAnswer": 0,
+    "explanation": "O negative red cells carry no A, B or Rh markers, so in emergencies they can be given to almost anyone.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "Which blood group is known as the universal recipient?",
+    "options": [
+      "O negative",
+      "O positive",
+      "A negative",
+      "AB positive"
+    ],
+    "correctAnswer": 3,
+    "explanation": "AB positive blood has A, B and Rh markers, so it does not react against red cells from any group.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "What does 'positive' mean in a blood group like B positive?",
+    "options": [
+      "The blood is very healthy",
+      "The person has a disease",
+      "Red cells carry the Rh protein",
+      "The blood has extra oxygen"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Rh-positive red cells carry a protein called the Rh factor, named after the rhesus monkeys used to discover it.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "What is the normal human body temperature?",
+    "options": [
+      "About 37°C",
+      "About 39°C",
+      "About 35°C",
+      "About 40°C"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Normal body temperature is about 37°C, or 98.6°F, and it dips slightly in the early morning.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "In a blood pressure reading of 120/80, what does 80 show?",
+    "options": [
+      "Heartbeats per minute",
+      "Pressure as the heart beats",
+      "Pressure between heartbeats",
+      "Oxygen level in the blood"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The top number (systolic) is pressure as the heart beats; the bottom (diastolic) is pressure between beats.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "When does the dengue mosquito mostly bite?",
+    "options": [
+      "Late at night",
+      "Only during rain",
+      "Only in winter",
+      "During the daytime"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Aedes mosquitoes, which spread dengue, bite mostly by day, especially in early morning and before sunset.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "Where does the dengue mosquito usually lay its eggs?",
+    "options": [
+      "In flowing streams",
+      "In clean, still water",
+      "In dirty sewage drains",
+      "In damp garden soil"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Aedes lays its eggs at the edges of clean standing water in pots, old tyres, air coolers and uncovered tanks.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "Platelets often drop in dengue fever. What is their main job?",
+    "options": [
+      "Carry oxygen",
+      "Fight germs",
+      "Make hormones",
+      "Help blood clot"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Platelets gather at a cut to form a clot and stop bleeding, which is why their count is watched in dengue.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "What causes malaria?",
+    "options": [
+      "A virus",
+      "A parasite",
+      "A bacterium",
+      "A fungus"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Malaria is caused by Plasmodium parasites, passed on by the bite of infected female Anopheles mosquitoes.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "What is ORS mainly used for?",
+    "options": [
+      "Replacing lost water and salts",
+      "Lowering a high fever",
+      "Killing stomach germs",
+      "Building muscle strength"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Oral Rehydration Salts help the gut absorb water, replacing fluid lost through diarrhoea or vomiting.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "How many bones does an adult human have?",
+    "options": [
+      "106",
+      "300",
+      "206",
+      "256"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Babies are born with around 300 bones, but many fuse together as they grow, leaving 206 in an adult.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "Where is the smallest bone in the human body?",
+    "options": [
+      "In the toe",
+      "In the nose",
+      "In the ear",
+      "In the finger"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The stapes, or stirrup bone, in the middle ear is about 3 mm long and passes sound to the inner ear.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "Where are more than half of the body's bones found?",
+    "options": [
+      "In the hands and feet",
+      "In the skull",
+      "In the spine",
+      "In the ribcage"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Each hand has 27 bones and each foot 26, so together they hold 106 of an adult's 206 bones.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "About how much of an adult's body weight is water?",
+    "options": [
+      "About 20%",
+      "About 60%",
+      "About 35%",
+      "About 90%"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Water is about 60% of an adult's weight; it carries nutrients, removes waste and cools us through sweat.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "What does BMI (Body Mass Index) compare?",
+    "options": [
+      "Muscle with fat",
+      "Height with age",
+      "Fat with bone",
+      "Weight with height"
+    ],
+    "correctAnswer": 3,
+    "explanation": "BMI is weight in kg divided by height in metres squared, a rough guide that can't tell fat from muscle.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "What is the largest organ of the human body?",
+    "options": [
+      "Liver",
+      "Skin",
+      "Lungs",
+      "Brain"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The skin is the largest organ, nearly 2 square metres in an adult; the liver is the largest internal one.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "Which organ can regrow after part of it is removed?",
+    "options": [
+      "Heart",
+      "Kidney",
+      "Brain",
+      "Liver"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The liver can regrow lost tissue, which is why a living person can donate part of their liver.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "Why does soap remove germs better than plain water?",
+    "options": [
+      "Its scent kills germs",
+      "It makes the water hotter",
+      "It breaks up oils holding germs",
+      "It coats hands against germs"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Soap molecules grab oil and grease that trap germs, letting water rinse them off; scrubbing helps too.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "How does a vaccine protect us?",
+    "options": [
+      "It trains the body to fight a germ",
+      "It kills all germs in the body",
+      "It replaces lost blood cells",
+      "It works as a painkiller"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A vaccine shows the body a harmless form or part of a germ, so it learns to fight the real one quickly.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "Which disease has been wiped out worldwide by vaccination?",
+    "options": [
+      "Smallpox",
+      "Polio",
+      "Measles",
+      "Malaria"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Smallpox was declared eradicated in 1980 after a global vaccination drive, the first human disease ever wiped out.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "The word 'vaccine' comes from the Latin word for which animal?",
+    "options": [
+      "Horse",
+      "Cow",
+      "Sheep",
+      "Goat"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Latin 'vacca' means cow: Edward Jenner's first vaccine in 1796 used cowpox to protect against smallpox.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "What can the polio virus cause?",
+    "options": [
+      "Blindness",
+      "Deafness",
+      "Paralysis",
+      "Skin rash"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Poliovirus can attack nerves in the spinal cord and cause permanent paralysis, mostly in children under five.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "Which organ does tuberculosis (TB) most often affect?",
+    "options": [
+      "Liver",
+      "Kidneys",
+      "Brain",
+      "Lungs"
+    ],
+    "correctAnswer": 3,
+    "explanation": "TB is caused by bacteria that most often attack the lungs, and it spreads through the air when sick people cough.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "Antibiotics work against which kind of germs?",
+    "options": [
+      "Viruses",
+      "All kinds of germs",
+      "Worms",
+      "Bacteria"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Antibiotics kill or stop bacteria but do nothing against viruses, such as those that cause colds and flu.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "What is a normal resting heart rate for an adult?",
+    "options": [
+      "60 to 100 beats a minute",
+      "30 to 50 beats a minute",
+      "120 to 160 beats a minute",
+      "160 to 200 beats a minute"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A resting adult heart usually beats 60 to 100 times a minute; trained athletes often have slower rates.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "About how much blood does an adult body hold?",
+    "options": [
+      "1 litre",
+      "2 litres",
+      "5 litres",
+      "10 litres"
+    ],
+    "correctAnswer": 2,
+    "explanation": "An adult has about 5 litres of blood, roughly 7% of body weight, pumped round the body about once a minute.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "Which organ makes insulin?",
+    "options": [
+      "Liver",
+      "Pancreas",
+      "Kidney",
+      "Stomach"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Insulin from the pancreas lets body cells take in sugar from the blood; in diabetes this system fails.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "How many milk (baby) teeth does a child normally have?",
+    "options": [
+      "16",
+      "20",
+      "24",
+      "32"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Children have 20 milk teeth; adults have up to 32 permanent teeth, including four wisdom teeth.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "What gives our skin its colour?",
+    "options": [
+      "Keratin",
+      "Haemoglobin",
+      "Melanin",
+      "Collagen"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Melanin, a pigment made by skin cells, gives skin, hair and eyes their colour and helps shield us from UV rays.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "The brain is about 2% of body weight. What share of the body's energy does it use?",
+    "options": [
+      "About 20%",
+      "About 1%",
+      "About 50%",
+      "About 5%"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Though small, the brain uses about 20% of the energy and oxygen the body uses at rest.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "How does hepatitis C mainly spread?",
+    "options": [
+      "Through coughing",
+      "Through dirty food",
+      "Through mosquito bites",
+      "Through infected blood"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Hepatitis C spreads mainly through blood, such as from reused syringes, shared razors or unscreened transfusions.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "How does the 'brain-eating amoeba' Naegleria usually infect people?",
+    "options": [
+      "Through water going up the nose",
+      "By drinking tap water",
+      "Through mosquito bites",
+      "By touching infected people"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The amoeba enters through the nose, as when swimming or rinsing it; drinking the water does not infect you.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "How does Congo fever, a worry during Eid ul Adha, mainly spread?",
+    "options": [
+      "Mosquito bites",
+      "Contaminated water",
+      "Eating cooked meat",
+      "Tick bites and animal blood"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The virus lives in ticks on livestock and spreads by tick bites or contact with an infected animal's blood.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "Which animal causes most human rabies cases?",
+    "options": [
+      "Cats",
+      "Dogs",
+      "Bats",
+      "Monkeys"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Rabies spreads through the saliva of infected animals, and dog bites cause up to 99% of human cases.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "Why do we get goosebumps when cold or scared?",
+    "options": [
+      "Skin shrinks in the cold",
+      "Blood rushes to the skin",
+      "Tiny muscles pull hairs upright",
+      "Sweat glands swell up"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Tiny muscles at each hair root tighten and lift the hair; in furry animals this traps air to keep them warm.",
+    "category": "Health Basics"
+  },
+  {
+    "question": "What is NADRA's B-Form officially called?",
+    "options": [
+      "Birth Record Form",
+      "Basic Identity Form",
+      "Child Registration Certificate",
+      "Family Residence Card"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The B-Form, or Child Registration Certificate (CRC), registers children under 18; at 18 they get a CNIC.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "Who is a NICOP made for?",
+    "options": [
+      "Foreign tourists",
+      "Overseas Pakistanis",
+      "Government officers",
+      "Foreign students"
+    ],
+    "correctAnswer": 1,
+    "explanation": "NICOP is the National Identity Card for Overseas Pakistanis, and it allows visa-free entry into Pakistan.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "Who is NADRA's Pakistan Origin Card (POC) meant for?",
+    "options": [
+      "Pakistanis living abroad",
+      "Children under 18",
+      "Retired government staff",
+      "Foreigners of Pakistani origin"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A POC is for foreign citizens of Pakistani origin, letting them enter and stay in Pakistan without a visa.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "What does the last digit of a Pakistani CNIC number show?",
+    "options": [
+      "Gender",
+      "Province",
+      "Birth year",
+      "Blood group"
+    ],
+    "correctAnswer": 0,
+    "explanation": "On a CNIC, an odd last digit means the holder is male and an even last digit means female.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "What does the first digit of a Pakistani CNIC number show?",
+    "options": [
+      "Gender",
+      "Birth month",
+      "Province or region",
+      "Marital status"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The first digit marks the region, for example 3 for Punjab, 4 for Sindh and 6 for Islamabad.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "What does a domicile certificate prove in Pakistan?",
+    "options": [
+      "Your date of birth",
+      "Your permanent residence",
+      "Your education level",
+      "Your clean police record"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A domicile, like a PRC (Permanent Residence Certificate), shows your home district for job and study quotas.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "What colour is a Pakistani diplomatic passport?",
+    "options": [
+      "Green",
+      "Blue",
+      "Black",
+      "Red"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Pakistan's ordinary passport is green, the official passport is blue and the diplomatic passport is red.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "In Pakistan, what does it mean to be a 'filer'?",
+    "options": [
+      "You file income tax returns",
+      "You have a registered business",
+      "You pay utility bills on time",
+      "You hold a bank account"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A filer submits yearly income tax returns and appears on FBR's Active Taxpayers List (ATL).",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "Which body collects federal taxes and issues NTNs in Pakistan?",
+    "options": [
+      "State Bank of Pakistan",
+      "SECP",
+      "FBR",
+      "Pakistan Bureau of Statistics"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Federal Board of Revenue collects income tax, sales tax and customs duty and issues National Tax Numbers.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "Whose signature is printed on Pakistani banknotes?",
+    "options": [
+      "Prime Minister",
+      "Governor of the State Bank",
+      "Finance Minister",
+      "President of Pakistan"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The State Bank issues Pakistan's banknotes, so each note carries the signature of the SBP Governor.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "In which city are Pakistan's banknotes printed?",
+    "options": [
+      "Karachi",
+      "Islamabad",
+      "Lahore",
+      "Rawalpindi"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Pakistan Security Printing Corporation in Karachi prints the country's banknotes for the State Bank.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "How many characters long is a Pakistani IBAN?",
+    "options": [
+      "16",
+      "20",
+      "22",
+      "24"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A Pakistani IBAN has 24 characters: PK, 2 check digits, a 4-letter bank code and a 16-digit account number.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "What is Raast in Pakistan?",
+    "options": [
+      "A mobile wallet company",
+      "SBP's instant payment system",
+      "A national savings scheme",
+      "FBR's online tax portal"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Raast is the State Bank's instant payment system; you can send money using a mobile number as a Raast ID.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "In Islamic banking, what is Murabaha?",
+    "options": [
+      "A lease of an asset",
+      "A business partnership",
+      "A cost-plus-profit sale",
+      "An interest-free loan"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In Murabaha, the bank buys an item and sells it to you at cost plus a disclosed profit, often in instalments.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "Which Islamic banking contract is a lease, often used for car financing?",
+    "options": [
+      "Ijarah",
+      "Murabaha",
+      "Mudarabah",
+      "Musharakah"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In Ijarah, the bank buys and owns an asset such as a car and rents it to the customer for an agreed rent.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "In Islamic finance, what makes Mudarabah different from Musharakah?",
+    "options": [
+      "It is a lease, not a partnership",
+      "Profit is fixed in advance",
+      "One side gives money, the other work",
+      "It is used only for gold"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In Musharakah all partners invest money; in Mudarabah one gives the money and the other runs the business.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "What is Takaful?",
+    "options": [
+      "An Islamic bond",
+      "Islamic insurance",
+      "An Islamic home loan",
+      "A charity tax"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In Takaful, members pay into a shared fund that is used to help any member who suffers a covered loss.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "What is the standard rate of zakat on savings and gold?",
+    "options": [
+      "1%",
+      "2%",
+      "2.5%",
+      "5%"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Zakat is 2.5%, or one-fortieth, of qualifying wealth held for a full lunar year above the nisab.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "What does inflation mean?",
+    "options": [
+      "A general rise in prices",
+      "A rise in exports",
+      "A fall in taxes",
+      "A rise in bank profits"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Inflation is a general rise in prices over time, so the same amount of money buys less than before.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "Which body publishes Pakistan's monthly CPI inflation figures?",
+    "options": [
+      "State Bank of Pakistan",
+      "FBR",
+      "Ministry of Commerce",
+      "Pakistan Bureau of Statistics"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The Pakistan Bureau of Statistics tracks the prices of a fixed basket of goods to calculate CPI inflation.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "Who sets Pakistan's policy (interest) rate?",
+    "options": [
+      "FBR",
+      "State Bank of Pakistan",
+      "Ministry of Finance",
+      "Pakistan Stock Exchange"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The State Bank's Monetary Policy Committee sets the policy rate, which guides banks' lending and saving rates.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "What usually happens when the rupee loses value against the dollar?",
+    "options": [
+      "Petrol gets cheaper",
+      "Foreign trips get cheaper",
+      "Imported goods cost more",
+      "Exports earn fewer rupees"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A weaker rupee means more rupees are needed for each dollar, so imported goods like fuel cost more.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "What are remittances in Pakistan's economy?",
+    "options": [
+      "Money sent home from abroad",
+      "Loans from abroad",
+      "Earnings from exports",
+      "Tax refunds to citizens"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Remittances are money sent home by Pakistanis working abroad, a major source of the country's foreign exchange.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "When does Pakistan's fiscal (financial) year begin?",
+    "options": [
+      "1 January",
+      "1 April",
+      "1 October",
+      "1 July"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Pakistan's fiscal year runs from 1 July to 30 June, which is why the federal budget usually comes in June.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "What is the KSE-100?",
+    "options": [
+      "A tax return form",
+      "A stock market index",
+      "A savings certificate",
+      "A national bank"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The KSE-100 tracks 100 leading companies on the Pakistan Stock Exchange, showing the market's overall direction.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "In the stock market, what is a 'bear market'?",
+    "options": [
+      "A market for new shares",
+      "A time of rising prices",
+      "A long fall in share prices",
+      "A market closed for holidays"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A bear market is a long fall in share prices; a rising market is a bull market, as bulls thrust their horns up.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "What is the highest BPS grade in Pakistan's civil service?",
+    "options": [
+      "17",
+      "22",
+      "20",
+      "25"
+    ],
+    "correctAnswer": 1,
+    "explanation": "BPS, the Basic Pay Scale, runs from BPS-1 to BPS-22, the top grade for the most senior officers.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "What does it mean when a government officer is 'gazetted'?",
+    "options": [
+      "Their posting is secret",
+      "They are on probation",
+      "Their appointment is in the Gazette",
+      "They work for a newspaper"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Gazetted officers, usually BPS-17 and above, have their appointments notified in the official Gazette.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "Which commission conducts the CSS exam?",
+    "options": [
+      "FPSC",
+      "PPSC",
+      "HEC",
+      "NTS"
+    ],
+    "correctAnswer": 0,
+    "explanation": "FPSC runs the Central Superior Services (CSS) exam, which recruits officers for groups like the Foreign Service.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "What is the main difference between the CSS and PMS exams?",
+    "options": [
+      "CSS is oral, PMS is written",
+      "CSS is for men, PMS for women",
+      "CSS is for army, PMS for police",
+      "CSS is federal, PMS is provincial"
+    ],
+    "correctAnswer": 3,
+    "explanation": "CSS recruits for federal services, while PMS recruits for provincial services through commissions like PPSC.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "Before 1961, how many annas made one Pakistani rupee?",
+    "options": [
+      "10",
+      "16",
+      "12",
+      "20"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Until 1961, a rupee had 16 annas, so an 'athanni' (8 annas) was half a rupee; now it has 100 paisa.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "Which section of the Pakistan Penal Code deals specifically with bounced cheques?",
+    "options": [
+      "489-F",
+      "420",
+      "406",
+      "379"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Section 489-F of the Pakistan Penal Code makes dishonestly issuing a cheque that bounces a criminal offence.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "What do two parallel lines drawn across a cheque mean?",
+    "options": [
+      "It is cancelled",
+      "It can be cashed by anyone",
+      "It is valid for one week",
+      "It must go into a bank account"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A crossed cheque cannot be cashed over the counter; it must be paid into a bank account.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "What is an OTP that banks send you by SMS?",
+    "options": [
+      "Online transfer permit",
+      "Official tax payment",
+      "One-time password",
+      "Open transaction PIN"
+    ],
+    "correctAnswer": 2,
+    "explanation": "An OTP is a one-time password that confirms a transaction; banks never ask for it, so never share it.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "What is a 'committee' (BC) savings scheme in Pakistan?",
+    "options": [
+      "Members pool money and take turns",
+      "A bank fixed deposit",
+      "A government savings bond",
+      "An insurance plan"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Each month every member pays a fixed amount, and one member takes the whole pot until everyone has had a turn.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "What is 'hawala' or 'hundi'?",
+    "options": [
+      "A prize bond",
+      "Informal money transfer",
+      "A gold loan",
+      "A property tax"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Hawala or hundi moves money through informal agents outside banks; in Pakistan it is illegal.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "What is an affidavit?",
+    "options": [
+      "A court judgement",
+      "A police report",
+      "A tax receipt",
+      "A sworn written statement"
+    ],
+    "correctAnswer": 3,
+    "explanation": "An affidavit is a written statement you swear is true, usually signed before an oath commissioner.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "Why are legal deeds in Pakistan written on stamp paper?",
+    "options": [
+      "To show stamp duty is paid",
+      "To make them waterproof",
+      "To register them with NADRA",
+      "To avoid income tax"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Stamp paper, now often e-stamp paper, proves the stamp duty on a deed has been paid to the government.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "What does a 'power of attorney' let a person do?",
+    "options": [
+      "Become a lawyer",
+      "Avoid paying taxes",
+      "Act legally on your behalf",
+      "Arrest someone"
+    ],
+    "correctAnswer": 2,
+    "explanation": "It lets someone you choose sign and act for you, for example to sell property while you live abroad.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "In Punjab's land records, what is a 'fard'?",
+    "options": [
+      "A copy of the ownership record",
+      "A sale agreement",
+      "A building map",
+      "A land tax receipt"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A fard is an official copy from the land record showing who owns a piece of land and in what share.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "What is 'intiqal' (mutation) in Pakistani land records?",
+    "options": [
+      "Measuring a plot",
+      "Paying land tax",
+      "Mortgaging land",
+      "Recording a change of owner"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Intiqal updates the revenue record with the new owner after a sale, gift or inheritance of land.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "Which body verifies university degrees in Pakistan?",
+    "options": [
+      "IBCC",
+      "FPSC",
+      "NADRA",
+      "HEC"
+    ],
+    "correctAnswer": 3,
+    "explanation": "HEC verifies university degrees, while the IBCC attests matric and intermediate certificates.",
+    "category": "Money & Documents"
+  },
+  {
+    "question": "How many kanals make one acre?",
+    "options": [
+      "4",
+      "8",
+      "10",
+      "20"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An acre is 8 kanals, and since a kanal is 20 marlas, an acre is 160 marlas.",
+    "category": "Measurements"
+  },
+  {
+    "question": "In revenue records, how many square feet make one marla?",
+    "options": [
+      "225",
+      "250",
+      "272.25",
+      "300"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A revenue marla is 272.25 sq ft, but many housing societies use a smaller marla of 225 sq ft.",
+    "category": "Measurements"
+  },
+  {
+    "question": "How many acres make one murabba of land?",
+    "options": [
+      "25",
+      "10",
+      "40",
+      "100"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A murabba, meaning 'square', is usually 25 acres; in Punjab villages each acre is often called a killa.",
+    "category": "Measurements"
+  },
+  {
+    "question": "In video quality, what does the '1080' in 1080p mean?",
+    "options": [
+      "It plays 1,080 frames a second",
+      "The picture is 1,080 pixels tall",
+      "It shows 1,080 colours",
+      "It uses 1,080 kilobytes a second"
+    ],
+    "correctAnswer": 1,
+    "explanation": "1080p video is 1,920 pixels wide and 1,080 pixels tall; 4K video has about 2,160 rows of pixels.",
+    "category": "Measurements"
+  },
+  {
+    "question": "In Karachi, plot sizes are usually given in which unit?",
+    "options": [
+      "Marlas",
+      "Kanals",
+      "Acres",
+      "Square yards"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Karachi plots are usually sold in square yards, like 120 or 240 yards, while Punjab mostly uses marla and kanal.",
+    "category": "Measurements"
+  },
+  {
+    "question": "What is one 'gaz' in everyday Pakistani measurement?",
+    "options": [
+      "One yard",
+      "One metre",
+      "One foot",
+      "Two feet"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A gaz is one yard, or 3 feet, about 0.91 metres; cloth shops often sell fabric by the gaz.",
+    "category": "Measurements"
+  },
+  {
+    "question": "About how many grams are in one tola?",
+    "options": [
+      "8 g",
+      "10 g",
+      "11.66 g",
+      "12.5 g"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A tola is about 11.66 grams, and Pakistani gold rates are usually quoted per tola and per 10 grams.",
+    "category": "Measurements"
+  },
+  {
+    "question": "How many mashas make one tola?",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Jewellers still use old units: 12 masha make one tola, and 8 ratti make one masha.",
+    "category": "Measurements"
+  },
+  {
+    "question": "How many seers make one maund (mann)?",
+    "options": [
+      "20",
+      "40",
+      "16",
+      "100"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A maund is 40 seers, about 37.3 kg, though grain markets now often use a 40 kg maund.",
+    "category": "Measurements"
+  },
+  {
+    "question": "When shopping, how much is 'one pao'?",
+    "options": [
+      "100 grams",
+      "500 grams",
+      "1 kilogram",
+      "250 grams"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Pao means a quarter; it was a quarter seer, and shopkeepers now use it for 250 grams, a quarter kilo.",
+    "category": "Measurements"
+  },
+  {
+    "question": "What does 22 karat gold mean?",
+    "options": [
+      "22% of it is gold",
+      "22 of 24 parts are gold",
+      "It weighs 22 grams",
+      "It was refined 22 times"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Karats measure purity out of 24, so 22K is about 91.6% gold and 21K is 87.5% gold.",
+    "category": "Measurements"
+  },
+  {
+    "question": "Why is jewellery rarely made from pure 24 karat gold?",
+    "options": [
+      "It rusts quickly",
+      "It is magnetic",
+      "It looks too pale",
+      "It is too soft"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Pure gold is very soft and bends easily, so jewellers mix in copper or silver to make it stronger.",
+    "category": "Measurements"
+  },
+  {
+    "question": "For diamonds and gems, what does a 'carat' measure?",
+    "options": [
+      "Weight",
+      "Purity",
+      "Colour",
+      "Brightness"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A gem carat is a weight of 200 milligrams, while a gold karat measures purity, not weight.",
+    "category": "Measurements"
+  },
+  {
+    "question": "How many lakhs make one crore?",
+    "options": [
+      "10",
+      "50",
+      "100",
+      "1,000"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A lakh is 100,000 and a crore is 10 million, so a million is 10 lakh and 100 lakh make a crore.",
+    "category": "Measurements"
+  },
+  {
+    "question": "In the South Asian counting system, what is one billion called?",
+    "options": [
+      "One arab",
+      "One kharab",
+      "Ten crore",
+      "One lakh crore"
+    ],
+    "correctAnswer": 0,
+    "explanation": "One arab is 100 crore, or one billion, and 100 arab make one kharab.",
+    "category": "Measurements"
+  },
+  {
+    "question": "International gold prices are per troy ounce. About how many grams is that?",
+    "options": [
+      "28.35 g",
+      "31.1 g",
+      "11.66 g",
+      "50 g"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A troy ounce is about 31.1 grams, roughly 2.67 tolas, and is heavier than the ordinary 28.35 g ounce.",
+    "category": "Measurements"
+  },
+  {
+    "question": "What voltage does household electricity in Pakistan use?",
+    "options": [
+      "110 volts",
+      "12 volts",
+      "220 volts",
+      "24 volts"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Pakistani homes get about 220 to 230 volts, nearly twice the 120 volts used in the USA.",
+    "category": "Measurements"
+  },
+  {
+    "question": "At what temperature does water boil on the Fahrenheit scale?",
+    "options": [
+      "100",
+      "212",
+      "180",
+      "273"
+    ],
+    "correctAnswer": 1,
+    "explanation": "At sea level water boils at 100 degrees Celsius, which equals 212 degrees Fahrenheit.",
+    "category": "Measurements"
+  },
+  {
+    "question": "One kilogram equals about how many pounds (lb)?",
+    "options": [
+      "2.2",
+      "1.5",
+      "3.5",
+      "5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A kilogram is about 2.2 pounds, so a 50 kg bag of flour weighs about 110 pounds.",
+    "category": "Measurements"
+  },
+  {
+    "question": "How many items make one 'gross'?",
+    "options": [
+      "100",
+      "120",
+      "144",
+      "200"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A gross is 12 dozen, or 144 items; wholesalers often sell small goods like pencils and buttons by the gross.",
+    "category": "Measurements"
+  },
+  {
+    "question": "About how many kilometres make one mile?",
+    "options": [
+      "1.2",
+      "2",
+      "0.8",
+      "1.6"
+    ],
+    "correctAnswer": 3,
+    "explanation": "One mile is about 1.61 km, so a distance of 100 km is roughly 62 miles.",
+    "category": "Measurements"
+  },
+  {
+    "question": "How many centimetres make one inch?",
+    "options": [
+      "2",
+      "2.54",
+      "3",
+      "2.45"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An inch is exactly 2.54 cm, so a person 6 feet tall is about 183 cm.",
+    "category": "Measurements"
+  },
+  {
+    "question": "What does a ship's speed in 'knots' mean?",
+    "options": [
+      "Nautical miles per hour",
+      "Kilometres per hour",
+      "Metres per second",
+      "Miles per minute"
+    ],
+    "correctAnswer": 0,
+    "explanation": "One knot is one nautical mile, 1.852 km, per hour; sailors once timed knots on a rope to measure speed.",
+    "category": "Measurements"
+  },
+  {
+    "question": "About how many watts is one horsepower?",
+    "options": [
+      "100 W",
+      "500 W",
+      "746 W",
+      "1,000 W"
+    ],
+    "correctAnswer": 2,
+    "explanation": "One horsepower is about 746 watts; James Watt coined the unit to compare steam engines with horses.",
+    "category": "Measurements"
+  },
+  {
+    "question": "About how many feet make one metre?",
+    "options": [
+      "1.5",
+      "2.54",
+      "4.5",
+      "3.28"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A metre is about 3.28 feet, so K2's height of 8,611 metres is about 28,250 feet.",
+    "category": "Measurements"
+  },
+  {
+    "question": "What does 'mAh' on a phone battery or power bank show?",
+    "options": [
+      "Battery capacity",
+      "Charging speed",
+      "Screen brightness",
+      "Signal strength"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Milliampere-hours show how much charge a battery holds, so 5,000 mAh stores more than 3,000 mAh.",
+    "category": "Measurements"
+  },
+  {
+    "question": "An internet speed of 8 Mbps downloads about how much data per second?",
+    "options": [
+      "8 megabytes",
+      "1 megabyte",
+      "64 megabytes",
+      "0.5 megabytes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Mbps means megabits per second; 8 bits make a byte, so 8 Mbps is about 1 megabyte each second.",
+    "category": "Measurements"
+  },
+  {
+    "question": "How much gas does a standard household LPG cylinder in Pakistan hold?",
+    "options": [
+      "5 kg",
+      "20 kg",
+      "11.8 kg",
+      "45.4 kg"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A domestic LPG cylinder in Pakistan holds 11.8 kg of gas, while the larger commercial cylinder holds 45.4 kg.",
+    "category": "Measurements"
+  },
+  {
+    "question": "How long is a full marathon race?",
+    "options": [
+      "21.1 km",
+      "26 km",
+      "50 km",
+      "42.195 km"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A marathon is 42.195 km, about 26.2 miles, a distance taken from the course of the 1908 London Olympics.",
+    "category": "Measurements"
+  },
+  {
+    "question": "How many litres of water fill a tank of one cubic metre?",
+    "options": [
+      "1,000",
+      "100",
+      "500",
+      "10,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "One cubic metre holds 1,000 litres, and that much water weighs about 1,000 kg, a metric tonne.",
+    "category": "Measurements"
+  },
+  {
+    "question": "What does 'cusec', used in flood news, measure?",
+    "options": [
+      "Depth of a river",
+      "Water flow per second",
+      "Rainfall in a day",
+      "Height of a dam"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A cusec is one cubic foot of water flowing past a point each second, about 28 litres per second.",
+    "category": "Measurements"
+  },
+  {
+    "question": "Dam storage is often given in MAF. What does MAF mean?",
+    "options": [
+      "Main annual flow",
+      "Maximum allowed flood",
+      "Million acre-feet",
+      "Metric acre factor"
+    ],
+    "correctAnswer": 2,
+    "explanation": "An acre-foot is water one foot deep spread over one acre; big dams report storage in million acre-feet.",
+    "category": "Measurements"
+  },
+  {
+    "question": "In smog reports, what does a higher AQI number mean?",
+    "options": [
+      "Cleaner air",
+      "Colder weather",
+      "More humidity",
+      "More polluted air"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The Air Quality Index rates air pollution; the higher the number, the more harmful the air is to breathe.",
+    "category": "Measurements"
+  },
+  {
+    "question": "In smog news, what is PM2.5?",
+    "options": [
+      "Tiny particles in the air",
+      "A poisonous gas",
+      "A smog warning level",
+      "A weather station code"
+    ],
+    "correctAnswer": 0,
+    "explanation": "PM2.5 are particles 2.5 micrometres or smaller, about 30 times thinner than a hair, that reach deep into lungs.",
+    "category": "Measurements"
+  },
+  {
+    "question": "Each step up the Richter scale, like 6 to 7, means about how much more energy?",
+    "options": [
+      "2 times",
+      "10 times",
+      "32 times",
+      "100 times"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Each whole step on the magnitude scale means 10 times bigger shaking and about 32 times more energy.",
+    "category": "Measurements"
+  },
+  {
+    "question": "When the weather report says 50 mm of rain fell, what does it mean?",
+    "options": [
+      "Water would stand 50 mm deep",
+      "Each drop was 50 mm wide",
+      "It rained for 50 minutes",
+      "50 drops fell per metre"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Rainfall in mm is the depth water would reach on flat ground if none drained away, soaked in or evaporated.",
+    "category": "Measurements"
+  },
+  {
+    "question": "What is special about the A0 paper size?",
+    "options": [
+      "It is perfectly square",
+      "It is the smallest size",
+      "It is one metre long",
+      "Its area is one square metre"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A0 has an area of one square metre; halving it gives A1, then A2, A3 and finally A4.",
+    "category": "Measurements"
+  },
+  {
+    "question": "How is a TV's screen size, like 43 inches, measured?",
+    "options": [
+      "Across the width",
+      "Diagonally, corner to corner",
+      "From top to bottom",
+      "Around the edges"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Screen sizes are measured diagonally, from one corner of the screen to the opposite corner.",
+    "category": "Measurements"
+  },
+  {
+    "question": "What does a decibel (dB) measure?",
+    "options": [
+      "Light brightness",
+      "Wind speed",
+      "Sound level",
+      "Air pressure"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Decibels measure how loud a sound is; every 10 dB rise means ten times more sound intensity.",
+    "category": "Measurements"
+  },
+  {
+    "question": "How many sheets of paper make one ream?",
+    "options": [
+      "100",
+      "200",
+      "400",
+      "500"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A ream is 500 sheets, which is why packs of printer paper usually hold exactly 500 sheets.",
+    "category": "Measurements"
+  },
+  {
+    "question": "What does 'GSM' mean when buying paper or cloth?",
+    "options": [
+      "Grade of silk material",
+      "Grams per square metre",
+      "General size measure",
+      "Gloss and shine mark"
+    ],
+    "correctAnswer": 1,
+    "explanation": "GSM is grams per square metre; a higher GSM means heavier, thicker paper or fabric.",
+    "category": "Measurements"
+  },
+  {
+    "question": "Pakistan's national animal, the markhor, is a type of what?",
+    "options": [
+      "Wild goat",
+      "Wild sheep",
+      "Deer",
+      "Antelope"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The markhor is a wild goat with long corkscrew horns, found in the mountains of northern and western Pakistan.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "Pakistan's national bird, the chukar, is a type of what?",
+    "options": [
+      "Falcon",
+      "Pigeon",
+      "Partridge",
+      "Parrot"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The chukar partridge lives on rocky, grassy hillsides and is famous for its loud 'chuk-chuk' call.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "Which tree is Pakistan's national tree?",
+    "options": [
+      "Chinar",
+      "Deodar",
+      "Neem",
+      "Sheesham"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The deodar, a tall cedar of the northern mountains, is the national tree; its name means 'wood of the gods'.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "When it is 12 noon in Pakistan, what time is it in India?",
+    "options": [
+      "11:30 am",
+      "12 noon",
+      "1:00 pm",
+      "12:30 pm"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Pakistan uses UTC+5 and India uses UTC+5:30, so India's clocks run 30 minutes ahead.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "What is Pakistan's international dialling code?",
+    "options": [
+      "+91",
+      "+93",
+      "+98",
+      "+92"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Pakistan's code is +92, while India uses +91, Afghanistan +93 and Iran +98.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "Which was South Asia's first motorway, opened in Pakistan in 1997?",
+    "options": [
+      "M-9 Karachi-Hyderabad",
+      "M-1 Peshawar-Islamabad",
+      "M-2 Lahore-Islamabad",
+      "M-5 Multan-Sukkur"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The M-2 between Lahore and Islamabad opened in 1997 as the first motorway in South Asia.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "At which pass does the Karakoram Highway cross into China?",
+    "options": [
+      "Khyber Pass",
+      "Khunjerab Pass",
+      "Bolan Pass",
+      "Lowari Pass"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The KKH enters China at Khunjerab Pass, about 4,700 m up, one of the world's highest paved border crossings.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "Why is Lahore called the 'City of Gardens'?",
+    "options": [
+      "It exports the most flowers",
+      "Its name means garden",
+      "It has many historic gardens",
+      "It grows most of Pakistan's fruit"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Lahore is famed for gardens like the Mughal Shalimar Bagh and the British-era Lawrence Garden, now Bagh-e-Jinnah.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "Which city is called the 'Manchester of Pakistan'?",
+    "options": [
+      "Faisalabad",
+      "Sialkot",
+      "Gujranwala",
+      "Multan"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Faisalabad's huge textile industry, like that of Manchester in England, earned it this nickname.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "Which Pakistani city is world-famous for making footballs?",
+    "options": [
+      "Gujrat",
+      "Sialkot",
+      "Faisalabad",
+      "Hyderabad"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sialkot makes a large share of the world's footballs, including official balls used at FIFA World Cups.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "Which Punjab city is famous for carved wooden furniture?",
+    "options": [
+      "Sargodha",
+      "Okara",
+      "Chiniot",
+      "Kasur"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chiniot's craftsmen are known for richly carved wooden furniture, doors and decorations.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "What is a pakol?",
+    "options": [
+      "A leather sandal",
+      "An embroidered shawl",
+      "A copper pot",
+      "A round woollen cap"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The pakol is a soft, round-topped woollen cap worn in Chitral, Gilgit-Baltistan and much of Khyber Pakhtunkhwa.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "The chapli kabab is a speciality of which city?",
+    "options": [
+      "Peshawar",
+      "Lahore",
+      "Karachi",
+      "Hyderabad"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Peshawar's chapli kabab is a flat, spicy patty of minced meat, popular across Khyber Pakhtunkhwa.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "Which ingredients are typical of Sindhi biryani?",
+    "options": [
+      "Coconut and curry leaves",
+      "Potatoes and dried plums",
+      "Raisins and cream",
+      "Peas and carrots"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sindhi biryani is spicy and layered with potatoes and sour aloo bukhara, or dried plums.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "Which city is famous for its blue pottery?",
+    "options": [
+      "Chiniot",
+      "Quetta",
+      "Peshawar",
+      "Multan"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Multani blue pottery uses cobalt blue and turquoise glazes in floral designs, also seen on its shrines' tiles.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "What is ajrak, a symbol of Sindhi culture?",
+    "options": [
+      "An embroidered cap",
+      "A clay water pot",
+      "A block-printed cloth",
+      "A folk instrument"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Ajrak is cloth block-printed with geometric patterns, mostly in deep red and indigo, worn as a shawl.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "Which Sindh city is famous for making glass bangles?",
+    "options": [
+      "Hyderabad",
+      "Sukkur",
+      "Larkana",
+      "Thatta"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Hyderabad is Pakistan's centre of glass bangle making, much of it done by hand in home workshops.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "Basant, Punjab's kite-flying festival, welcomes which season?",
+    "options": [
+      "Winter",
+      "Monsoon",
+      "Autumn",
+      "Spring"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Basant marks the arrival of spring, when people fly kites and wear yellow like the blooming mustard fields.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "The Shandur Polo Festival features a match between teams from which areas?",
+    "options": [
+      "Swat and Dir",
+      "Hunza and Skardu",
+      "Chitral and Gilgit",
+      "Lahore and Peshawar"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Each summer at Shandur Pass, about 3,700 m up, teams from Chitral and Gilgit play freestyle polo.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "Where is the Lok Mela folk festival held each year?",
+    "options": [
+      "Islamabad",
+      "Lahore",
+      "Karachi",
+      "Peshawar"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Lok Virsa holds Lok Mela in Islamabad, bringing crafts, music and food from every region of Pakistan.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "How many of the world's 14 peaks above 8,000 metres are in Pakistan?",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pakistan has five: K2, Nanga Parbat, Gasherbrum I, Broad Peak and Gasherbrum II.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "Which Pakistani peak was nicknamed the 'Killer Mountain'?",
+    "options": [
+      "K2",
+      "Rakaposhi",
+      "Nanga Parbat",
+      "Tirich Mir"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Nanga Parbat, 8,126 m, got the name after many climbers died on it before its first ascent in 1953.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "Near Gilgit, which three great mountain ranges meet?",
+    "options": [
+      "Karakoram, Himalaya, Hindu Kush",
+      "Himalaya, Pamir, Sulaiman",
+      "Karakoram, Pamir, Kirthar",
+      "Hindu Kush, Sulaiman, Salt Range"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Near Jaglot, south of Gilgit, the Karakoram, Himalaya and Hindu Kush meet, a spot marked by a monument.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "Pakistan's first railway line, opened in 1861, linked Karachi with which town?",
+    "options": [
+      "Hyderabad",
+      "Kotri",
+      "Sukkur",
+      "Lahore"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The first railway in today's Pakistan opened on 13 May 1861, running from Karachi to Kotri on the Indus.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "How was Attabad Lake in Hunza formed?",
+    "options": [
+      "A landslide blocked a river",
+      "A glacier melted",
+      "Engineers built a dam",
+      "An earthquake split the ground"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In January 2010, a huge landslide blocked the Hunza River, creating the turquoise Attabad Lake.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "How does the nearly blind Indus river dolphin find its food?",
+    "options": [
+      "By smell",
+      "By sensing heat",
+      "By echolocation",
+      "By touch with its flippers"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In muddy water the Indus dolphin relies on echolocation, sending out clicks and listening for echoes.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "Which Sindh city is known as one of the hottest places on Earth?",
+    "options": [
+      "Hyderabad",
+      "Karachi",
+      "Thatta",
+      "Jacobabad"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Jacobabad often crosses 50 degrees Celsius in summer, making it one of the hottest cities in the world.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "Tarbela Dam on the Indus is famous as the world's largest what?",
+    "options": [
+      "Concrete dam",
+      "Earth-filled dam",
+      "Hydropower plant",
+      "Man-made lake"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Completed in 1976, Tarbela is the world's largest earth-filled dam, built mainly from packed earth and rock.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "Faisal Mosque in Islamabad was designed to look like what?",
+    "options": [
+      "A lotus flower",
+      "A ship",
+      "A crescent moon",
+      "A desert tent"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Turkish architect Vedat Dalokay shaped it like a Bedouin tent, with four tall minarets and no dome.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "Faisalabad's Clock Tower stands at the centre of how many bazaars?",
+    "options": [
+      "4",
+      "8",
+      "6",
+      "12"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Eight bazaars spread out from Faisalabad's Clock Tower, a layout often said to copy the Union Jack.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "What does the name of Peshawar's Qissa Khwani Bazaar mean?",
+    "options": [
+      "Storytellers' market",
+      "Spice market",
+      "Copper market",
+      "Book market"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Traders and travellers once gathered here to hear professional storytellers, giving the bazaar its name.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "What was the name of Pakistan's first satellite, launched in 1990?",
+    "options": [
+      "PakSat-1R",
+      "PRSS-1",
+      "Hilal-1",
+      "Badr-1"
+    ],
+    "correctAnswer": 3,
+    "explanation": "SUPARCO's Badr-1 was launched from China in July 1990, making it Pakistan's first satellite.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "Who was the first Pakistani to climb Mount Everest?",
+    "options": [
+      "Samina Baig",
+      "Hassan Sadpara",
+      "Nazir Sabir",
+      "Ashraf Aman"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Nazir Sabir reached Everest's summit in 2000; Samina Baig became the first Pakistani woman to do so in 2013.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "Which Pakistani was the first bowler officially clocked at over 100 mph?",
+    "options": [
+      "Wasim Akram",
+      "Shoaib Akhtar",
+      "Waqar Younis",
+      "Mohammad Sami"
+    ],
+    "correctAnswer": 1,
+    "explanation": "At the 2003 World Cup, Shoaib Akhtar was clocked at 161.3 km/h, about 100.2 mph, against England.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "Squash legend Jahangir Khan won about how many matches in a row?",
+    "options": [
+      "155",
+      "255",
+      "355",
+      "555"
+    ],
+    "correctAnswer": 3,
+    "explanation": "From 1981 to 1986, Jahangir Khan won 555 matches in a row, one of the longest winning runs in pro sport.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "In which event did Arshad Nadeem win Olympic gold at Paris 2024?",
+    "options": [
+      "Javelin throw",
+      "Shot put",
+      "Discus throw",
+      "Hammer throw"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Arshad Nadeem threw 92.97 m, an Olympic record, to win Pakistan's first individual Olympic gold.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "German-born Dr Ruth Pfau is honoured in Pakistan for fighting which disease?",
+    "options": [
+      "Polio",
+      "Malaria",
+      "Tuberculosis",
+      "Leprosy"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Dr Ruth Pfau led Pakistan's fight against leprosy, which WHO declared controlled in Pakistan in 1996.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "Which language is spoken as a first language by the most Pakistanis?",
+    "options": [
+      "Urdu",
+      "Pashto",
+      "Sindhi",
+      "Punjabi"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Urdu is the national language that links the country, but Punjabi is the most common mother tongue.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "In Pakistan, which number do you dial for the police emergency helpline?",
+    "options": [
+      "1122",
+      "15",
+      "115",
+      "16"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Dial 15 for police; 1122 is Rescue for ambulance and fire, and 115 is the Edhi ambulance service.",
+    "category": "Pakistan Life"
+  },
+  {
+    "question": "Why do vehicles in Pakistan drive on the left side of the road?",
+    "options": [
+      "A Mughal-era law",
+      "Influence from China",
+      "A habit kept from British rule",
+      "Because of hilly roads"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Pakistan kept the British rule of driving on the left; the UK, India and Australia drive on the left too.",
+    "category": "Pakistan Life"
+  }
+]

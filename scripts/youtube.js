@@ -62,29 +62,38 @@ const uploadOnce = async ({ accessToken, video, metadata }) => {
   return JSON.parse(text);
 };
 
-// Retries network errors and 5xx responses; a 4xx (quota, bad metadata) won't
-// get better by retrying.
-const uploadVideo = async ({ accessToken, filePath, metadata }) => {
-  const video = fs.readFileSync(filePath);
+// Network errors, 5xx responses and YouTube's 409 "The operation was aborted"
+// (SERVICE_UNAVAILABLE) usually pass when tried again a few seconds later; any
+// other 4xx (quota, bad metadata) won't get better by retrying.
+const transient = (err) =>
+  err.status === undefined ||
+  err.status >= 500 ||
+  (err.status === 409 && /SERVICE_UNAVAILABLE|ABORTED/.test(err.message));
+
+const withRetries = async (label, attemptOnce) => {
   for (let attempt = 1; ; attempt++) {
     try {
-      return await uploadOnce({ accessToken, video, metadata });
+      return await attemptOnce();
     } catch (err) {
-      const retryable = err.status === undefined || err.status >= 500;
-      if (!retryable || attempt === 3) {
+      if (!transient(err) || attempt === 3) {
         throw err;
       }
-      console.warn(
-        `Upload attempt ${attempt} failed, retrying: ${err.message}`,
-      );
+      console.warn(`${label} attempt ${attempt} failed, retrying: ${err.message}`);
       await new Promise((resolve) => setTimeout(resolve, attempt * 5000));
     }
   }
 };
 
+const uploadVideo = async ({ accessToken, filePath, metadata }) => {
+  const video = fs.readFileSync(filePath);
+  return withRetries("Upload", () =>
+    uploadOnce({ accessToken, video, metadata }),
+  );
+};
+
 const DATA_API = "https://www.googleapis.com/youtube/v3";
 
-const api = async (accessToken, path, { method = "GET", body } = {}) => {
+const apiOnce = async (accessToken, path, { method = "GET", body } = {}) => {
   const res = await fetch(`${DATA_API}${path}`, {
     method,
     headers: {
@@ -103,6 +112,11 @@ const api = async (accessToken, path, { method = "GET", body } = {}) => {
   }
   return text ? JSON.parse(text) : {};
 };
+
+const api = (accessToken, path, options = {}) =>
+  withRetries(`YouTube ${options.method ?? "GET"} ${path.split("?")[0]}`, () =>
+    apiOnce(accessToken, path, options),
+  );
 
 const createPlaylist = async (accessToken, title, description) =>
   (

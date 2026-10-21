@@ -154,7 +154,7 @@ Good topics are factual and interesting to a general Pakistani audience: appoint
 Never pick: ${AVOID}.
 
 Rules for each MCQ:
-- The question is at most 120 characters, in simple English, and names the month and year (for example "In October 2026, ...") so it stays correct later.
+- The question is one clear, grammatical sentence of at most 120 characters, in simple English, and names the month and year (for example "In October 2026, ...") so it stays correct later.
 - Four short options (at most 40 characters each), exactly one clearly correct, with plausible distractors. Never "All of the above" or "None of these".
 - The explanation is one sentence of at most 100 characters stating the confirmed fact and its date.
 - Only events that have already happened: nothing scheduled, planned or expected.
