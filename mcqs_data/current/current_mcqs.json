@@ -137,5 +137,35 @@
       "click2houston.com",
       "theguardian.com"
     ]
+  },
+  {
+    "question": "In October 2026, which Pakistani designer was selected to create new cabin crew uniforms for PIA?",
+    "options": [
+      "HSY",
+      "Nomi Ansari",
+      "Sana Safinaz",
+      "Maria B."
+    ],
+    "correctAnswer": 0,
+    "explanation": "HSY was chosen to design new cabin crew uniforms for PIA, an announcement made on October 22, 2026.",
+    "category": "Current Affairs",
+    "topic": "PIA Uniforms",
+    "createdAt": "2026-10-22T20:14:51.408Z",
+    "sources": []
+  },
+  {
+    "question": "In October 2026, the PM's Youth Programme signed an LOI with which group for US healthcare jobs?",
+    "options": [
+      "Physicians Revenue Group",
+      "American Healthcare Partners",
+      "Global Medical Solutions",
+      "International Staffing Agency"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Prime Minister's Youth Programme signed a Letter of Intent with Physicians Revenue Group on October 22, 2026.",
+    "category": "Current Affairs",
+    "topic": "Youth Healthcare Jobs",
+    "createdAt": "2026-10-22T20:14:51.408Z",
+    "sources": []
   }
 ]
