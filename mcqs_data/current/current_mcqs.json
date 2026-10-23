@@ -167,5 +167,20 @@
     "topic": "Youth Healthcare Jobs",
     "createdAt": "2026-10-22T20:14:51.408Z",
     "sources": []
+  },
+  {
+    "question": "In October 2026, which group signed an LOI with the Prime Minister's Youth Programme to create US healthcare jobs?",
+    "options": [
+      "Physicians Revenue Group",
+      "World Health Organization",
+      "International Labour Office",
+      "United Nations Development"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The PMYP signed an LOI with Physicians Revenue Group on October 22, 2026.",
+    "category": "Current Affairs",
+    "topic": "PMYP Healthcare Jobs",
+    "createdAt": "2026-10-23T04:59:09.584Z",
+    "sources": []
   }
 ]
