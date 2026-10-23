@@ -182,5 +182,20 @@
     "topic": "PMYP Healthcare Jobs",
     "createdAt": "2026-10-23T04:59:09.584Z",
     "sources": []
+  },
+  {
+    "question": "In October 2026, Pakistan's national hockey team qualified for the final of which international tournament?",
+    "options": [
+      "Sultan Azlan Shah Cup",
+      "Asian Champions Trophy",
+      "Sultan of Johor Cup",
+      "Hockey World Cup"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Pakistan's junior hockey team qualified for the Sultan of Johor Cup final on October 23, 2026.",
+    "category": "Current Affairs",
+    "topic": "Sultan of Johor Cup",
+    "createdAt": "2026-10-23T19:59:44.345Z",
+    "sources": []
   }
 ]
