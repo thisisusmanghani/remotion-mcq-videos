@@ -217,5 +217,22 @@
       "tfaseel.news",
       "thestar.com.my"
     ]
+  },
+  {
+    "question": "In October 2026, how many dengue cases were confirmed in Rawalpindi, Pakistan?",
+    "options": [
+      "42",
+      "53",
+      "70",
+      "85"
+    ],
+    "correctAnswer": 2,
+    "explanation": "As of October 23, 2026, 70 dengue cases were confirmed in Rawalpindi, Pakistan.",
+    "category": "Current Affairs",
+    "topic": "Dengue Cases",
+    "createdAt": "2026-10-24T18:52:58.420Z",
+    "sources": [
+      "dawn.com"
+    ]
   }
 ]
