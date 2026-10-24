@@ -197,5 +197,25 @@
     "topic": "Sultan of Johor Cup",
     "createdAt": "2026-10-23T19:59:44.345Z",
     "sources": []
+  },
+  {
+    "question": "In October 2026, which country's astronomers discovered a rare three-star system using the FAST telescope?",
+    "options": [
+      "China",
+      "USA",
+      "Japan",
+      "Germany"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chinese astronomers discovered a rare three-star system using the FAST telescope on October 23, 2026.",
+    "category": "Current Affairs",
+    "topic": "Astronomy",
+    "createdAt": "2026-10-24T12:46:53.267Z",
+    "sources": [
+      "scmp.com",
+      "cgtn.com",
+      "tfaseel.news",
+      "thestar.com.my"
+    ]
   }
 ]
