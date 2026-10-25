@@ -234,5 +234,47 @@
     "sources": [
       "dawn.com"
     ]
+  },
+  {
+    "question": "In October 2026, what support price per maund was set for wheat by the Government of Pakistan for the 2027 crop?",
+    "options": [
+      "Rs 3,500",
+      "Rs 4,000",
+      "Rs 4,500",
+      "Rs 5,000"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Government of Pakistan approved an indicative wheat support price of Rs 4,500 per maund for the 2027 crop in October 2026.",
+    "category": "Current Affairs",
+    "topic": "Agriculture Policy",
+    "createdAt": "2026-10-25T04:49:29.085Z",
+    "sources": [
+      "pakgold.net",
+      "brecorder.com",
+      "dawn.com",
+      "pakistantoday.com.pk",
+      "propakistani.pk"
+    ]
+  },
+  {
+    "question": "In October 2026, what is the official name of Apple's first foldable smartphone launched globally?",
+    "options": [
+      "iPhone Flex",
+      "iPhone Fold",
+      "iPhone Duo",
+      "iPhone Ultra"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Apple launched its first foldable smartphone, officially named iPhone Duo, globally on October 23, 2026.",
+    "category": "Current Affairs",
+    "topic": "Technology Launch",
+    "createdAt": "2026-10-25T04:49:29.085Z",
+    "sources": [
+      "apple.com",
+      "techrepublic.com",
+      "wikipedia.org",
+      "wisevoter.com",
+      "forbes.com"
+    ]
   }
 ]
