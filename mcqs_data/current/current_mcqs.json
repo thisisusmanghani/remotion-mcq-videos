@@ -295,5 +295,23 @@
       "dawn.com",
       "hamariweb.com"
     ]
+  },
+  {
+    "question": "In October 2026, which smartphone model did vivo officially introduce in Pakistan?",
+    "options": [
+      "vivo Y32",
+      "vivo Z1",
+      "vivo X90",
+      "vivo S20"
+    ],
+    "correctAnswer": 0,
+    "explanation": "vivo officially introduced the Y32 smartphone in Pakistan on October 26, 2026.",
+    "category": "Current Affairs",
+    "topic": "Smartphone Launch",
+    "createdAt": "2026-10-26T21:06:38.250Z",
+    "sources": [
+      "propakistani.pk",
+      "whatmobile.com.pk"
+    ]
   }
 ]
