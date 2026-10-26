@@ -276,5 +276,24 @@
       "wisevoter.com",
       "forbes.com"
     ]
+  },
+  {
+    "question": "In October 2026, Islamabad Police introduced a new leave policy making weekly rest mandatory for which of the following?",
+    "options": [
+      "All officers and personnel",
+      "Officers above the rank of Inspector",
+      "Female personnel only",
+      "Administrative staff only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Islamabad Police introduced a new leave policy on October 23, 2026, making weekly rest mandatory for all officers and personnel.",
+    "category": "Current Affairs",
+    "topic": "Islamabad Police Policy",
+    "createdAt": "2026-10-26T04:54:34.560Z",
+    "sources": [
+      "propakistani.pk",
+      "dawn.com",
+      "hamariweb.com"
+    ]
   }
 ]
