@@ -355,5 +355,26 @@
       "brecorder.com",
       "pakistantoday.com.pk"
     ]
+  },
+  {
+    "question": "In October 2026, which new chip did Apple introduce in its 14-inch MacBook Pro and iMac models?",
+    "options": [
+      "M4",
+      "A18",
+      "M6",
+      "Ultra 2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Apple announced the new M6 chip for its 14-inch MacBook Pro and iMac on October 27, 2026.",
+    "category": "Current Affairs",
+    "topic": "Apple M6 Chip Launch",
+    "createdAt": "2026-10-27T20:49:11.137Z",
+    "sources": [
+      "tomsguide.com",
+      "tomshardware.com",
+      "morningstar.com",
+      "apple.com",
+      "cnet.com"
+    ]
   }
 ]
