@@ -313,5 +313,26 @@
       "propakistani.pk",
       "whatmobile.com.pk"
     ]
+  },
+  {
+    "question": "In October 2026, who won the men's Ballon d'Or award?",
+    "options": [
+      "Harry Kane",
+      "Kylian Mbappé",
+      "Lionel Messi",
+      "Cristiano Ronaldo"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Harry Kane won the men's Ballon d'Or award on October 26, 2026.",
+    "category": "Current Affairs",
+    "topic": "Ballon d'Or 2026",
+    "createdAt": "2026-10-27T05:11:58.644Z",
+    "sources": [
+      "wikipedia.org",
+      "uefa.com",
+      "nbcsports.com",
+      "theguardian.com",
+      "ballondor.com"
+    ]
   }
 ]
