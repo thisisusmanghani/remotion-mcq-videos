@@ -334,5 +334,26 @@
       "theguardian.com",
       "ballondor.com"
     ]
+  },
+  {
+    "question": "In October 2026, the KSE-100 Index gained how many points on Wednesday, October 21?",
+    "options": [
+      "779",
+      "550",
+      "1000",
+      "1428"
+    ],
+    "correctAnswer": 0,
+    "explanation": "On Wednesday, October 21, 2026, the KSE-100 Index closed with a gain of 779 points.",
+    "category": "Current Affairs",
+    "topic": "Stock Market",
+    "createdAt": "2026-10-27T14:40:28.191Z",
+    "sources": [
+      "mettisglobal.news",
+      "psxinvestorszone.com",
+      "thepublicpurview.com",
+      "brecorder.com",
+      "pakistantoday.com.pk"
+    ]
   }
 ]
