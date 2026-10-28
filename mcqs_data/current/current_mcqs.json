@@ -376,5 +376,47 @@
       "apple.com",
       "cnet.com"
     ]
+  },
+  {
+    "question": "In October 2026, a Nanotyrannus skeleton was sold in a New York auction for what price?",
+    "options": [
+      "$47.3 million",
+      "$35.5 million",
+      "$52.8 million",
+      "$60.1 million"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A Nanotyrannus dinosaur skeleton, nicknamed 'Jodi', sold for $47.3 million in a New York auction on October 27, 2026.",
+    "category": "Current Affairs",
+    "topic": "Dinosaur Auction",
+    "createdAt": "2026-10-28T05:49:49.176Z",
+    "sources": [
+      "theguardian.com",
+      "cnn.com",
+      "observer.com",
+      "aa.com.tr",
+      "boston25news.com"
+    ]
+  },
+  {
+    "question": "In October 2026, which feature did iOS 27.2 add for AI-generated images?",
+    "options": [
+      "SynthID watermark",
+      "Dynamic Photo Mode",
+      "Secure Image Lock",
+      "AI Content Tagging"
+    ],
+    "correctAnswer": 0,
+    "explanation": "iOS 27.2, released on October 26, 2026, added a hidden SynthID watermark to AI-generated images.",
+    "category": "Current Affairs",
+    "topic": "iOS Update",
+    "createdAt": "2026-10-28T05:49:49.176Z",
+    "sources": [
+      "macrumors.com",
+      "indiatimes.com",
+      "rephrasy.ai",
+      "notebookcheck.net",
+      "ground.news"
+    ]
   }
 ]
