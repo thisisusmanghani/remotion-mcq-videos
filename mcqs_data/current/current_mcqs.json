@@ -418,5 +418,24 @@
       "notebookcheck.net",
       "ground.news"
     ]
+  },
+  {
+    "question": "In October 2026, which US agency released a photo of China's top-secret Shenlong spaceplane in orbit?",
+    "options": [
+      "A) NASA",
+      "B) Department of Defense",
+      "C) Defense Intelligence Agency",
+      "D) Central Intelligence Agency"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In October 2026, the US Defense Intelligence Agency released a photograph of China's Shenlong spaceplane in orbit.",
+    "category": "Current Affairs",
+    "topic": "Spaceplane Disclosure",
+    "createdAt": "2026-10-28T21:12:14.772Z",
+    "sources": [
+      "livescience.com",
+      "popsci.com",
+      "clashreport.com"
+    ]
   }
 ]
