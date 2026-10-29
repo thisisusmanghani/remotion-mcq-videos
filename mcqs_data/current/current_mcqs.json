@@ -437,5 +437,41 @@
       "popsci.com",
       "clashreport.com"
     ]
+  },
+  {
+    "question": "In October 2026, QatarEnergy signed a long-term agreement to purchase LNG annually from which country's project?",
+    "options": [
+      "A) Australia",
+      "B) Russia",
+      "C) United States",
+      "D) Canada"
+    ],
+    "correctAnswer": 2,
+    "explanation": "QatarEnergy signed a 20-year deal to buy up to 3 mln tonnes of US LNG annually on October 29, 2026.",
+    "category": "Current Affairs",
+    "topic": "QatarEnergy LNG Deal",
+    "createdAt": "2026-10-29T21:15:55.889Z",
+    "sources": [
+      "egyptoil-gas.com",
+      "thenationalnews.com",
+      "gcaptain.com",
+      "wtvbam.com",
+      "news.cn"
+    ]
+  },
+  {
+    "question": "In October 2026, which institution developed an AI system designed to protect its powerful superconducting magnets?",
+    "options": [
+      "A) MIT",
+      "B) CERN",
+      "C) Chinese Academy of Sciences",
+      "D) European Space Agency"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Chinese Academy of Sciences developed an AI to protect its powerful magnets in October 2026.",
+    "category": "Current Affairs",
+    "topic": "AI for Magnets",
+    "createdAt": "2026-10-29T21:15:55.889Z",
+    "sources": []
   }
 ]
