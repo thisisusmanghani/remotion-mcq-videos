@@ -473,5 +473,26 @@
     "topic": "AI for Magnets",
     "createdAt": "2026-10-29T21:15:55.889Z",
     "sources": []
+  },
+  {
+    "question": "In October 2026, ByteDance's AI model, Seedance 2.5, gained attention for its capability to generate what?",
+    "options": [
+      "A) 30-second AI videos with audio",
+      "B) Realistic 3D architectural designs",
+      "C) Personalized news feeds",
+      "D) Multi-lingual real-time translation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ByteDance's Seedance 2.5 generates up to 30-second AI videos with native audio, widely discussed in October 2026.",
+    "category": "Current Affairs",
+    "topic": "Artificial Intelligence",
+    "createdAt": "2026-10-30T20:55:51.817Z",
+    "sources": [
+      "mean.ceo",
+      "wireflow.ai",
+      "seedance2video.io",
+      "thenews.com.pk",
+      "omnigenai.org"
+    ]
   }
 ]
