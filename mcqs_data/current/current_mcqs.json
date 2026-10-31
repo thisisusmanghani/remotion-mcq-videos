@@ -557,5 +557,26 @@
       "thenews.com.pk",
       "goodnewsdigest.app"
     ]
+  },
+  {
+    "question": "In October 2026, where did the first patient undergo pioneering stem-cell treatment for Parkinson's disease?",
+    "options": [
+      "Japan",
+      "United States",
+      "Germany",
+      "South Korea"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The world's first patient to receive pioneering stem-cell treatment for Parkinson's disease was in Japan in October 2026.",
+    "category": "Current Affairs",
+    "topic": "Medical Breakthrough",
+    "createdAt": "2026-10-31T20:08:25.334Z",
+    "sources": [
+      "healthandme.com",
+      "voz.us",
+      "ndtv.com",
+      "nta.ng",
+      "wionews.com"
+    ]
   }
 ]
