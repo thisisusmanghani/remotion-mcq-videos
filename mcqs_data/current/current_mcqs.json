@@ -494,5 +494,68 @@
       "thenews.com.pk",
       "omnigenai.org"
     ]
+  },
+  {
+    "question": "In October 2026, which company announced the new 2360 Flip, a dual-display feature phone?",
+    "options": [
+      "A. HMD Nokia",
+      "B. Samsung",
+      "C. Xiaomi",
+      "D. Apple"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The HMD Nokia 2360 Flip, a dual-display feature phone, was announced in late October 2026.",
+    "category": "Current Affairs",
+    "topic": "Technology Launch",
+    "createdAt": "2026-10-31T14:36:05.302Z",
+    "sources": [
+      "fonearena.com",
+      "nokiamob.net",
+      "mashable.com",
+      "gsmarena.com",
+      "notebookcheck.net"
+    ]
+  },
+  {
+    "question": "In October 2026, Pakistan vowed to deepen its ties in diverse fields with which Southeast Asian nation?",
+    "options": [
+      "A. Singapore",
+      "B. Malaysia",
+      "C. Thailand",
+      "D. Vietnam"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pakistan and Singapore vowed to deepen their ties in diverse fields in October 2026.",
+    "category": "Current Affairs",
+    "topic": "International Relations",
+    "createdAt": "2026-10-31T14:36:05.302Z",
+    "sources": [
+      "geo.tv",
+      "pakistantoday.com.pk",
+      "tribune.com.pk",
+      "thediplomaticinsight.com",
+      "aa.com.tr"
+    ]
+  },
+  {
+    "question": "In October 2026, scientists from which country discovered three planets that survived their star's expansion?",
+    "options": [
+      "A. China",
+      "B. United States",
+      "C. Russia",
+      "D. Germany"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chinese scientists discovered three planets that survived their star’s expansion in October 2026.",
+    "category": "Current Affairs",
+    "topic": "Science Discovery",
+    "createdAt": "2026-10-31T14:36:05.302Z",
+    "sources": [
+      "dailygalaxy.com",
+      "tvbrics.com",
+      "globaltimes.cn",
+      "thenews.com.pk",
+      "goodnewsdigest.app"
+    ]
   }
 ]
