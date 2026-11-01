@@ -595,5 +595,26 @@
     "sources": [
       "wikipedia.org"
     ]
+  },
+  {
+    "question": "In November 2026, Pakistan assumed the chairmanship of which international financial bloc?",
+    "options": [
+      "A. G-7",
+      "B. G-20",
+      "C. G-24",
+      "D. SAARC"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Pakistan became the chair of the G-24 bloc of developing nations on November 1, 2026.",
+    "category": "Current Affairs",
+    "topic": "International Finance",
+    "createdAt": "2026-11-01T20:39:38.828Z",
+    "sources": [
+      "Current time information in Pakistan.",
+      "tribune.com.pk",
+      "arabnews.pk",
+      "dawn.com",
+      "thepublicpurview.com"
+    ]
   }
 ]
