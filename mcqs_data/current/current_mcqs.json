@@ -578,5 +578,22 @@
       "nta.ng",
       "wionews.com"
     ]
+  },
+  {
+    "question": "In November 2026, which region of Pakistan celebrated its Independence Day?",
+    "options": [
+      "A) Gilgit-Baltistan",
+      "B) Azad Kashmir",
+      "C) Balochistan",
+      "D) Khyber Pakhtunkhwa"
+    ],
+    "correctAnswer": 0,
+    "explanation": "On November 1, 2026, Gilgit-Baltistan celebrated its Independence Day.",
+    "category": "Current Affairs",
+    "topic": "Gilgit-Baltistan Independence Day",
+    "createdAt": "2026-11-01T06:15:18.188Z",
+    "sources": [
+      "wikipedia.org"
+    ]
   }
 ]
