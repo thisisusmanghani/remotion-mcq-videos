@@ -616,5 +616,20 @@
       "dawn.com",
       "thepublicpurview.com"
     ]
+  },
+  {
+    "question": "In November 2026, who became the youngest ever Formula 1 World Champion?",
+    "options": [
+      "Kimi Antonelli",
+      "Max Verstappen",
+      "Lando Norris",
+      "Charles Leclerc"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Kimi Antonelli became the youngest F1 World Champion at 20 years old in November 2026.",
+    "category": "Current Affairs",
+    "topic": "Formula 1 World Champion",
+    "createdAt": "2026-11-02T06:16:30.740Z",
+    "sources": []
   }
 ]
