@@ -631,5 +631,26 @@
     "topic": "Formula 1 World Champion",
     "createdAt": "2026-11-02T06:16:30.740Z",
     "sources": []
+  },
+  {
+    "question": "In November 2026, who assumed charge as the new Chief Executive Officer of Pakistan International Airlines (PIA)?",
+    "options": [
+      "A) Adrian Hamilton-Manns",
+      "B) Amir Hayat",
+      "C) Arif Habib",
+      "D) Keir Starmer"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Adrian Hamilton-Manns assumed charge as the new CEO of Pakistan International Airlines on November 2, 2026.",
+    "category": "Current Affairs",
+    "topic": "PIA Leadership",
+    "createdAt": "2026-11-02T23:38:44.163Z",
+    "sources": [
+      "brecorder.com",
+      "aviationweek.com",
+      "dawn.com",
+      "arabnews.pk",
+      "propakistani.pk"
+    ]
   }
 ]
