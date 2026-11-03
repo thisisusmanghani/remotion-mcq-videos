@@ -694,5 +694,44 @@
       "beinsure.com",
       "gizmodo.com"
     ]
+  },
+  {
+    "question": "In November 2026, Pakistan successfully tested its first indigenously developed air-to-air missile. What is its name?",
+    "options": [
+      "Fa'az",
+      "Shaheen",
+      "Ababeel",
+      "Babur"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pakistan successfully tested its first indigenously developed air-to-air missile, Fa’az, on November 3, 2026.",
+    "category": "Current Affairs",
+    "topic": "Defence Technology",
+    "createdAt": "2026-11-03T21:53:17.321Z",
+    "sources": [
+      "dawn.com",
+      "geo.tv",
+      "nation.com.pk",
+      "tribune.com.pk",
+      "aa.com.tr"
+    ]
+  },
+  {
+    "question": "In November 2026, how many education deals did Pakistan secure with China for youth skills development?",
+    "options": [
+      "7",
+      "9",
+      "11",
+      "13"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Pakistan secured 11 education deals with Chinese institutions for youth skills development, announced on November 3, 2026.",
+    "category": "Current Affairs",
+    "topic": "Education Deals",
+    "createdAt": "2026-11-03T21:53:17.321Z",
+    "sources": [
+      "nation.com.pk",
+      "leadpakistan.com.pk"
+    ]
   }
 ]
