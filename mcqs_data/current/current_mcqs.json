@@ -652,5 +652,47 @@
       "arabnews.pk",
       "propakistani.pk"
     ]
+  },
+  {
+    "question": "In November 2026, who was appointed as the new Chief Executive Officer of Pakistan International Airlines (PIA)?",
+    "options": [
+      "A) Adrian Hamilton-Manns",
+      "B) Amir Hayat",
+      "C) Arif Habib",
+      "D) Kurt Bachmann"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Adrian Hamilton-Manns formally assumed charge as the new CEO of PIA on Monday, November 2, 2026.",
+    "category": "Current Affairs",
+    "topic": "PIA CEO",
+    "createdAt": "2026-11-03T06:55:12.387Z",
+    "sources": [
+      "aviacionline.com",
+      "nation.com.pk",
+      "pakistantoday.com.pk",
+      "dawn.com",
+      "aviationweek.com"
+    ]
+  },
+  {
+    "question": "In November 2026, what supermarket systems across several European countries were hit by cyberattacks?",
+    "options": [
+      "A) Cash registers",
+      "B) Security cameras",
+      "C) Refrigeration units",
+      "D) Automatic doors"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In November 2026, cyberattacks caused refrigeration units in European supermarkets to malfunction, spoiling food.",
+    "category": "Current Affairs",
+    "topic": "Cybersecurity",
+    "createdAt": "2026-11-03T06:55:12.387Z",
+    "sources": [
+      "theguardian.com",
+      "cbsnews.com",
+      "courthousenews.com",
+      "beinsure.com",
+      "gizmodo.com"
+    ]
   }
 ]
