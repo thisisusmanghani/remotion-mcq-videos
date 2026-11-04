@@ -733,5 +733,24 @@
       "nation.com.pk",
       "leadpakistan.com.pk"
     ]
+  },
+  {
+    "question": "In November 2026, Carlos Alcaraz advanced to the third round of the Rolex Paris Masters by defeating which player?",
+    "options": [
+      "Novak Djokovic",
+      "Alexander Zverev",
+      "Alex Michelsen",
+      "Matteo Berrettini"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Carlos Alcaraz defeated Alex Michelsen 7-6(4), 6-3 in the second round on November 4, 2026.",
+    "category": "Current Affairs",
+    "topic": "Tennis",
+    "createdAt": "2026-11-04T22:00:24.160Z",
+    "sources": [
+      "tennismajors.com",
+      "atptour.com",
+      "reddit.com"
+    ]
   }
 ]
