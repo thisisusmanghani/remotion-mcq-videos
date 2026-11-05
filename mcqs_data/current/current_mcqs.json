@@ -752,5 +752,23 @@
       "atptour.com",
       "reddit.com"
     ]
+  },
+  {
+    "question": "In November 2026, Chinese Academy of Sciences researchers developed a nanofibrous membrane for what purpose?",
+    "options": [
+      "A. Enhancing agricultural yields",
+      "B. Colorful, adaptive radiative cooling",
+      "C. Advanced water purification",
+      "D. Improving battery performance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Researchers developed a nanofibrous membrane for colorful, adaptive radiative cooling in November 2026.",
+    "category": "Current Affairs",
+    "topic": "Adaptive Cooling Material",
+    "createdAt": "2026-11-05T06:55:13.501Z",
+    "sources": [
+      "cas.cn",
+      "sourcearun.com"
+    ]
   }
 ]
