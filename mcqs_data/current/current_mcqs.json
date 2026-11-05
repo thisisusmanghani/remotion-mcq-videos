@@ -770,5 +770,45 @@
       "cas.cn",
       "sourcearun.com"
     ]
+  },
+  {
+    "question": "In November 2026, which country defeated Pakistan 3-2 in the SAFF Championship opener?",
+    "options": [
+      "A) India",
+      "B) Bangladesh",
+      "C) Nepal",
+      "D) Maldives"
+    ],
+    "correctAnswer": 0,
+    "explanation": "India defeated Pakistan 3-2 in the opening match of the SAFF Championship on November 5, 2026.",
+    "category": "Current Affairs",
+    "topic": "SAFF Championship Football",
+    "createdAt": "2026-11-05T22:08:23.941Z",
+    "sources": [
+      "ndtv.com",
+      "olympics.com",
+      "indianexpress.com",
+      "the-aiff.com",
+      "365scores.com"
+    ]
+  },
+  {
+    "question": "In November 2026, which team secured a 2-1 victory against AZ Alkmaar in the UEFA Europa League?",
+    "options": [
+      "A) Juventus",
+      "B) Real Sociedad",
+      "C) Olympique Lyonnais",
+      "D) Brighton"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Juventus defeated AZ Alkmaar 2-1 in a UEFA Europa League match on November 5, 2026.",
+    "category": "Current Affairs",
+    "topic": "Europa League Football",
+    "createdAt": "2026-11-05T22:08:23.941Z",
+    "sources": [
+      "reddit.com",
+      "vavel.com",
+      "onefootball.com"
+    ]
   }
 ]
