@@ -810,5 +810,20 @@
       "vavel.com",
       "onefootball.com"
     ]
+  },
+  {
+    "question": "In November 2026, which electric hypercar set a new world record for production cars by surpassing the 500 km/h barrier?",
+    "options": [
+      "A. BYD Yangwang U9 Xtreme",
+      "B. Tesla Roadster",
+      "C. Rimac Nevera",
+      "D. Lucid Air Sapphire"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The BYD Yangwang U9 Xtreme achieved a top speed of 503.17 km/h on November 1, 2026, setting a new production car world record.",
+    "category": "Current Affairs",
+    "topic": "Automotive World Record",
+    "createdAt": "2026-11-06T21:40:08.277Z",
+    "sources": []
   }
 ]
