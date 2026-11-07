@@ -825,5 +825,47 @@
     "topic": "Automotive World Record",
     "createdAt": "2026-11-06T21:40:08.277Z",
     "sources": []
+  },
+  {
+    "question": "In November 2026, which country's parliament ratified the Mecca Joint Defence Agreement with Pakistan and Saudi Arabia?",
+    "options": [
+      "A. Turkey",
+      "B. Iran",
+      "C. Qatar",
+      "D. Egypt"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Turkiye's parliament ratified the Mecca Joint Defence Agreement with Pakistan and Saudi Arabia on November 5, 2026.",
+    "category": "Current Affairs",
+    "topic": "International Agreement",
+    "createdAt": "2026-11-07T14:57:11.738Z",
+    "sources": [
+      "arabnews.com",
+      "pajhwok.com",
+      "aa.com.tr",
+      "turkiyetoday.com",
+      "dailysabah.com"
+    ]
+  },
+  {
+    "question": "In November 2026, what fee did PCB demand for each Pakistani player's NOC for the Abu Dhabi T10 League?",
+    "options": [
+      "A. $5,000",
+      "B. $10,000",
+      "C. $15,000",
+      "D. $20,000"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The PCB demanded a $10,000 fee per player for NOCs for the Abu Dhabi T10 League in November 2026.",
+    "category": "Current Affairs",
+    "topic": "Cricket Administration",
+    "createdAt": "2026-11-07T14:57:11.738Z",
+    "sources": [
+      "heraldgoa.in",
+      "ndtv.com",
+      "economictimes.com",
+      "crictracker.com",
+      "redwhitecricket.com"
+    ]
   }
 ]
