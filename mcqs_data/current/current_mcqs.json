@@ -867,5 +867,26 @@
       "crictracker.com",
       "redwhitecricket.com"
     ]
+  },
+  {
+    "question": "In November 2026, Pakistan's federal government announced a new auto policy primarily focusing on which key areas?",
+    "options": [
+      "Luxury vehicle imports and higher taxes",
+      "Export of used vehicles and increased tariffs",
+      "Affordable, electric vehicles and localization",
+      "Diesel cars and fewer safety standards"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The auto policy focuses on affordable, electric vehicles and localization, announced on November 7, 2026.",
+    "category": "Current Affairs",
+    "topic": "Pakistan Auto Policy",
+    "createdAt": "2026-11-07T20:21:35.574Z",
+    "sources": [
+      "arabnews.pk",
+      "pakwheels.com",
+      "pakistantoday.com.pk",
+      "rediff.com",
+      "geo.tv"
+    ]
   }
 ]
