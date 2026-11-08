@@ -888,5 +888,23 @@
       "rediff.com",
       "geo.tv"
     ]
+  },
+  {
+    "question": "In November 2026, approximately how many children were vaccinated in Pakistan's week-long polio immunization campaign?",
+    "options": [
+      "A) 18 million",
+      "B) 21 million",
+      "C) 24 million",
+      "D) 27 million"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Pakistan's week-long polio immunization campaign, concluding November 8, 2026, vaccinated approximately 24 million children.",
+    "category": "Current Affairs",
+    "topic": "Polio Vaccination",
+    "createdAt": "2026-11-08T20:38:52.130Z",
+    "sources": [
+      "radio.gov.pk",
+      "24newshd.tv"
+    ]
   }
 ]
