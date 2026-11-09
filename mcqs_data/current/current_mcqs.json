@@ -906,5 +906,47 @@
       "radio.gov.pk",
       "24newshd.tv"
     ]
+  },
+  {
+    "question": "In November 2026, which major Pakistani project experienced a water inflow incident with all workers safely evacuated?",
+    "options": [
+      "Diamer-Bhasha Dam",
+      "Mangla Dam",
+      "Tarbela Project",
+      "Neelum-Jhelum Project"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In November 2026, all workers were safely evacuated following a water inflow incident at the Tarbela Project.",
+    "category": "Current Affairs",
+    "topic": "Tarbela Project Incident",
+    "createdAt": "2026-11-09T18:56:14.254Z",
+    "sources": [
+      "radio.gov.pk",
+      "geo.tv",
+      "pakistantoday.com.pk",
+      "minutemirror.com.pk",
+      "waterpowermagazine.com"
+    ]
+  },
+  {
+    "question": "In November 2026, where was the Change of Guards ceremony held in Lahore?",
+    "options": [
+      "Lahore Fort",
+      "Minar-e-Pakistan",
+      "Badshahi Mosque",
+      "Allama Iqbal’s mausoleum"
+    ],
+    "correctAnswer": 3,
+    "explanation": "On November 9, 2026, the Change of Guards ceremony was held at Allama Iqbal’s mausoleum in Lahore.",
+    "category": "Current Affairs",
+    "topic": "Change of Guards Ceremony",
+    "createdAt": "2026-11-09T18:56:14.254Z",
+    "sources": [
+      "radio.gov.pk",
+      "dawn.com",
+      "arynews.tv",
+      "wenewsenglish.com",
+      "pakistantoday.com.pk"
+    ]
   }
 ]
