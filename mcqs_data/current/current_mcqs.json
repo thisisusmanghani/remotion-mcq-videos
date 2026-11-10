@@ -982,5 +982,20 @@
       "unfccc.int",
       "sifiratikvakfi.org"
     ]
+  },
+  {
+    "question": "In November 2026, which author won the Booker Prize for their novel \"The End of Everything\"?",
+    "options": [
+      "M. John Harrison",
+      "David Szalay",
+      "Marlon James",
+      "Douglas Stuart"
+    ],
+    "correctAnswer": 0,
+    "explanation": "M. John Harrison won the Booker Prize 2026 for his novel \"The End of Everything\" on November 9, 2026.",
+    "category": "Current Affairs",
+    "topic": "Booker Prize 2026",
+    "createdAt": "2026-11-10T07:25:33.978Z",
+    "sources": []
   }
 ]
