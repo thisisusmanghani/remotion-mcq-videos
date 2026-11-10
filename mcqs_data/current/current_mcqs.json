@@ -948,5 +948,39 @@
       "wenewsenglish.com",
       "pakistantoday.com.pk"
     ]
+  },
+  {
+    "question": "In November 2026, Pakistan observed the 149th birth anniversary of which national poet and philosopher?",
+    "options": [
+      "Faiz Ahmed Faiz",
+      "Allama Muhammad Iqbal",
+      "Mirza Ghalib",
+      "Ahmed Faraz"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pakistan observed the 149th birth anniversary of Allama Muhammad Iqbal on November 9, 2026.",
+    "category": "Current Affairs",
+    "topic": "National Observance",
+    "createdAt": "2026-11-10T00:20:14.269Z",
+    "sources": []
+  },
+  {
+    "question": "In November 2026, the 31st United Nations Climate Change Conference (COP31) opened in which city?",
+    "options": [
+      "Dubai",
+      "Glasgow",
+      "Antalya",
+      "Sharm El Sheikh"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The COP31 opened in Antalya, Türkiye, on November 9, 2026, and will run until November 20, 2026.",
+    "category": "Current Affairs",
+    "topic": "Climate Summit",
+    "createdAt": "2026-11-10T00:20:14.269Z",
+    "sources": [
+      "wikipedia.org",
+      "unfccc.int",
+      "sifiratikvakfi.org"
+    ]
   }
 ]
