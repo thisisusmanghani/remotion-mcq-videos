@@ -997,5 +997,20 @@
     "topic": "Booker Prize 2026",
     "createdAt": "2026-11-10T07:25:33.978Z",
     "sources": []
+  },
+  {
+    "question": "In November 2026, which Pakistani province launched an HPV vaccination drive for girls aged 9 to 14 years?",
+    "options": [
+      "Sindh",
+      "Punjab",
+      "Balochistan",
+      "Khyber Pakhtunkhwa"
+    ],
+    "correctAnswer": 3,
+    "explanation": "In November 2026, Khyber Pakhtunkhwa launched an HPV vaccination drive targeting girls aged 9 to 14 years.",
+    "category": "Current Affairs",
+    "topic": "Public Health Initiative",
+    "createdAt": "2026-11-10T21:51:34.240Z",
+    "sources": []
   }
 ]
