@@ -1012,5 +1012,26 @@
     "topic": "Public Health Initiative",
     "createdAt": "2026-11-10T21:51:34.240Z",
     "sources": []
+  },
+  {
+    "question": "In November 2026, which Pakistani nuclear power plant successfully had its dome placed?",
+    "options": [
+      "Chashma",
+      "Karachi",
+      "Taunsa",
+      "Muzaffargarh"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The dome of the Chashma-5 (C-5) Nuclear Power Plant was successfully placed on November 10, 2026.",
+    "category": "Current Affairs",
+    "topic": "Nuclear Energy",
+    "createdAt": "2026-11-11T06:34:58.044Z",
+    "sources": [
+      "tribune.com.pk",
+      "nation.com.pk",
+      "investify.pk",
+      "radio.gov.pk",
+      "wenewsenglish.com"
+    ]
   }
 ]
