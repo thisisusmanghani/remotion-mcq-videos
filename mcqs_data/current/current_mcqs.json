@@ -1033,5 +1033,45 @@
       "radio.gov.pk",
       "wenewsenglish.com"
     ]
+  },
+  {
+    "question": "In November 2026, the British Army signed a landmark pact with which major halal meat supplier in the UK?",
+    "options": [
+      "Tariq Halal Meats",
+      "HMC Certified Meats",
+      "Halal Food Authority",
+      "National Halal Foods"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The British Army signed a landmark pact with Tariq Halal Meats in November 2026.",
+    "category": "Current Affairs",
+    "topic": "International Business Deal",
+    "createdAt": "2026-11-12T07:18:16.297Z",
+    "sources": [
+      "nation.com.pk",
+      "dailypakistan.com.pk",
+      "geo.tv"
+    ]
+  },
+  {
+    "question": "In November 2026, Pakistan's Prime Minister reiterated support for which global electrification pledge?",
+    "options": [
+      "35-by-35 Global Electrification Pledge",
+      "Net Zero Electrification Initiative",
+      "Renewable Energy 2030 Pact",
+      "Sustainable Power for All"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In November 2026, Pakistan fully supported the 35-by-35 Global Electrification Pledge.",
+    "category": "Current Affairs",
+    "topic": "Global Electrification Pledge",
+    "createdAt": "2026-11-12T07:18:16.297Z",
+    "sources": [
+      "radio.gov.pk",
+      "minutemirror.com.pk",
+      "pakistantoday.com.pk",
+      "wenewsenglish.com",
+      "aa.com.tr"
+    ]
   }
 ]
