@@ -1073,5 +1073,47 @@
       "wenewsenglish.com",
       "aa.com.tr"
     ]
+  },
+  {
+    "question": "In November 2026, who resigned as the Vice President of Indonesia?",
+    "options": [
+      "A) Gibran Rakabuming Raka",
+      "B) Joko Widodo",
+      "C) Prabowo Subianto",
+      "D) Riyaz ul Khaliq"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Gibran Rakabuming Raka resigned as Indonesia's Vice President on November 12, 2026.",
+    "category": "Current Affairs",
+    "topic": "International Politics",
+    "createdAt": "2026-11-12T22:20:50.269Z",
+    "sources": [
+      "channelnewsasia.com",
+      "jakartaglobe.id",
+      "cbc.ca",
+      "chinadailyasia.com",
+      "aa.com.tr"
+    ]
+  },
+  {
+    "question": "In November 2026, England defeated which team 2-1 in a UEFA Nations League match?",
+    "options": [
+      "A) France",
+      "B) Croatia",
+      "C) Italy",
+      "D) Spain"
+    ],
+    "correctAnswer": 1,
+    "explanation": "England defeated Croatia 2-1 in a UEFA Nations League match on November 12, 2026.",
+    "category": "Current Affairs",
+    "topic": "Football (UEFA Nations League)",
+    "createdAt": "2026-11-12T22:20:50.269Z",
+    "sources": [
+      "101greatgoals.com",
+      "theguardian.com",
+      "skysports.com",
+      "vavel.com",
+      "sofascore.com"
+    ]
   }
 ]
