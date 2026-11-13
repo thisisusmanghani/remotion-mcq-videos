@@ -1115,5 +1115,60 @@
       "vavel.com",
       "sofascore.com"
     ]
+  },
+  {
+    "question": "In November 2026, which date is annually observed as World Diabetes Day globally?",
+    "options": [
+      "November 10",
+      "November 14",
+      "November 18",
+      "November 21"
+    ],
+    "correctAnswer": 1,
+    "explanation": "World Diabetes Day is observed globally every year on November 14 to raise awareness about diabetes.",
+    "category": "Current Affairs",
+    "topic": "World Diabetes Day",
+    "createdAt": "2026-11-13T22:03:08.460Z",
+    "sources": [
+      "wikipedia.org",
+      "homehealth-uk.com",
+      "nationaldaycalendar.com"
+    ]
+  },
+  {
+    "question": "In November 2026, which city surpassed Lahore to become the world's most polluted major city?",
+    "options": [
+      "Delhi",
+      "Beijing",
+      "Karachi",
+      "Dhaka"
+    ],
+    "correctAnswer": 0,
+    "explanation": "On November 13, 2026, Delhi surpassed Lahore to become the world's most polluted major city.",
+    "category": "Current Affairs",
+    "topic": "Air Pollution",
+    "createdAt": "2026-11-13T22:03:08.460Z",
+    "sources": [
+      "jpost.com",
+      "utkarsh.com",
+      "dawn.com",
+      "indiawest.com",
+      "thehindu.com"
+    ]
+  },
+  {
+    "question": "In November 2026, Cristiano Ronaldo began production on his first TV series, titled 'Day 1s', with which director?",
+    "options": [
+      "Guy Ritchie",
+      "Christopher Nolan",
+      "Matthew Vaughn",
+      "Denis Villeneuve"
+    ],
+    "correctAnswer": 2,
+    "explanation": "On November 12, 2026, Cristiano Ronaldo launched production of his first TV series, 'Day 1s', with director Matthew Vaughn.",
+    "category": "Current Affairs",
+    "topic": "Cristiano Ronaldo TV Series",
+    "createdAt": "2026-11-13T22:03:08.460Z",
+    "sources": []
   }
 ]
