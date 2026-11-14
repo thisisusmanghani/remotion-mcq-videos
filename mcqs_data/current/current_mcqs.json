@@ -1170,5 +1170,26 @@
     "topic": "Cristiano Ronaldo TV Series",
     "createdAt": "2026-11-13T22:03:08.460Z",
     "sources": []
+  },
+  {
+    "question": "In November 2026, who resigned as the Vice President of Indonesia?",
+    "options": [
+      "A. Gibran Rakabuming Raka",
+      "B. Joko Widodo",
+      "C. Prabowo Subianto",
+      "D. Ahmad Muzani"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Gibran Rakabuming Raka formally resigned as Indonesia's Vice President on November 12, 2026.",
+    "category": "Current Affairs",
+    "topic": "Indonesia Politics",
+    "createdAt": "2026-11-14T20:49:41.413Z",
+    "sources": [
+      "bakom.go.id",
+      "wikipedia.org",
+      "astroawani.com",
+      "jakartaglobe.id",
+      "fish4news.co.uk"
+    ]
   }
 ]
