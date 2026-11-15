@@ -1191,5 +1191,24 @@
       "jakartaglobe.id",
       "fish4news.co.uk"
     ]
+  },
+  {
+    "question": "In November 2026, which prominent English-language news channel celebrated its 20th anniversary?",
+    "options": [
+      "A) BBC World News",
+      "B) CNN International",
+      "C) Al Jazeera English",
+      "D) France 24"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Al Jazeera English officially launched on November 15, 2006, marking its 20th anniversary in November 2026.",
+    "category": "Current Affairs",
+    "topic": "Al Jazeera English Anniversary",
+    "createdAt": "2026-11-15T15:43:38.842Z",
+    "sources": [
+      "wikipedia.org",
+      "youtube.com",
+      "aljazeera.com"
+    ]
   }
 ]
