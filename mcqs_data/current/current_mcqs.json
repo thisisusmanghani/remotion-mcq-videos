@@ -1210,5 +1210,26 @@
       "youtube.com",
       "aljazeera.com"
     ]
+  },
+  {
+    "question": "In November 2026, Pope Leo XIV visited Peru, including which two significant cities?",
+    "options": [
+      "Lima and Arequipa",
+      "Cusco and Pucallpa",
+      "Trujillo and Iquitos",
+      "Chiclayo and Piura"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pope Leo XIV visited Cusco, the Inca Empire's former capital, and Pucallpa, an Amazon gateway city, in Peru on November 15, 2026.",
+    "category": "Current Affairs",
+    "topic": "Pope's Peru Visit",
+    "createdAt": "2026-11-15T21:07:50.608Z",
+    "sources": [
+      "peru.info",
+      "usembassy.gov",
+      "vatican.va",
+      "americamagazine.org",
+      "bozemandailychronicle.com"
+    ]
   }
 ]
