@@ -1231,5 +1231,26 @@
       "americamagazine.org",
       "bozemandailychronicle.com"
     ]
+  },
+  {
+    "question": "In November 2026, which city hosted the 30th ECO Council of Ministers meeting?",
+    "options": [
+      "Lahore",
+      "Islamabad",
+      "Karachi",
+      "Peshawar"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The 30th ECO Council of Ministers meeting took place in Islamabad from November 15-16, 2026.",
+    "category": "Current Affairs",
+    "topic": "ECO Ministerial Meeting",
+    "createdAt": "2026-11-16T06:39:11.015Z",
+    "sources": [
+      "dawn.com",
+      "pakistantv.com",
+      "nation.com.pk",
+      "asianews.network",
+      "mofa.gov.pk"
+    ]
   }
 ]
