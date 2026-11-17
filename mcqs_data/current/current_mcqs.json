@@ -1252,5 +1252,41 @@
       "asianews.network",
       "mofa.gov.pk"
     ]
+  },
+  {
+    "question": "In November 2026, which artist led the nominations for the 69th Annual Grammy Awards?",
+    "options": [
+      "A) Raye",
+      "B) Rosalía",
+      "C) Olivia Rodrigo",
+      "D) Bruno Mars"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Raye received 11 nominations for the 69th Annual Grammy Awards, announced on November 16, 2026.",
+    "category": "Current Affairs",
+    "topic": "Music Awards",
+    "createdAt": "2026-11-17T00:20:21.386Z",
+    "sources": [
+      "musicrow.com",
+      "ktvb.com",
+      "cbc.ca",
+      "latimes.com",
+      "afp.com"
+    ]
+  },
+  {
+    "question": "Which international day, observed on November 15, 2026, focuses on raising awareness about preterm birth?",
+    "options": [
+      "A) World Health Day",
+      "B) World Prematurity Day",
+      "C) International Children's Day",
+      "D) Global Parents Day"
+    ],
+    "correctAnswer": 1,
+    "explanation": "World Prematurity Day, observed on November 15, 2026, raises awareness about preterm birth.",
+    "category": "Current Affairs",
+    "topic": "International Observance",
+    "createdAt": "2026-11-17T00:20:21.386Z",
+    "sources": []
   }
 ]
