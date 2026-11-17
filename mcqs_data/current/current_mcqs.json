@@ -1307,5 +1307,20 @@
       "samaa.tv",
       "techjuice.pk"
     ]
+  },
+  {
+    "question": "In November 2026, Prince William and Princess Catherine attended the Earthshot Prize awards ceremony in which city?",
+    "options": [
+      "London",
+      "Singapore",
+      "Mumbai",
+      "New Delhi"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Earthshot Prize awards ceremony, attended by Prince William and Princess Catherine, was held in Mumbai on November 17, 2026.",
+    "category": "Current Affairs",
+    "topic": "Earthshot Prize",
+    "createdAt": "2026-11-17T23:35:27.518Z",
+    "sources": []
   }
 ]
