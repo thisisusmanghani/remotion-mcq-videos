@@ -1288,5 +1288,24 @@
     "topic": "International Observance",
     "createdAt": "2026-11-17T00:20:21.386Z",
     "sources": []
+  },
+  {
+    "question": "In November 2026, which measure was decided by the federal government for Islamabad to control smog?",
+    "options": [
+      "A. Banning vehicles without fitness tests",
+      "B. Odd-even number plate rule",
+      "C. Temporary industrial closures",
+      "D. Construction ban until January"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In November 2026, Islamabad's federal government decided to bar vehicles without fitness or emission tests to curb smog.",
+    "category": "Current Affairs",
+    "topic": "Islamabad Smog Policy",
+    "createdAt": "2026-11-17T17:41:09.890Z",
+    "sources": [
+      "pakobserver.net",
+      "samaa.tv",
+      "techjuice.pk"
+    ]
   }
 ]
