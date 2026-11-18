@@ -1341,5 +1341,26 @@
       "jpost.com",
       "kremlin.ru"
     ]
+  },
+  {
+    "question": "In November 2026, which supersonic cruise missile did Pakistan successfully test-fire?",
+    "options": [
+      "A. Fatah-1",
+      "B. Ghaznavi",
+      "C. Shaheen-III",
+      "D. Fatah-3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Pakistan successfully test-fired its Fatah-3 supersonic cruise missile on November 18, 2026.",
+    "category": "Current Affairs",
+    "topic": "Defence Technology",
+    "createdAt": "2026-11-18T22:59:21.611Z",
+    "sources": [
+      "defensehere.com",
+      "defence-blog.com",
+      "tribune.com.pk",
+      "arabnews.pk",
+      "aa.com.tr"
+    ]
   }
 ]
