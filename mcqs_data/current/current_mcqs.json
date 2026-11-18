@@ -1322,5 +1322,24 @@
     "topic": "Earthshot Prize",
     "createdAt": "2026-11-17T23:35:27.518Z",
     "sources": []
+  },
+  {
+    "question": "In November 2026, which two leaders commenced talks at the APEC Summit in Shenzhen?",
+    "options": [
+      "A. Xi Jinping and Vladimir Putin",
+      "B. Joe Biden and Justin Trudeau",
+      "C. Fumio Kishida and Yoon Suk-yeol",
+      "D. Emmanuel Macron and Olaf Scholz"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chinese President Xi Jinping and Russian President Vladimir Putin held talks at the APEC Summit on November 18, 2026.",
+    "category": "Current Affairs",
+    "topic": "APEC Summit",
+    "createdAt": "2026-11-18T07:36:51.696Z",
+    "sources": [
+      "theguardian.com",
+      "jpost.com",
+      "kremlin.ru"
+    ]
   }
 ]
