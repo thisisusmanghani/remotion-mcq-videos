@@ -1362,5 +1362,26 @@
       "arabnews.pk",
       "aa.com.tr"
     ]
+  },
+  {
+    "question": "In November 2026, which Pakistani provincial chief minister approved the establishment of a panchayat system?",
+    "options": [
+      "Sindh",
+      "Balochistan",
+      "Punjab",
+      "Khyber Pakhtunkhwa"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In November 2026, Punjab Chief Minister Maryam Nawaz Sharif approved the establishment of a panchayat system.",
+    "category": "Current Affairs",
+    "topic": "Punjab Panchayat System",
+    "createdAt": "2026-11-19T07:32:09.817Z",
+    "sources": [
+      "nation.com.pk",
+      "dialoguepakistan.com",
+      "tribune.com.pk",
+      "thepublicpurview.com",
+      "dunyanews.tv"
+    ]
   }
 ]
