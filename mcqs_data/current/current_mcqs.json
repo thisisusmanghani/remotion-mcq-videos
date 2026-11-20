@@ -1383,5 +1383,26 @@
       "thepublicpurview.com",
       "dunyanews.tv"
     ]
+  },
+  {
+    "question": "In November 2026, renowned chef Gordon Ramsay received a star on which famous Hollywood landmark?",
+    "options": [
+      "Hollywood Boulevard",
+      "Walk of Fame",
+      "Grauman's Chinese Theatre",
+      "Capitol Records Building"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chef Gordon Ramsay was honored with a star on the Hollywood Walk of Fame on November 18, 2026.",
+    "category": "Current Affairs",
+    "topic": "Gordon Ramsay Award",
+    "createdAt": "2026-11-20T07:24:24.200Z",
+    "sources": [
+      "independent.co.uk",
+      "beverlypress.com",
+      "meaww.com",
+      "presda.com",
+      "mynewsla.com"
+    ]
   }
 ]
