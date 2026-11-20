@@ -1404,5 +1404,66 @@
       "presda.com",
       "mynewsla.com"
     ]
+  },
+  {
+    "question": "Which team won the Abu Dhabi T10 League final in November 2026?",
+    "options": [
+      "Yas Lions",
+      "United Tigers",
+      "UAE Bulls",
+      "Arabian Aces"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The UAE Bulls defeated Yas Lions to win the Abu Dhabi T10 League final on November 20, 2026.",
+    "category": "Current Affairs",
+    "topic": "Abu Dhabi T10 League",
+    "createdAt": "2026-11-20T22:43:12.184Z",
+    "sources": [
+      "youtube.com",
+      "aninews.in",
+      "crex.com"
+    ]
+  },
+  {
+    "question": "In November 2026, what record-breaking first-day retail sales figure did Grand Theft Auto VI achieve?",
+    "options": [
+      "$2.5 billion",
+      "$3.0 billion",
+      "$3.79 billion",
+      "$4.2 billion"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Grand Theft Auto VI set a record with $3.79 billion in first-day retail sales by November 20, 2026.",
+    "category": "Current Affairs",
+    "topic": "Grand Theft Auto VI Sales",
+    "createdAt": "2026-11-20T22:43:12.184Z",
+    "sources": [
+      "forbes.com",
+      "castanet.net",
+      "afp.com",
+      "thebusinessjournal.com",
+      "take2games.com"
+    ]
+  },
+  {
+    "question": "In November 2026, a mathematician from which company claimed to prove the Riemann hypothesis using an AI model?",
+    "options": [
+      "Google",
+      "Anthropic",
+      "OpenAI",
+      "Microsoft"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An Anthropic mathematician, Levent Alpöge, claimed to prove the Riemann hypothesis with Claude on November 20, 2026.",
+    "category": "Current Affairs",
+    "topic": "Riemann Hypothesis",
+    "createdAt": "2026-11-20T22:43:12.184Z",
+    "sources": [
+      "clarin.com",
+      "businessinsider.com",
+      "unite.ai",
+      "futurism.com",
+      "qz.com"
+    ]
   }
 ]
