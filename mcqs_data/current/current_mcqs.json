@@ -1465,5 +1465,25 @@
       "futurism.com",
       "qz.com"
     ]
+  },
+  {
+    "question": "In November 2026, which country was crowned champions of the Men's Blind Cricket Asia Cup?",
+    "options": [
+      "India",
+      "Pakistan",
+      "Bangladesh",
+      "Sri Lanka"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pakistan was declared the champions of the Men's Blind Cricket Asia Cup on November 20, 2026.",
+    "category": "Current Affairs",
+    "topic": "Blind Cricket Asia Cup",
+    "createdAt": "2026-11-21T07:17:17.349Z",
+    "sources": [
+      "bd-pratidin.com",
+      "tribune.com.pk",
+      "geosuper.tv",
+      "wenewsenglish.com"
+    ]
   }
 ]
