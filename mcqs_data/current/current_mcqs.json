@@ -1485,5 +1485,20 @@
       "geosuper.tv",
       "wenewsenglish.com"
     ]
+  },
+  {
+    "question": "In November 2026, what was the name given to the extinct fanged, giraffe-necked camel described from museum fossils?",
+    "options": [
+      "A) Gigantocamelus Dentata",
+      "B) Fangyrocamelus Gigas",
+      "C) Vampyrocamelus welshi",
+      "D) Sabretooth Camelus"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The extinct fanged, giraffe-necked camel, Vampyrocamelus welshi, was formally named in November 2026.",
+    "category": "Current Affairs",
+    "topic": "Vampire Camel Discovery",
+    "createdAt": "2026-11-21T21:44:33.549Z",
+    "sources": []
   }
 ]
