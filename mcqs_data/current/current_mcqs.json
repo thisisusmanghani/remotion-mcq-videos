@@ -1500,5 +1500,26 @@
     "topic": "Vampire Camel Discovery",
     "createdAt": "2026-11-21T21:44:33.549Z",
     "sources": []
+  },
+  {
+    "question": "In November 2026, which committee lowered the export threshold for Small and Medium Enterprises?",
+    "options": [
+      "National Economic Council",
+      "Economic Coordination Committee",
+      "Federal Board of Revenue",
+      "Cabinet Committee on Exports"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Economic Coordination Committee reduced the export threshold for SMEs on November 20, 2026.",
+    "category": "Current Affairs",
+    "topic": "Economic Policy",
+    "createdAt": "2026-11-22T06:57:46.958Z",
+    "sources": [
+      "pakistantoday.com.pk",
+      "pakgold.net",
+      "thursdaytimes.com",
+      "mettisglobal.news",
+      "nation.com.pk"
+    ]
   }
 ]
