@@ -1521,5 +1521,26 @@
       "mettisglobal.news",
       "nation.com.pk"
     ]
+  },
+  {
+    "question": "In November 2026, a South Korean minister resigned due to a scandal involving what in university exams?",
+    "options": [
+      "Embezzlement",
+      "Data breach",
+      "AI cheating",
+      "Plagiarism"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In November 2026, South Korea's education minister resigned after an AI-assisted cheating scandal engulfed university exams.",
+    "category": "Current Affairs",
+    "topic": "Education and AI",
+    "createdAt": "2026-11-22T21:55:08.687Z",
+    "sources": [
+      "theguardian.com",
+      "thestar.com.my",
+      "aa.com.tr",
+      "emergent.sh",
+      "kursiv.media"
+    ]
   }
 ]
