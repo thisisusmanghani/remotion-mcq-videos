@@ -1542,5 +1542,22 @@
       "emergent.sh",
       "kursiv.media"
     ]
+  },
+  {
+    "question": "In November 2026, how many Indian Sikh pilgrims arrived in Pakistan for Guru Nanak's 557th birthday celebrations?",
+    "options": [
+      "A) 1,822",
+      "B) 2,339",
+      "C) 3,019",
+      "D) 3,091"
+    ],
+    "correctAnswer": 1,
+    "explanation": "On November 22, 2026, 2,339 Indian Sikh pilgrims arrived in Pakistan for Guru Nanak's 557th birthday celebrations.",
+    "category": "Current Affairs",
+    "topic": "Guru Nanak's Birthday Pilgrimage",
+    "createdAt": "2026-11-23T07:47:00.332Z",
+    "sources": [
+      "ptinews.com"
+    ]
   }
 ]
