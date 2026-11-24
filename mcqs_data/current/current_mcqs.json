@@ -1593,5 +1593,24 @@
     "topic": "Cricket Record",
     "createdAt": "2026-11-24T09:59:38.751Z",
     "sources": []
+  },
+  {
+    "question": "In November 2026, which Pakistani institute was designated a WHO Collaborating Centre for Chest Diseases?",
+    "options": [
+      "A. Dow University of Health Sciences",
+      "B. Ojha Institute of Chest Diseases",
+      "C. National Institute of Health",
+      "D. Aga Khan University Hospital"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Ojha Institute of Chest Diseases was designated a WHO Collaborating Centre for Chest Diseases on November 23, 2026.",
+    "category": "Current Affairs",
+    "topic": "WHO Collaborating Centre",
+    "createdAt": "2026-11-24T19:34:20.442Z",
+    "sources": [
+      "arynews.tv",
+      "medicalnews.pk",
+      "dawn.com"
+    ]
   }
 ]
