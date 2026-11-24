@@ -1559,5 +1559,24 @@
     "sources": [
       "ptinews.com"
     ]
+  },
+  {
+    "question": "In November 2026, the Wazir-e-Azam Apna Ghar Programme achieved which significant loan disbursement milestone?",
+    "options": [
+      "Rs50 billion",
+      "Rs100 billion",
+      "Rs200 billion",
+      "Rs500 billion"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In November 2026, the Wazir-e-Azam Apna Ghar Programme crossed the Rs100 billion loan disbursement milestone.",
+    "category": "Current Affairs",
+    "topic": "Apna Ghar Programme",
+    "createdAt": "2026-11-24T02:58:19.224Z",
+    "sources": [
+      "radio.gov.pk",
+      "nation.com.pk",
+      "pakistantoday.com.pk"
+    ]
   }
 ]
