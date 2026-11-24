@@ -1578,5 +1578,20 @@
       "nation.com.pk",
       "pakistantoday.com.pk"
     ]
+  },
+  {
+    "question": "In November 2026, which cricketer scored 181 runs, the second-highest individual score in T20 history?",
+    "options": [
+      "A) Priyansh Arya",
+      "B) Lhuan-dre Pretorius",
+      "C) Chris Gayle",
+      "D) Aaron Finch"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Priyansh Arya scored 181 runs for Delhi against Tamil Nadu on November 24, 2026, the second-highest T20 individual score.",
+    "category": "Current Affairs",
+    "topic": "Cricket Record",
+    "createdAt": "2026-11-24T09:59:38.751Z",
+    "sources": []
   }
 ]
