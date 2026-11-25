@@ -1612,5 +1612,26 @@
       "medicalnews.pk",
       "dawn.com"
     ]
+  },
+  {
+    "question": "In November 2026, which country launched the Shenzhou 24 mission with the first Pakistani astronaut?",
+    "options": [
+      "China",
+      "Russia",
+      "United States",
+      "Japan"
+    ],
+    "correctAnswer": 0,
+    "explanation": "China launched the Shenzhou 24 mission carrying the first Pakistani astronaut, Muhammad Zeeshan Ali, in November 2026.",
+    "category": "Current Affairs",
+    "topic": "China-Pakistan Space Mission",
+    "createdAt": "2026-11-25T00:56:27.988Z",
+    "sources": [
+      "space.com",
+      "gulfnews.com",
+      "aljazeera.com",
+      "wenewsenglish.com",
+      "tribune.com.pk"
+    ]
   }
 ]
