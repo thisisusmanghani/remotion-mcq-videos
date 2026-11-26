@@ -1654,5 +1654,26 @@
       "wenewsenglish.com",
       "tribune.com.pk"
     ]
+  },
+  {
+    "question": "In November 2026, which country's astronaut became the first foreign national to visit China's Tiangong space station?",
+    "options": [
+      "Pakistan",
+      "India",
+      "Russia",
+      "United Arab Emirates"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pakistani astronaut Muhammad Zeeshan Ali arrived at China's Tiangong space station on November 25, 2026.",
+    "category": "Current Affairs",
+    "topic": "China's Tiangong Space Station",
+    "createdAt": "2026-11-26T08:28:41.121Z",
+    "sources": [
+      "space.com",
+      "theguardian.com",
+      "aljazeera.com",
+      "chinadailyasia.com",
+      "news.cn"
+    ]
   }
 ]
