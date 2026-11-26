@@ -1633,5 +1633,26 @@
       "wenewsenglish.com",
       "tribune.com.pk"
     ]
+  },
+  {
+    "question": "In November 2026, which player was directly signed by Islamabad United for the PSL 2027 season?",
+    "options": [
+      "A) Matt Henry",
+      "B) Lockie Ferguson",
+      "C) Matthew Short",
+      "D) Kamindu Mendis"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Matt Henry was directly signed by Islamabad United for the PSL 2027 season in November 2026.",
+    "category": "Current Affairs",
+    "topic": "PSL 2027 Direct Signings",
+    "createdAt": "2026-11-26T00:33:18.364Z",
+    "sources": [
+      "cricgiri.com",
+      "geosuper.tv",
+      "cricketaddictor.com",
+      "wenewsenglish.com",
+      "tribune.com.pk"
+    ]
   }
 ]
