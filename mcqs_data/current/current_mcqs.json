@@ -1675,5 +1675,20 @@
       "chinadailyasia.com",
       "news.cn"
     ]
+  },
+  {
+    "question": "Which team won the ACC Men's U19 Asia Cup 2026 final by defeating Pakistan U19 in November 2026?",
+    "options": [
+      "Bangladesh",
+      "Sri Lanka",
+      "India",
+      "Afghanistan"
+    ],
+    "correctAnswer": 2,
+    "explanation": "India U19 defeated Pakistan U19 by one wicket in the ACC Men's U19 Asia Cup 2026 final on November 14, 2026.",
+    "category": "Current Affairs",
+    "topic": "U19 Asia Cup Cricket",
+    "createdAt": "2026-11-27T08:42:50.933Z",
+    "sources": []
   }
 ]
