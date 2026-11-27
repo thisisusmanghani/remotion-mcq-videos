@@ -1690,5 +1690,26 @@
     "topic": "U19 Asia Cup Cricket",
     "createdAt": "2026-11-27T08:42:50.933Z",
     "sources": []
+  },
+  {
+    "question": "In November 2026, the State Bank of Pakistan issued a Rs200 commemorative coin to honor whose 200th birth anniversary?",
+    "options": [
+      "A. Mata Sahib Hasi Devi",
+      "B. Begum Ra'ana Liaquat Ali Khan",
+      "C. Mohtarma Fatima Jinnah",
+      "D. Quaid-e-Azam Muhammad Ali Jinnah"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In November 2026, the SBP issued a Rs200 coin for Pujya Mata Sahib Hasi Devi's 200th birth anniversary.",
+    "category": "Current Affairs",
+    "topic": "Commemorative Coin",
+    "createdAt": "2026-11-27T18:17:03.410Z",
+    "sources": [
+      "wenewsenglish.com",
+      "mettisglobal.news",
+      "blogspot.com",
+      "propakistani.pk",
+      "investify.pk"
+    ]
   }
 ]
