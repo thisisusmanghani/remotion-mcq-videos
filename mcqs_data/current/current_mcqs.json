@@ -1772,5 +1772,26 @@
       "radio.gov.pk",
       "minutemirror.com.pk"
     ]
+  },
+  {
+    "question": "In November 2026, by how much did the price of gold per tola increase in Pakistan?",
+    "options": [
+      "A) Rs. 11,500",
+      "B) Rs. 10,000",
+      "C) Rs. 9,500",
+      "D) Rs. 12,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The gold price in Pakistan surged by Rs. 11,500 per tola on November 27, 2026.",
+    "category": "Current Affairs",
+    "topic": "Gold Price Pakistan",
+    "createdAt": "2026-11-28T07:56:26.050Z",
+    "sources": [
+      "nation.com.pk",
+      "samaa.tv",
+      "mettisglobal.news",
+      "investify.pk",
+      "24newshd.tv"
+    ]
   }
 ]
