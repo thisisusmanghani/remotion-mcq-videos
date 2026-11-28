@@ -1711,5 +1711,66 @@
       "propakistani.pk",
       "investify.pk"
     ]
+  },
+  {
+    "question": "In November 2026, which Pakistani became the first astronaut to visit China's Tiangong space station?",
+    "options": [
+      "Muhammad Zeeshan Ali",
+      "Naeem Shahzad",
+      "Imran Khan",
+      "Abdul Samad"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Muhammad Zeeshan Ali became Pakistan's first astronaut to visit China's Tiangong space station on November 25, 2026.",
+    "category": "Current Affairs",
+    "topic": "Pakistani Astronaut",
+    "createdAt": "2026-11-28T00:08:30.721Z",
+    "sources": [
+      "space.com",
+      "eurasiareview.com",
+      "aljazeera.com",
+      "people.cn",
+      "afp.com"
+    ]
+  },
+  {
+    "question": "In November 2026, SBP issued a Rs. 200 commemorative coin for whose 200th birth anniversary?",
+    "options": [
+      "Allama Iqbal",
+      "Mata Sahib Hasi Devi",
+      "Mohtarma Fatima Jinnah",
+      "Sir Syed Ahmed Khan"
+    ],
+    "correctAnswer": 1,
+    "explanation": "SBP issued a Rs. 200 commemorative coin on November 27, 2026, for Mata Sahib Hasi Devi's 200th birth anniversary.",
+    "category": "Current Affairs",
+    "topic": "Commemorative Coin",
+    "createdAt": "2026-11-28T00:08:30.721Z",
+    "sources": [
+      "propakistani.pk",
+      "wenewsenglish.com",
+      "geo.tv",
+      "pakistantoday.com.pk",
+      "aaj.tv"
+    ]
+  },
+  {
+    "question": "In November 2026, Pakistan's government launched a national framework to address which social issue?",
+    "options": [
+      "Female illiteracy",
+      "Child labor",
+      "Child marriages",
+      "Drug addiction"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Pakistan's government launched a national framework to combat child marriages on November 27, 2026.",
+    "category": "Current Affairs",
+    "topic": "Child Marriage Framework",
+    "createdAt": "2026-11-28T00:08:30.721Z",
+    "sources": [
+      "nation.com.pk",
+      "radio.gov.pk",
+      "minutemirror.com.pk"
+    ]
   }
 ]
